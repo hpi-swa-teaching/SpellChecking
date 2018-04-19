@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfSpellcheck",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfSpellcheck",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }
