@@ -1,4 +1,4 @@
 as yet unclassified
-checkWord: string
+checkWord: aString
 
-	^ self apiCheckWord: handle Text: string.
+	^ self apiCheckWord: handle Text: aString.

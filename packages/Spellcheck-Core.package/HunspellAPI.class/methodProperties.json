@@ -2,7 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"apiCheckWord:Text:" : "II 5/8/2018 16:20:59",
-		"apiCreateHandle:dPath:" : "II 5/8/2018 19:33:28",
-		"checkWord:" : "II 5/8/2018 18:35:22",
-		"createHandle" : "II 5/8/2018 16:22:10" } }
+		"apiCheckWord:Text:" : "loading 5/9/2018 14:50:07",
+		"apiCreateHandle:dPath:" : "loading 5/9/2018 13:58:46",
+		"apiDestroyHandle:" : "loading 5/9/2018 14:54:33",
+		"checkWord:" : "loading 5/9/2018 13:58:36",
+		"createHandle" : "II 5/8/2018 16:22:10",
+		"destroyHandle" : "loading 5/9/2018 15:01:01" } }
