@@ -2,5 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testCorrectSpelling" : "loading 5/9/2018 15:06:08",
-		"testFalseSpelling" : "loading 5/9/2018 15:04:38" } }
+		"setUp" : "loading 5/11/2018 12:09:26",
+		"testCorrectSpelling" : "loading 5/11/2018 12:12:47",
+		"testFalseSpelling" : "loading 5/11/2018 12:12:35",
+		"testSuggestions" : "loading 5/11/2018 12:11:59" } }

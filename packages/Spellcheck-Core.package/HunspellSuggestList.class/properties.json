@@ -1,14 +1,14 @@
 {
-	"category" : "Spellcheck-Tests",
+	"category" : "Spellcheck-Core",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"hunspell" ],
-	"name" : "HunspellTests",
+		"listSize" ],
+	"name" : "HunspellSuggestList",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "ExternalStructure",
 	"type" : "normal" }

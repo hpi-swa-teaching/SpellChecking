@@ -1,4 +1,4 @@
 as yet unclassified
-checkWord: aString
+isWordCorrect: aString
 
 	^ self apiCheckWord: handle Text: aString.
