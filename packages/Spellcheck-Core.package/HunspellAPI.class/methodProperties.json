@@ -3,8 +3,8 @@
 		"new" : "loading 5/14/2018 14:27:50" },
 	"instance" : {
 		"addWordToDictionary:" : "loading 5/12/2018 15:05:19",
-		"apiAdd:dictionary:" : "loading 5/14/2018 14:29:11",
-		"apiAdd:word:" : "loading 5/14/2018 14:29:30",
+		"apiAdd:dictionary:" : "loading 5/14/2018 21:44:48",
+		"apiAdd:word:" : "loading 5/14/2018 21:44:41",
 		"apiCheckWord:Text:" : "loading 5/14/2018 14:29:36",
 		"apiCreateHandle:dPath:" : "loading 5/14/2018 14:29:42",
 		"apiDestroyHandle:" : "loading 5/14/2018 14:29:50",
