@@ -2,9 +2,10 @@ language: smalltalk
 sudo: false
 
 before_install:
-  - sudo apt-get install libhunspell-1.3-0:i386
-  - ln -s /usr/lib/i386-linux-gnu/libhunspell-1.3.so.0 libhunspell-1.3.so.0
-
+  - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then sudo apt-get install libhunspell-1.3-0:i386          ; fi
+  - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then ln -s /usr/lib/i386-linux-gnu/libhunspell-1.3.so.0 libhunspell-1.3.so.0 ; fi
+  - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then brew install hunspell          ; fi 
+  
 os:
   - linux
   - osx
