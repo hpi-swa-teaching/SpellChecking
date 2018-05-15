@@ -1,0 +1,14 @@
+{
+	"category" : "Spellcheck-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"handle" ],
+	"name" : "HunspellAPI",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

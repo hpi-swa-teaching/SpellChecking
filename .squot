@@ -1,5 +1,4 @@
 OrderedDictionary {
-	'packages\/BaselineOfSpellcheck.package' : #SquotCypressCodeSerializer,
 	'packages\/Spellcheck-Core.package' : #SquotCypressCodeSerializer,
 	'packages\/Spellcheck-Tests.package' : #SquotCypressCodeSerializer
 }

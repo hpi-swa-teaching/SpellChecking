@@ -1,0 +1,22 @@
+{
+	"class" : {
+		"new" : "loading 5/14/2018 14:27:50" },
+	"instance" : {
+		"addWordToDictionary:" : "loading 5/12/2018 15:05:19",
+		"apiAdd:dictionary:" : "loading 5/14/2018 21:44:48",
+		"apiAdd:word:" : "loading 5/14/2018 21:44:41",
+		"apiCheckWord:Text:" : "loading 5/14/2018 14:29:36",
+		"apiCreateHandle:dPath:" : "loading 5/14/2018 14:29:42",
+		"apiDestroyHandle:" : "loading 5/14/2018 14:29:50",
+		"apiFreeSuggests:list:size:" : "loading 5/14/2018 14:29:56",
+		"apiRemove:word:" : "loading 5/14/2018 14:30:02",
+		"apiSuggest:list:word:" : "loading 5/14/2018 14:30:09",
+		"createHandle" : "II 5/8/2018 16:22:10",
+		"destroyHandle" : "loading 5/9/2018 15:01:01",
+		"finalize" : "loading 5/11/2018 12:05:38",
+		"freeSuggestionList:" : "loading 5/11/2018 11:59:12",
+		"getSuggestionList:" : "loading 5/11/2018 11:50:28",
+		"getSuggestions:" : "loading 5/11/2018 12:02:13",
+		"initialize" : "loading 5/11/2018 12:05:24",
+		"isWordCorrect:" : "loading 5/11/2018 11:10:31",
+		"removeWordFromDictionary:" : "loading 5/12/2018 15:18:20" } }
