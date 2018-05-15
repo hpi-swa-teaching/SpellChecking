@@ -1,0 +1,3 @@
+private
+defaultDictionaryPath
+	  self subclassResponsibility 

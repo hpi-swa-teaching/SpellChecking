@@ -1,0 +1,3 @@
+private
+defaultAffixPath
+	  self subclassResponsibility 

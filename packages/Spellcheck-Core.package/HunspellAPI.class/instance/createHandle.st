@@ -1,4 +1,4 @@
 private
 createHandle
 
-	handle := self apiCreateHandle: 'en_US.aff' dPath: 'en_US.dic'.
+	handle := self apiCreateHandle: self defaultAffixPath dPath: self defaultDictionaryPath.
