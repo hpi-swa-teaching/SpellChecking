@@ -1,3 +1,3 @@
 private
 defaultDictionaryPath 
-	^ '/usr/share/hunspell/en_US.dic'
+	^ 'en_US.dic'
