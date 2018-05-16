@@ -5,6 +5,7 @@ before_install:
   - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then sudo apt-get install libhunspell-1.3-0:i386          ; fi
   - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then ln -s /usr/lib/i386-linux-gnu/libhunspell-1.3.so.0 libhunspell-1.3.so.0 ; fi
   - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then ls -la ; fi
+  - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then pwd ; fi
   
   - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then brew install -v hunspell          ; fi 
   - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then curl -O https://datapacket.dl.sourceforge.net/project/wordlist/speller/2017.01.22/hunspell-en_US-2017.01.22.zip          ; fi 
