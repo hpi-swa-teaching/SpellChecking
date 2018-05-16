@@ -20,6 +20,16 @@ before_install:
   - cp ./packages/dictionaries/en_US.dic ../../../smalltalkCI-master/en_US.dic
   - cp ./packages/dictionaries/en_US.aff ../../../en_US.aff
   - cp ./packages/dictionaries/en_US.dic ../../../en_US.dic
+  - cp ./packages/dictionaries/en_US.aff ../../en_US.aff
+  - cp ./packages/dictionaries/en_US.dic ../../en_US.dic
+  - cp ./packages/dictionaries/en_US.aff ../en_US.aff
+  - cp ./packages/dictionaries/en_US.dic ../en_US.dic
+  - ls -la /packages/dictionaries/en_US.aff ../../../smalltalkCI-master/_builds/
+  - ls -la /packages/dictionaries/en_US.aff ../../../smalltalkCI-master/
+  - ls -la /packages/dictionaries/en_US.aff ../../../
+  - ls -la /packages/dictionaries/en_US.aff ../../
+  - ls -la /packages/dictionaries/en_US.aff ../
+  
 
 os:
   - linux
