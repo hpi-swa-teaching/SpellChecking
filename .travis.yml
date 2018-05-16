@@ -13,13 +13,13 @@ before_install:
   - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then unzip -v hunspell-en_US-2017.01.22.zip          ; fi 
   - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then hunspell -D ; fi
  
-before_script:
-  - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then cp ./packages/dictionaries/en_US.aff ../../../smalltalkCI-master/_builds/ ; fi
-  - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then cp ./packages/dictionaries/en_US.dic ../../../smalltalkCI-master/_builds/ ; fi
-  - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then cp ./packages/dictionaries/en_US.aff ../../../smalltalkCI-master/ ; fi
-  - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then cp ./packages/dictionaries/en_US.dic ../../../smalltalkCI-master/ ; fi
-  - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then cp ./packages/dictionaries/en_US.aff ../../../ ; fi
-  - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then cp ./packages/dictionaries/en_US.dic ../../../ ; fi
+script:
+  - cp ./packages/dictionaries/en_US.aff ../../../smalltalkCI-master/_builds/
+  - cp ./packages/dictionaries/en_US.dic ../../../smalltalkCI-master/_builds/
+  - cp ./packages/dictionaries/en_US.aff ../../../smalltalkCI-master/
+  - cp ./packages/dictionaries/en_US.dic ../../../smalltalkCI-master/
+  - cp ./packages/dictionaries/en_US.aff ../../../
+  - cp ./packages/dictionaries/en_US.dic ../../../
 
 os:
   - linux
