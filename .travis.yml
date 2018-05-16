@@ -14,12 +14,12 @@ before_install:
   - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then hunspell -D ; fi
  
 script:
-  - cp ./packages/dictionaries/en_US.aff ../../../smalltalkCI-master/_builds/
-  - cp ./packages/dictionaries/en_US.dic ../../../smalltalkCI-master/_builds/
-  - cp ./packages/dictionaries/en_US.aff ../../../smalltalkCI-master/
-  - cp ./packages/dictionaries/en_US.dic ../../../smalltalkCI-master/
-  - cp ./packages/dictionaries/en_US.aff ../../../
-  - cp ./packages/dictionaries/en_US.dic ../../../
+  - cp ./packages/dictionaries/en_US.aff ../../../smalltalkCI-master/_builds/en_US.aff
+  - cp ./packages/dictionaries/en_US.dic ../../../smalltalkCI-master/_builds/en_US.dic
+  - cp ./packages/dictionaries/en_US.aff ../../../smalltalkCI-master/en_US.aff
+  - cp ./packages/dictionaries/en_US.dic ../../../smalltalkCI-master/en_US.dic
+  - cp ./packages/dictionaries/en_US.aff ../../../en_US.aff
+  - cp ./packages/dictionaries/en_US.dic ../../../en_US.dic
 
 os:
   - linux
