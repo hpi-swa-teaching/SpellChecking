@@ -7,14 +7,6 @@ before_install:
   - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then ls -la ; fi
   - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then pwd ; fi
 
-  
-  - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then brew install -v hunspell          ; fi 
-  - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then curl -O https://datapacket.dl.sourceforge.net/project/wordlist/speller/2017.01.22/hunspell-en_US-2017.01.22.zip          ; fi 
-  - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then unzip -v hunspell-en_US-2017.01.22.zip          ; fi 
-  
-  - ls -la  ../../../
-  - ls -la  ../../
-  - ls -la  ../
   - ls -la
   
 
