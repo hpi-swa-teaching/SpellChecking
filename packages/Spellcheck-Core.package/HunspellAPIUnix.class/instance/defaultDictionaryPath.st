@@ -1,3 +1,3 @@
 private
 defaultDictionaryPath 
-	^ './packages/dictionaries/en_US.dic'
+	^ 'en_US.dic'

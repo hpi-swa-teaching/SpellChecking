@@ -1,3 +1,3 @@
 private
 defaultAffixPath
-	^ './packages/dictionaries/en_US.aff'
+	^ 'en_US.aff'
