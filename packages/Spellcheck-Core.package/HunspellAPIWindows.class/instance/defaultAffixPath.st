@@ -1,3 +1,4 @@
 private
-defaultAffixPath 
+defaultAffixPath
+ 
 	^ 'en_US.aff'

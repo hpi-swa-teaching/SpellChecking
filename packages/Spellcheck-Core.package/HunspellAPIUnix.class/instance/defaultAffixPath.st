@@ -1,3 +1,4 @@
 private
 defaultAffixPath
-	^ 'en_US.aff'
+
+	^ '/usr/share/hunspell/en_US.aff'

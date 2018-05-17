@@ -1,4 +1,4 @@
-as yet unclassified
+spellchecking
 addWordToDictionary: aString
 
 	self apiAdd: handle word: aString 

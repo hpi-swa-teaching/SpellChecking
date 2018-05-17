@@ -1,4 +1,4 @@
-as yet unclassified
+spellchecking
 isWordCorrect: aString
 
 	^ self apiCheckWord: handle Text: aString.

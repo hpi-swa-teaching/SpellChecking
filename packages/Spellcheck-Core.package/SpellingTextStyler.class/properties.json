@@ -1,0 +1,14 @@
+{
+	"category" : "Spellcheck-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"SpellCheckingEnabled" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SpellingTextStyler",
+	"pools" : [
+		 ],
+	"super" : "SHTextStylerST80",
+	"type" : "normal" }
