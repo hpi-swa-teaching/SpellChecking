@@ -11,7 +11,6 @@ before_install:
   - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then brew install -v hunspell          ; fi 
   - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then curl -O https://datapacket.dl.sourceforge.net/project/wordlist/speller/2017.01.22/hunspell-en_US-2017.01.22.zip          ; fi 
   - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then unzip -v hunspell-en_US-2017.01.22.zip          ; fi 
-  - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then hunspell -D ; fi
   
   - mkdir -p ../../../smalltalkCI-master/_builds/
   - cp ./packages/dictionaries/en_US.aff ../../../smalltalkCI-master/_builds/en_US.aff
