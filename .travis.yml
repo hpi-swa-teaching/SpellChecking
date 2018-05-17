@@ -28,6 +28,7 @@ before_install:
   - ls -la  ../../../
   - ls -la  ../../
   - ls -la  ../
+  - ls -la
   
 
 os:
