@@ -1,0 +1,15 @@
+{
+	"category" : "Spellcheck-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pz 5/15/2018 11:45:53",
+	"instvars" : [
+		"model",
+		"textView" ],
+	"name" : "MarkText",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }
