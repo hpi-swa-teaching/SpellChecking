@@ -2,5 +2,5 @@ testing
 testAddCall
 
 	| result |
-	result := FFIMyLibrary ffiAdd: 12 with: 5.
+	result := FFIMyLibrary new ffiAdd: 12 with: 5.
 	self assert: result = 17.
