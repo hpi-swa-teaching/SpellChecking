@@ -6,7 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"spellChecker" ],
 	"name" : "SpellCheckerTests",
 	"pools" : [
 		 ],

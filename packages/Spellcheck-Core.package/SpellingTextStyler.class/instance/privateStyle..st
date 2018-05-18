@@ -3,4 +3,4 @@ privateStyle: aText
 
 	super privateStyle: aText.
 	self class spellCheckingEnabled ifTrue: [
-	self highlightSpellingMistakes: (self mistakenWordsIn: aText string) in: aText]
+	self highlightSpellingMistakes: (spellChecker mistakenWordsIn: aText string) in: aText]

@@ -3,12 +3,12 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"SpellCheckingEnabled" ],
+		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"spellChecker" ],
-	"name" : "SpellingTextStyler",
+		"hunspell" ],
+	"name" : "SpellChecker",
 	"pools" : [
 		 ],
-	"super" : "SHTextStylerST80",
+	"super" : "Object",
 	"type" : "normal" }
