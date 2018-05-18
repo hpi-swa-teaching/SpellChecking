@@ -1,5 +1,5 @@
 as yet unclassified
-wordsWithAIn: aString
+mistakenWordsIn: aString
 
 	| words word start end hunspell |
 	words := IdentityDictionary new.
@@ -9,7 +9,7 @@ wordsWithAIn: aString
 	end := 1.
 	aString do: [:char |  
 		(char isSeparator) ifTrue: [
-			((hunspell isWordCorrect: word) = 0) ifTrue: [words at: start put: end - 1].
+			(((hunspell isWordCorrect: word) = 0) and: [self isWord: word]) ifTrue: [words at: start put: end - 1].
 			start := end + 1.
 			Transcript show: word.
 			word := ''] ifFalse: [word := word, (char asString).].
