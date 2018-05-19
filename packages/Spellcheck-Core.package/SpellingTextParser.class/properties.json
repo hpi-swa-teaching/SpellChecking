@@ -6,9 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"hunspell",
-		"parser" ],
-	"name" : "SpellChecker",
+		 ],
+	"name" : "SpellingTextParser",
 	"pools" : [
 		 ],
 	"super" : "Object",

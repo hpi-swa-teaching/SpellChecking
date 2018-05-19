@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"initialize" : "loading 5/18/2018 12:02:44",
-		"mistakenWordsIn:" : "loading 5/18/2018 12:02:55",
+		"initialize" : "II 5/19/2018 23:44:22",
+		"isSpelledCorrectly:" : "II 5/20/2018 00:08:26",
+		"mistakenWordsIn:" : "II 5/20/2018 01:19:20",
 		"shouldCheckSpelling:" : "loading 5/18/2018 12:00:51" } }

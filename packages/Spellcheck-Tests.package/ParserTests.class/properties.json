@@ -1,15 +1,14 @@
 {
-	"category" : "Spellcheck-Core",
+	"category" : "Spellcheck-Tests",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"hunspell",
-		"parser" ],
-	"name" : "SpellChecker",
+		"spellChecker" ],
+	"name" : "ParserTests",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "TestCase",
 	"type" : "normal" }
