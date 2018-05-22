@@ -2,5 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addSpellcheckingMenuItems:word:" : "RS 5/22/2018 11:21:05",
-		"getMenu:" : "RS 5/22/2018 11:40:20" } }
+		"addSpellcheckingMenuItems:word:" : "RS 5/22/2018 12:10:22",
+		"getMenu:" : "RS 5/22/2018 12:16:45",
+		"getMenuWithSpellcheckingAtTop:word:" : "RS 5/22/2018 12:16:31" } }

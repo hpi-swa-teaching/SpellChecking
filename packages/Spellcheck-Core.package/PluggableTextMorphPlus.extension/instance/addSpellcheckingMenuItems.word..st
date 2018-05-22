@@ -8,12 +8,13 @@ addSpellcheckingMenuItems: aMenu word: aString
 			newListSize := 3 min: suggestedWords size.
 			firstThreeSuggestedWords := suggestedWords  copyFrom: 1 to: newListSize . 
 			firstThreeSuggestedWords
-				do: [ :suggestedWord | 
-					aMenu
-						add: suggestedWord
-						target: self
-						selector: #replaceSelectionWith:
-						argument: suggestedWord ].
-			].
+			do: [ :suggestedWord | 
+				aMenu
+					add: suggestedWord
+					target: self
+					selector: #replaceSelectionWith:
+					argument: suggestedWord].
+			aMenu addLine.
+		].
 		
 	^ aMenu.
