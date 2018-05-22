@@ -1,4 +1,4 @@
 testing
 testCorrectSpelling 
 
-	self assert: (hunspell isWordCorrect: 'hello') > 0
+	self assert: (hunspell isWordCorrect: 'hello')

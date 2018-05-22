@@ -2,5 +2,5 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testCamelCaseParser" : "II 5/19/2018 23:30:15",
-		"testParserBySeparator" : "II 5/20/2018 01:26:15" } }
+		"testCamelCaseParsing" : "ow 5/22/2018 16:07:00",
+		"testParsingWithSeparator" : "ow 5/22/2018 16:44:09" } }

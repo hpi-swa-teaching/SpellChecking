@@ -1,4 +1,4 @@
 spellchecking
 isWordCorrect: aString
 
-	^ self apiCheckWord: handle Text: aString.
+	 ^ ((self apiCheckWord: handle Text: aString) > 0) 

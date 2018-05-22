@@ -2,7 +2,7 @@ testing
 testAdjustDictionary
 
 	hunspell addWordToDictionary: 'Klabautermann'.
-	self assert: (hunspell isWordCorrect: 'Klabautermann') > 0.
+	self assert: (hunspell isWordCorrect: 'Klabautermann').
 	
 	hunspell removeWordFromDictionary: 'Klabautermann'.
-	self assert: (hunspell isWordCorrect: 'Klabautermann') = 0
+	self deny: (hunspell isWordCorrect: 'Klabautermann')

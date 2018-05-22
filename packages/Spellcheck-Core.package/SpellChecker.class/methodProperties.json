@@ -2,8 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"initialize" : "II 5/19/2018 23:44:22",
-		"isSpelledCorrectly:" : "II 5/20/2018 00:08:26",
-		"mistakenWordsIn:" : "II 5/20/2018 01:19:20",
+		"initialize" : "loading 5/22/2018 11:13:11",
+		"mistakenWordsIn:" : "ow 5/22/2018 12:04:41",
 		"shouldCheckSpelling:" : "loading 5/18/2018 12:00:51",
-		"suggestionsFor:" : "RS 5/20/2018 19:47:45" } }
+		"suggestionsFor:" : "loading 5/22/2018 11:24:33" } }

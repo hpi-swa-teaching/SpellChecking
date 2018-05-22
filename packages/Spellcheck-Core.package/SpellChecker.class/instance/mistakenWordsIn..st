@@ -4,14 +4,14 @@ mistakenWordsIn: aString
 	| wrongWords strings |
 	
 	wrongWords := IdentityDictionary new.
-	strings := parser parseTextBySeparator: aString.
+	strings := (parser parseText: aString).
 	
-	strings keysAndValuesDo: [ :startIndex :string |
-		(self shouldCheckSpelling: string) ifTrue: [
-			(self isSpelledCorrectly: string) ifFalse: [
-				wrongWords at: startIndex put: (startIndex + (string size) - 1).
+	strings keysAndValuesDo: [ :start :end |
+		(self shouldCheckSpelling: (aString copyFrom: start to: end)) ifTrue: [
+			(hunspell isWordCorrect: (aString copyFrom: start to: end)) ifFalse: [
+				wrongWords at: start put: end.
 				].
 			].
 		].
 	
-	^ wrongWords
+	^ wrongWords  
