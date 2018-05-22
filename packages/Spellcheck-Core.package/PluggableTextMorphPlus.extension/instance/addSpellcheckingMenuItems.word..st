@@ -1,11 +1,12 @@
 *Spellcheck-Core
 addSpellcheckingMenuItems: aMenu word: aString
-	| spellchecker suggestedWords firstThreeSuggestedWords |
+	| spellchecker suggestedWords firstThreeSuggestedWords newListSize|
 	spellchecker := SpellChecker new.
 	(spellchecker isSpelledCorrectly:  aString)
 		ifFalse: [ 
 			suggestedWords := spellchecker suggestionsFor: aString.
-			firstThreeSuggestedWords := suggestedWords  copyFrom: 1 to: 3 . "maybe check if the list is >3"
+			newListSize := 3 min: suggestedWords size.
+			firstThreeSuggestedWords := suggestedWords  copyFrom: 1 to: newListSize . 
 			firstThreeSuggestedWords
 				do: [ :suggestedWord | 
 					aMenu
