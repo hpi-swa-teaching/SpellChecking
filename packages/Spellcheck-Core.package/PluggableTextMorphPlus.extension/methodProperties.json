@@ -2,6 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addSpellcheckingMenuItems:word:" : "RS 5/22/2018 12:10:22",
-		"getMenu:" : "RS 5/22/2018 12:16:45",
-		"getMenuWithSpellcheckingAtTop:word:" : "RS 5/22/2018 12:16:31" } }
+		"addDictionaryMenuItemsTo:" : "RS 5/24/2018 22:00:17",
+		"addSpellcheckingMenuItems:" : "RS 5/24/2018 22:09:59",
+		"addSuggestionsMenuItemsTo:For:" : "RS 5/24/2018 22:12:35",
+		"addWordToDictionaryAndUpdateStyling" : "RS 5/24/2018 22:05:58",
+		"getMenu:" : "RS 5/24/2018 22:12:03",
+		"getMenuWithSpellcheckingAtTop:" : "RS 5/24/2018 22:10:55" } }

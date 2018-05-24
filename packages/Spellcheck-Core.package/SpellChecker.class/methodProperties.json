@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"addWordToDictionary:" : "RS 5/24/2018 21:39:21",
 		"initialize" : "loading 5/22/2018 11:13:11",
 		"isSpelledCorrectly:" : "RS 5/24/2018 16:41:51",
 		"mistakenWordsIn:" : "ow 5/22/2018 12:04:41",
