@@ -1,0 +1,14 @@
+{
+	"category" : "Spellcheck-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"pluggableTextMorphPlus" ],
+	"name" : "PluggableTextMorphPlusTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
