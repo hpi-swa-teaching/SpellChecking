@@ -1,9 +1,11 @@
 as yet unclassified
 testAddWordsAcrossInstances
 	
-	| s |
+	| s1 s2 |
 	spellChecker clearIgnoredWords.
 	self assert: spellChecker AddedWords size equals: 0.
+	s1 := SpellChecker new.
 	spellChecker addWordToDictionary: 'squeack'.
-	s := SpellChecker new.
-	self assert: (s isSpelledCorrectly: 'squeack') equals: true.
+	s2 := SpellChecker new.
+	self assert: (s1 isSpelledCorrectly: 'squeack') equals: true.
+	self assert: (s2 isSpelledCorrectly: 'squeack') equals: true.
