@@ -2,9 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addWordToDictionary:" : "RS 5/24/2018 21:39:21",
+		"addWordToDictionary:" : "ow 5/28/2018 23:06:55",
 		"initialize" : "loading 5/22/2018 11:13:11",
-		"isSpelledCorrectly:" : "RS 5/24/2018 16:41:51",
+		"isSpelledCorrectly:" : "ow 5/24/2018 17:13:38",
 		"mistakenWordsIn:" : "ow 5/22/2018 12:04:41",
 		"shouldCheckSpelling:" : "loading 5/18/2018 12:00:51",
 		"suggestionsFor:" : "loading 5/22/2018 11:24:33" } }
