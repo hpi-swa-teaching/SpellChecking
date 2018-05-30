@@ -2,7 +2,7 @@ language: smalltalk
 sudo: false
 
 before_install:
-  - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then ls -la ; fi
+  - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then sudo ls -la ; fi
   - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then pwd ; fi
 
   - ls -la
