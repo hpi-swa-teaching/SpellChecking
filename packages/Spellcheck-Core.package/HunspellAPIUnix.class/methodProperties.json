@@ -2,13 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
-		"apiAdd:dictionary:" : "ow 5/30/2018 22:59:08",
-		"apiAdd:word:" : "ow 5/30/2018 23:09:50",
-		"apiCheckWord:Text:" : "ow 5/30/2018 22:59:33",
-		"apiCreateHandle:dPath:" : "ow 5/30/2018 22:59:46",
-		"apiDestroyHandle:" : "ow 5/30/2018 22:59:58",
-		"apiFreeSuggests:list:size:" : "ow 5/30/2018 23:00:09",
-		"apiRemove:word:" : "ow 5/30/2018 23:00:19",
-		"apiSuggest:list:word:" : "ow 5/30/2018 23:00:29",
+		"apiAdd:dictionary:" : "RS 5/31/2018 00:30:14",
+		"apiAdd:word:" : "RS 5/31/2018 00:30:21",
+		"apiCheckWord:Text:" : "RS 5/31/2018 00:30:30",
+		"apiCreateHandle:dPath:" : "RS 5/31/2018 00:35:09",
+		"apiDestroyHandle:" : "RS 5/31/2018 00:35:18",
+		"apiFreeSuggests:list:size:" : "RS 5/31/2018 00:35:22",
+		"apiRemove:word:" : "RS 5/31/2018 00:35:30",
+		"apiSuggest:list:word:" : "RS 5/31/2018 00:35:35",
 		"defaultAffixPath" : "loading 5/17/2018 16:36:01",
 		"defaultDictionaryPath" : "loading 5/17/2018 16:35:54" } }
