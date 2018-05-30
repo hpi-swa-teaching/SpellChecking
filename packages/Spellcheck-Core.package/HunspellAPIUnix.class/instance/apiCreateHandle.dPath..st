@@ -1,5 +1,5 @@
 api callouts
 apiCreateHandle: anAffPath dPath: aDPath
 
-	<cdecl: void* 'Hunspell_create' (char* char*) module: 'libhunspell-1.3.so.0'>
+	<cdecl: void* 'Hunspell_create' (char* char*) module: 'hunspell.so'>
 	^ self externalCallFailed
