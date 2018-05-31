@@ -3,7 +3,8 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
+		"AddedWords",
+		"Instance" ],
 	"commentStamp" : "",
 	"instvars" : [
 		"hunspell",

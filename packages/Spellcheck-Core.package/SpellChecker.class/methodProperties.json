@@ -1,10 +1,16 @@
 {
 	"class" : {
-		 },
+		"instance" : "yk 5/30/2018 17:05:28",
+		"startUp:" : "yk 5/30/2018 17:19:30" },
 	"instance" : {
-		"addWordToDictionary:" : "RS 5/24/2018 21:39:21",
-		"initialize" : "loading 5/22/2018 11:13:11",
+		"AddedWords" : "yk 5/26/2018 11:26:02",
+		"addWordToDictionary:" : "yk 5/26/2018 11:21:22",
+		"clearIgnoredWords" : "yk 5/26/2018 11:27:11",
+		"initialize" : "yk 5/30/2018 17:18:23",
 		"isSpelledCorrectly:" : "RS 5/24/2018 16:41:51",
 		"mistakenWordsIn:" : "ow 5/22/2018 12:04:41",
+		"reloadAddedWords" : "yk 5/26/2018 11:18:44",
+		"reloadHunspellHandle" : "yk 5/30/2018 17:19:16",
+		"removeWordFromDictionary:" : "yk 5/26/2018 11:32:55",
 		"shouldCheckSpelling:" : "loading 5/18/2018 12:00:51",
 		"suggestionsFor:" : "loading 5/22/2018 11:24:33" } }
