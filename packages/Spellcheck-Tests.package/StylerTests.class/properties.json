@@ -1,0 +1,14 @@
+{
+	"category" : "Spellcheck-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"styler" ],
+	"name" : "StylerTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

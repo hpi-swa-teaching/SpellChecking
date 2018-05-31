@@ -2,4 +2,4 @@ as yet unclassified
 initialize 
 
 	super initialize.
-	spellChecker := SpellChecker new
+	spellChecker := SpellChecker instance
