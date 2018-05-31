@@ -3,5 +3,7 @@
 		 },
 	"instance" : {
 		"expectedFailures" : "RS 5/17/2018 11:51:53",
+		"ffiGetString" : "RS 5/31/2018 11:09:44",
 		"testAddCall" : "RS 5/17/2018 12:12:39",
+		"testDirectLibraryAccess" : "RS 5/31/2018 11:09:12",
 		"testGetString" : "RS 5/17/2018 11:44:54" } }
