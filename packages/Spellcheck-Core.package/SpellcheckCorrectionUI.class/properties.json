@@ -3,14 +3,12 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"AddedWords",
-		"Instance" ],
+		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"hunspell",
-		"parser" ],
-	"name" : "SpellChecker",
+		"wrongWordText" ],
+	"name" : "SpellcheckCorrectionUI",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "Model",
 	"type" : "normal" }
