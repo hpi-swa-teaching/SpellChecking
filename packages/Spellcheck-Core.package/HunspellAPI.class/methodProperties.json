@@ -2,6 +2,7 @@
 	"class" : {
 		"new" : "loading 5/14/2018 14:27:50" },
 	"instance" : {
+		"addDictionary:" : "ow 5/28/2018 23:20:28",
 		"addWordToDictionary:" : "loading 5/12/2018 15:05:19",
 		"apiAdd:dictionary:" : "loading 5/14/2018 21:44:48",
 		"apiAdd:word:" : "loading 5/14/2018 21:44:41",

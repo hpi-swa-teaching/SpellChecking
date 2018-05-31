@@ -7,5 +7,5 @@ testAddWordsAcrossInstances
 	s1 := SpellChecker instance.
 	spellChecker addWordToDictionary: 'squeack'.
 	s2 := SpellChecker instance.
-	self assert: (s1 isSpelledCorrectly: 'squeack') equals: true.
-	self assert: (s2 isSpelledCorrectly: 'squeack') equals: true.
+	self assert: (s1 isSpelledCorrectly: 'squeack').
+	self assert: (s2 isSpelledCorrectly: 'squeack')

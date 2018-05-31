@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"pluggableTextMorphPlus",
-		"spellChecker" ],
-	"name" : "PluggableTextMorphPlusTests",
+		 ],
+	"name" : "SpellingTextStylerTestStub",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "SpellingTextStyler",
 	"type" : "normal" }
