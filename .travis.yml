@@ -4,7 +4,7 @@ sudo: false
 before_install:
   - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then ls -la ; fi
   - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then pwd ; fi
-  - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then apt-get install lib32stdc++6 ; fi
+  - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then sudo apt-get install lib32stdc++6 ; fi
   - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then ldd hunspell.so ; fi
   - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then nm -D hunspell.so  ; fi
 
