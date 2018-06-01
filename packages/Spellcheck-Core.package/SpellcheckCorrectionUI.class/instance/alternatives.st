@@ -1,4 +1,5 @@
 as yet unclassified
 alternatives
 
-	^ #(#'Alternativeee' #'Allternaative' #'Alternative')
+	"^ #(#'Alternativeee' #'Allternaative' #'Alternative')"
+	^ alternatives
