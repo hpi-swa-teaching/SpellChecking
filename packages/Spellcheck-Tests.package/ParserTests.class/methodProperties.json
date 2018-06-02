@@ -3,4 +3,5 @@
 		 },
 	"instance" : {
 		"testCamelCaseParsing" : "ow 5/22/2018 16:07:00",
-		"testParsingWithSeparator" : "II 6/2/2018 19:01:55" } }
+		"testParsingWithSeparator" : "II 6/2/2018 19:01:55",
+		"testShouldCheckSpelling" : "II 6/2/2018 20:41:53" } }
