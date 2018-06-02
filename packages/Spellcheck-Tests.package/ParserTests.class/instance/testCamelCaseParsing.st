@@ -6,6 +6,12 @@ testCamelCaseParsing
 	text := 'aHaXHelloMyNameB'.
 	parser := SpellingTextParser new.
 	strings := parser parseText: text.
+		
+	self assert: (strings size = 7).
+	self assert: ((text copyFrom: 5 to: (strings at: 5)) = 'Hello').
+	
+	strings := parser parseCamelCaseText: text.
 	
 	self assert: (strings size = 7).
-	self assert: ((text copyFrom: 5 to: (strings at: 5)) = 'Hello') 
+	self assert: ((text copyFrom: 5 to: (strings at: 5)) = 'Hello').
+	
