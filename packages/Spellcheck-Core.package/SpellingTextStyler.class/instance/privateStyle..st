@@ -1,6 +1,8 @@
 as yet unclassified
 privateStyle: aText
 
+	|spellingMistakes|
 	super privateStyle: aText.
 	self class spellCheckingEnabled ifTrue: [
-	self highlightSpellingMistakes: (spellChecker mistakenWordsIn: aText string) in: aText]
+		spellingMistakes := spellChecker mistakenWordsIn: aText string.
+		self highlightSpellingMistakes: spellingMistakes in: aText]
