@@ -7,7 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"wrongWordText",
-		"alternatives" ],
+		"alternatives",
+		"selectedIndex" ],
 	"name" : "SpellcheckCorrectionUI",
 	"pools" : [
 		 ],
