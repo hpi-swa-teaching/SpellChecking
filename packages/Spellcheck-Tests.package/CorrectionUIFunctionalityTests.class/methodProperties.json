@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "RS 6/6/2018 11:18:57",
+		"testAddToDict" : "RS 6/6/2018 11:21:59",
+		"testIgnore" : "RS 6/6/2018 11:31:01",
+		"testIgnoreAll" : "RS 6/6/2018 11:31:07" } }
