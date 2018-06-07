@@ -1,6 +1,8 @@
 as yet unclassified
 selectedAlternativeIndex: anIndex
 	anIndex = 0 ifTrue: [^self].
-	Transcript show: (self alternatives at: anIndex).
-	selectedIndex := anIndex.
-	self changed: #selectedAlternativeIndex.
+	inputText replaceFrom: currentKey to: (wrongWords at: currentKey) with: (self alternatives at: anIndex).
+	Transcript show: inputText.
+	self next.
+	"selectedIndex := anIndex."
+	"self changed: #selectedAlternativeIndex."

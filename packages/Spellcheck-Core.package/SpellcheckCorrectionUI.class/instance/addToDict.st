@@ -1,5 +1,5 @@
 as yet unclassified
 addToDict
 
-	SpellChecker instance addWordToDictionary: wrongWordText.
-	self clear
+	SpellChecker instance addWordToDictionary: currentWord.
+	self next
