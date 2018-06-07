@@ -1,0 +1,15 @@
+{
+	"category" : "Spellcheck-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"correctionUI",
+		"spellchecker" ],
+	"name" : "CorrectionUIFunctionalityTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
