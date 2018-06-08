@@ -1,4 +1,4 @@
-as yet unclassified
+private
 next
 	selectedIndex := 0.
 	inputText ~= '' ifTrue: [

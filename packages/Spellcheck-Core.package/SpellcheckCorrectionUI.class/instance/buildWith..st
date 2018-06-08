@@ -1,4 +1,4 @@
-as yet unclassified
+toolbuilder
 buildWith: builder
 
 	| windowSpec wrongWordSpec alternativesListSpec ignoreButtonSpec ignoreAllButtonSpec addButtonSpec |

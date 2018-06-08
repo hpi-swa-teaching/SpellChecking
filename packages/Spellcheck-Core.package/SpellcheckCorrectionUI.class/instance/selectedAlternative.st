@@ -1,3 +1,3 @@
-as yet unclassified
+select alternative
 selectedAlternative
 	^ self alternatives at: selectedIndex

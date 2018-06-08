@@ -1,4 +1,4 @@
-as yet unclassified
+select alternative
 selectedAlternativeIndex: anIndex
 	anIndex = 0 ifTrue: [^self].
 	selectedIndex := anIndex.

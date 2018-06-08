@@ -1,4 +1,4 @@
-as yet unclassified
+initialize
 input: aWorkspace
 	workspace := aWorkspace.
 	self inputText: workspace contents.
