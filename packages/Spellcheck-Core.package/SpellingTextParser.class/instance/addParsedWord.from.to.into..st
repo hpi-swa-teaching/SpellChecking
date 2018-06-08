@@ -1,16 +1,16 @@
 as yet unclassified
 addParsedWord: aString from: startIndex to: endIndex into: words
 
-	| camelCaseWords word cc_word |
+	| subWords wholeWord subWord |
 
-	word := aString copyFrom: startIndex to: endIndex.	
+	wholeWord := aString copyFrom: startIndex to: endIndex.	
 	
-	camelCaseWords := Dictionary new.
-	camelCaseWords := self parseCamelCaseText: word.		
-	camelCaseWords keysAndValuesDo: [ :start :end | 			
+	subWords := Dictionary new.
+	subWords := self parseCamelCaseWord: wholeWord.		
+	subWords keysAndValuesDo: [ :start :end | 			
 					
-		cc_word := word copyFrom: start to: end.			
-		(self shouldCheckSpelling: cc_word) ifTrue: [
+		subWord := wholeWord copyFrom: start to: end.			
+		(self shouldCheckSpelling: subWord) ifTrue: [
 		words at: (startIndex + start - 1) put: (startIndex + end - 1).].
 	].
 		

@@ -2,8 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addParsedWord:from:to:into:" : "II 6/2/2018 18:42:53",
-		"isSeparator:" : "II 6/2/2018 18:49:52",
-		"parseCamelCaseText:" : "II 6/2/2018 18:26:27",
-		"parseText:" : "II 6/2/2018 19:00:48",
+		"addParsedWord:from:to:into:" : "II 6/9/2018 00:57:05",
+		"isSeparator:" : "II 6/9/2018 00:50:55",
+		"parseCamelCaseWord:" : "II 6/9/2018 00:54:20",
+		"parseText:" : "II 6/9/2018 00:59:08",
 		"shouldCheckSpelling:" : "II 6/2/2018 18:15:29" } }

@@ -10,7 +10,7 @@ testCamelCaseParsing
 	self assert: (strings size = 7).
 	self assert: ((text copyFrom: 5 to: (strings at: 5)) = 'Hello').
 	
-	strings := parser parseCamelCaseText: text.
+	strings := parser parseCamelCaseWord: text.
 	
 	self assert: (strings size = 7).
 	self assert: ((text copyFrom: 5 to: (strings at: 5)) = 'Hello').
