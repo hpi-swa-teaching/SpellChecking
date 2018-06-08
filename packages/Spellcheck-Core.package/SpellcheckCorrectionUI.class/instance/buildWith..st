@@ -23,7 +23,7 @@ buildWith: builder
 		model: self;
 		frame: (0@0.2 corner: 0.7@1);
 		list: #alternatives;
-		getIndex: #selectedAlternativeIndex; 
+		getIndex: #selectedAlternativeIndex;
 		setIndex: #selectedAlternativeIndex:.
 	windowSpec children add: alternativesListSpec.
 	
