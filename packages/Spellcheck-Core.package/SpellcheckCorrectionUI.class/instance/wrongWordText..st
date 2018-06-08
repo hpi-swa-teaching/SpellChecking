@@ -1,5 +1,6 @@
 as yet unclassified
-wrongWordText: aText
+wrongWordText: aString
 	
-	wrongWordText := aText.
-	#wrongWordText changed
+	currentWord := aString.
+	self alternatives: (SpellChecker instance suggestionsFor: currentWord).
+	self changed: #wrongWordText

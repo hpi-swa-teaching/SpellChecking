@@ -1,4 +1,5 @@
 as yet unclassified
 addToDict
 
-	Transcript show: 'Added to dict'.
+	SpellChecker instance addWordToDictionary: currentWord.
+	self next
