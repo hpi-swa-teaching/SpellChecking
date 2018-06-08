@@ -4,6 +4,6 @@
 	"instance" : {
 		"addParsedWord:from:to:into:" : "II 6/9/2018 00:57:05",
 		"isSeparator:" : "II 6/9/2018 00:50:55",
-		"parseCamelCaseWord:" : "II 6/9/2018 00:54:20",
-		"parseText:" : "II 6/9/2018 00:59:08",
+		"parseCamelCaseWord:" : "II 6/9/2018 01:24:02",
+		"parseText:" : "II 6/9/2018 01:29:16",
 		"shouldCheckSpelling:" : "II 6/2/2018 18:15:29" } }

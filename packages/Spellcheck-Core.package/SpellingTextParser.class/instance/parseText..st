@@ -11,11 +11,12 @@ parseText: aString
 		(self isSeparator: c) ifTrue: [
 			endIndex := i - 1. 
 			(endIndex - startIndex >= 0) ifTrue: [
-				parsedWords := self addParsedWord: aString from: startIndex to: endIndex into: parsedWords. ].
-				startIndex := i + 1. 
-			]. i :=  i + 1. ].
+				parsedWords := self addParsedWord: aString from: startIndex to: endIndex into: parsedWords.].
+			startIndex := i + 1. ]. 
+		i :=  i + 1. ].
 
 	endIndex := i - 1.
-	(endIndex - startIndex >= 0) ifTrue: [ parsedWords := self addParsedWord: aString from: startIndex to: endIndex into: parsedWords. ].
+	(endIndex - startIndex >= 0) ifTrue: [
+		parsedWords := self addParsedWord: aString from: startIndex to: endIndex into: parsedWords.].
 	
 	^ parsedWords
