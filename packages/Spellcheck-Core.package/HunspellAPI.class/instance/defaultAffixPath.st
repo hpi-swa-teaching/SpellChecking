@@ -1,4 +1,4 @@
-private
+api callouts
 defaultAffixPath
-
-	  self subclassResponsibility 
+ 
+	^ 'en_US.aff'

@@ -1,4 +1,5 @@
 api callouts
 apiCheckWord: aHandle Text: aString
 
-	self subclassResponsibility 
+	<cdecl: long 'Hunspell_spell' (void* char*)>
+	^ self externalCallFailed

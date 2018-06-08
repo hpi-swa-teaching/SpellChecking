@@ -1,4 +1,4 @@
-private
-defaultDictionaryPath
+api callouts
+defaultDictionaryPath 
 
-	  self subclassResponsibility 
+	^ 'en_US.dic'
