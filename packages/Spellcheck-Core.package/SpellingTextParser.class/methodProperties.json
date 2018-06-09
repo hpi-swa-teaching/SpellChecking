@@ -3,6 +3,8 @@
 		 },
 	"instance" : {
 		"addParsedWord:from:to:into:" : "II 6/9/2018 00:57:05",
+		"getSentenceContextOfWordAt:within:" : "II 6/9/2018 02:47:31",
+		"isSentenceSeparator:" : "II 6/9/2018 02:40:56",
 		"isSeparator:" : "II 6/9/2018 00:50:55",
 		"parseCamelCaseWord:" : "II 6/9/2018 01:24:02",
 		"parseText:" : "II 6/9/2018 01:29:16",
