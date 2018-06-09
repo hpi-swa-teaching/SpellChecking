@@ -8,22 +8,23 @@ getSentenceContextOfWordAt: startIndex within: aText
 	"find end of sentence"	
 	i := startIndex.	
 	[i <= aText size] whileTrue: [ 
-		((self isSentenceSeparator: (aText at: i)) and: [sentenceEnd = 0]) ifTrue: [ sentenceEnd := i ].
+		sentenceEnd := i.
+		(self isSentenceSeparator: (aText at: i)) ifTrue: [ i := aText size ].
 		i := i + 1.
 	].
 
 	"find end of preceding sentence"
 	i := startIndex.
 	[i > 0] whileTrue: [ 
-		((self isSentenceSeparator: (aText at: i)) and: [sentenceStart = 0]) ifTrue: [ sentenceStart := i ].
+		sentenceStart := i.
+		(self isSentenceSeparator: (aText at: i)) ifTrue: [ i := 0 ].
 		i := i - 1.
 	].
 
 	"find actual start of sentence"
-	i := sentenceStart. sentenceStart := 0.
-	[i < startIndex] whileTrue: [
-		(self isSeparator: (aText at: i)) ifFalse: [ (sentenceStart = 0) ifTrue: [ sentenceStart := i ].].
+	i := sentenceStart. 
+	[(self isSeparator: (aText at: i))] whileTrue: [
 		i := i + 1.
-	].	
+	]. sentenceStart := i.
 
 	^ aText copyFrom: sentenceStart to: sentenceEnd.

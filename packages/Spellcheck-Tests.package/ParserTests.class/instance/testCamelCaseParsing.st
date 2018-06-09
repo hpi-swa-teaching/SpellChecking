@@ -1,17 +1,17 @@
 as yet unclassified
 testCamelCaseParsing
 
-	| strings parser text |
+	| strings parser word |
 	
-	text := 'aHaXHelloMyNameB'.
+	word := 'aHaXHelloMyNameB'.
 	parser := SpellingTextParser new.
-	strings := parser parseText: text.
+	strings := parser parseText: word.
 		
 	self assert: (strings size = 7).
-	self assert: ((text copyFrom: 5 to: (strings at: 5)) = 'Hello').
+	self assert: ((word copyFrom: 5 to: (strings at: 5)) = 'Hello').
 	
-	strings := parser parseCamelCaseWord: text.
+	strings := parser parseCamelCaseWord: word.
 	
 	self assert: (strings size = 7).
-	self assert: ((text copyFrom: 5 to: (strings at: 5)) = 'Hello').
+	self assert: ((word copyFrom: 5 to: (strings at: 5)) = 'Hello').
 	
