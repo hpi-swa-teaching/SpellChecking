@@ -6,7 +6,13 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"wrongWordText" ],
+		"inputText",
+		"wrongWords",
+		"contextSentence",
+		"currentWord",
+		"currentKey",
+		"alternatives",
+		"selectedIndex" ],
 	"name" : "SpellcheckCorrectionUI",
 	"pools" : [
 		 ],

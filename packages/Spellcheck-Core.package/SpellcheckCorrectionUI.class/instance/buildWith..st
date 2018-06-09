@@ -6,13 +6,14 @@ buildWith: builder
 	windowSpec 
 		model: self;
 		extent: 500@300;
-		label: 'Hallo, I bims, 1 UI';
+		label: 'Spellchecking - Correct your misspelled words ';
 		children: OrderedCollection new.
 		
 	wrongWordSpec := builder pluggableTextSpec new.
 	wrongWordSpec 
 		model: self;
 		frame: (0@0 corner: 0.7@0.2);
+		stylerClass: SpellcheckCorrectionTextStyler;
 		getText: #wrongWordText;
 		setText: #wrongWordText:.
 		
@@ -22,7 +23,9 @@ buildWith: builder
 	alternativesListSpec 
 		model: self;
 		frame: (0@0.2 corner: 0.7@1);
-		list: #alternatives.
+		list: #alternatives;
+		getIndex: #selectedAlternativeIndex; 
+		setIndex: #selectedAlternativeIndex:.
 	windowSpec children add: alternativesListSpec.
 	
 	ignoreButtonSpec := builder pluggableButtonSpec new.

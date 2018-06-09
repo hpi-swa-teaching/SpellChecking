@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"spellingStyler",
-		"correctionStyler" ],
-	"name" : "StylerTests",
+		"correctionUI",
+		"spellchecker" ],
+	"name" : "CorrectionUIFunctionalityTests",
 	"pools" : [
 		 ],
 	"super" : "TestCase",
