@@ -1,4 +1,4 @@
 as yet unclassified
-ignoreAll
+skipAll
 
 	self clear

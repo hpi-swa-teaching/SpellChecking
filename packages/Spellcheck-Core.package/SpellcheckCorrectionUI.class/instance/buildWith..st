@@ -38,8 +38,8 @@ buildWith: builder
 	ignoreAllButtonSpec := builder pluggableButtonSpec new.
 	ignoreAllButtonSpec 
 		model: self;
-		label: 'Ignore All';
-		action: #ignoreAll;
+		label: 'Skip All';
+		action: #skipAll;
 		frame: (0.7@0.066 corner: 1@0.133). 
 	windowSpec children add: ignoreAllButtonSpec.
 	
