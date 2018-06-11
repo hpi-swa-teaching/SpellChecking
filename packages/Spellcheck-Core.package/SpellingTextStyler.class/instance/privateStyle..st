@@ -1,8 +1,8 @@
 as yet unclassified
 privateStyle: aText
 
-	super privateStyle: aText.  "for some reason we have to style the text first in all cases"
-	self workspace ifNotNil:[Workspace shouldStyle ifFalse:[self unstyle: aText]]
-	ifNil: [SHTextStylerST80 syntaxHighlightingAsYouType ifFalse:[self unstyle: aText]].
+	self unstyle: aText.  
+	self workspace ifNotNil:[Workspace shouldStyle ifTrue: [super privateStyle: aText]]
+	ifNil: [SHTextStylerST80 syntaxHighlightingAsYouType ifTrue: [super privateStyle: aText]].
 	self class spellCheckingEnabled ifTrue: [
 	self highlightSpellingMistakes: (spellChecker mistakenWordsIn: aText string) in: aText]
