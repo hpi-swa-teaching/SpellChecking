@@ -2,10 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addParsedWord:from:to:into:" : "II 6/9/2018 00:57:05",
-		"getSentenceContextOfWordAt:within:" : "II 6/9/2018 14:52:17",
+		"addParsedWord:from:to:into:" : "ow 6/11/2018 15:40:22",
+		"getSentenceContextOfWordAt:within:" : "ow 6/11/2018 22:07:19",
 		"isSentenceSeparator:" : "II 6/9/2018 02:40:56",
 		"isSeparator:" : "II 6/9/2018 00:50:55",
-		"parseCamelCaseWord:" : "II 6/9/2018 01:24:02",
-		"parseText:" : "II 6/9/2018 01:29:16",
+		"parseCamelCaseWord:" : "ow 6/11/2018 18:29:00",
+		"parseText:" : "ow 6/11/2018 15:39:58",
 		"shouldCheckSpelling:" : "II 6/2/2018 18:15:29" } }
