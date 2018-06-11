@@ -12,7 +12,8 @@
 		"currentWord",
 		"currentKey",
 		"alternatives",
-		"selectedIndex" ],
+		"selectedIndex",
+		"parser" ],
 	"name" : "SpellcheckCorrectionUI",
 	"pools" : [
 		 ],
