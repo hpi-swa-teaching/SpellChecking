@@ -1,11 +1,10 @@
 as yet unclassified
 parseCamelCaseWord: aString
 
-	| subWords currentWord i startIndex endIndex |
+	| subWords i startIndex endIndex |
 	
 	i := 1. startIndex := 1.	endIndex := 1.
 	subWords := Dictionary new.
-	currentWord := ''.
 	
 	aString do: [ :c |
 		((c isLetter) & (c isUppercase)) ifTrue: [						
