@@ -10,10 +10,9 @@ testPrivateStyle
 	self assert: ((runs at: 12) includes: TextEmphasis underlined).
 	self assert: ((runs at: 12) includes: (TextColor color: Color orange)).
 	
+	runs := nil.
 	correctionStyler privateStyle: text.	
 	runs := text runs.
 	
-	self deny: ((runs at: 12) includes: (TextColor color: Color orange)).
-	self assert: ((runs at: 12) includes: (TextColor color: Color black)).
-	self assert: ((runs at: 1) includes: (TextColor color: Color gray)).
-	"self deny: ((runs at: 12) includes: TextEmphasis underlined)."
+	self assert: ((runs at: 12) includes: (TextEmphasis bold)).
+	self deny: ((runs at: 1) includes: (TextEmphasis bold))
