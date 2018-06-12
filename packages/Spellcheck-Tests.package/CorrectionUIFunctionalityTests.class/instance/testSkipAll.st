@@ -1,6 +1,6 @@
 testing
 testSkipAll
 
-	correctionUI skipAll.
+	correctionUI ignoreAll.
 	self assert: (correctionUI wrongWordText = 'No spell checking errror').
 	self assert: (correctionUI alternatives = #(#'---')).
