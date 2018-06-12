@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 alternatives: aList
 
 	alternatives := aList.

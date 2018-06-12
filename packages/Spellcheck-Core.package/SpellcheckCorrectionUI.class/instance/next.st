@@ -1,6 +1,6 @@
-as yet unclassified
+private
 next
-
+	selectedIndex := 0.
 	inputText ~= '' ifTrue: [
 		wrongWords removeKey: currentKey.
 		currentKey := wrongWords keys detect: [ :a | true ] ifNone: [self clear. ^self]. "gets first element"
