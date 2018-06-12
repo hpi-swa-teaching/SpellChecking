@@ -1,4 +1,5 @@
 api callouts
 apiAdd: aHandle word: aString
 
-	self subclassResponsibility 
+	<cdecl: long 'Hunspell_add' (void* char*)>
+	^ self externalCallFailed

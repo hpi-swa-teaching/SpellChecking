@@ -1,4 +1,5 @@
 api callouts
 apiAdd: aHandle dictionary: aDPath
 
-	self subclassResponsibility 
+	<cdecl: long 'Hunspell_add_dic' (void* char*)>
+	^ self externalCallFailed

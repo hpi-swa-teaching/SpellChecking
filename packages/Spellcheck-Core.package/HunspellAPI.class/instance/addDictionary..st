@@ -1,4 +1,4 @@
 spellchecking
 addDictionary: dPath
 
-	self apiAdd: handle dictionary: dPath
+	self apiAdd: apiHandle dictionary: dPath

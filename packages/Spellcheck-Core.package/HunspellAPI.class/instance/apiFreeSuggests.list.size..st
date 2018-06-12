@@ -1,4 +1,5 @@
 api callouts
 apiFreeSuggests: aHandle list: aSuggestionList size: anInteger
 
-	self subclassResponsibility 
+	<cdecl: void 'Hunspell_free_list' (void* HunspellSuggestList* long)>
+	^self externalCallFailed
