@@ -1,4 +1,4 @@
-as yet unclassified
+buttons
 addToDict
 
 	SpellChecker instance addWordToDictionary: currentWord.

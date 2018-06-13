@@ -1,4 +1,5 @@
 api callouts
 apiSuggest: aHandle list: anEmptyList word: aString
 
-	self subclassResponsibility 
+	<cdecl: long 'Hunspell_suggest' (void* HunspellSuggestList* char*)>
+	^ self externalCallFailed

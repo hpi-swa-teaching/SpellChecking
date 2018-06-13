@@ -1,4 +1,5 @@
 api callouts
 apiDestroyHandle: aHandle
-	
-	self subclassResponsibility 
+
+	<cdecl: void 'Hunspell_destroy' (void*)>
+	^ self externalCallFailed

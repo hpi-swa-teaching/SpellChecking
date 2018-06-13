@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 wrongWordText: aString
 	
 	contextSentence := aString.
