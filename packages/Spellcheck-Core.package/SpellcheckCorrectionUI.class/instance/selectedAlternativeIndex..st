@@ -1,5 +1,6 @@
 select alternative
 selectedAlternativeIndex: anIndex
+
 	anIndex = 0 ifTrue: [^self].
 	selectedIndex := anIndex.
 	self changed: #selectedAlternativeIndex.

@@ -1,4 +1,4 @@
 accessing
 wrongWordText
 
-	^ currentWord
+	^ contextSentence
