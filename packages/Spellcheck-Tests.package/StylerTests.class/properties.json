@@ -6,8 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"spellingStyler",
-		"correctionStyler" ],
+		"styler" ],
 	"name" : "StylerTests",
 	"pools" : [
 		 ],

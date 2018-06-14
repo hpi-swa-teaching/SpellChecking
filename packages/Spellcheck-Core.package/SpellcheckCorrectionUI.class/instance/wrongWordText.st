@@ -1,4 +1,4 @@
-accessing
+as yet unclassified
 wrongWordText
 
-	^ contextSentence
+	^ currentWord

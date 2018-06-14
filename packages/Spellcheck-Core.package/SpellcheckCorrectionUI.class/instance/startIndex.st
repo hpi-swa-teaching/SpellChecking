@@ -1,4 +1,0 @@
-private
-startIndex
-
-	^ currentKey
