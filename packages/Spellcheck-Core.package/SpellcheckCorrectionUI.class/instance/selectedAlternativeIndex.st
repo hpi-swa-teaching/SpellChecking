@@ -1,4 +1,4 @@
-as yet unclassified
+select alternative
 selectedAlternativeIndex
 	selectedIndex ifNotNil: [^selectedIndex].
 	selectedIndex := 0.

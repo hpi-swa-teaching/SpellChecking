@@ -8,10 +8,13 @@
 	"instvars" : [
 		"inputText",
 		"wrongWords",
+		"contextSentence",
 		"currentWord",
 		"currentKey",
 		"alternatives",
-		"selectedIndex" ],
+		"selectedIndex",
+		"parser",
+		"workspace" ],
 	"name" : "SpellcheckCorrectionUI",
 	"pools" : [
 		 ],
