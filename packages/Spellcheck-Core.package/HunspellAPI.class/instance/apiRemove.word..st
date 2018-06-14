@@ -1,4 +1,5 @@
 api callouts
 apiRemove: aHandle word: aString
 
-	self subclassResponsibility 
+	<cdecl: long 'Hunspell_remove' (void* char*)>
+	^ self externalCallFailed

@@ -1,12 +1,13 @@
 {
 	"class" : {
 		"instance" : "ow 5/31/2018 18:30:23",
-		"instance:" : "ow 6/8/2018 13:26:08",
+		"instance:" : "ow 6/8/2018 13:26:08"
 		"startUp:" : "ow 5/31/2018 18:30:40" },
 	"instance" : {
 		"AddedWords" : "yk 5/26/2018 11:26:02",
 		"addWordToDictionary:" : "yk 5/26/2018 11:21:22",
 		"clearIgnoredWords" : "ow 5/31/2018 18:29:49",
+		"ignoreWord:" : "yk 6/10/2018 19:10:22",
 		"initialize" : "ow 5/31/2018 18:33:51",
 		"isSpelledCorrectly:" : "ow 5/24/2018 17:13:38",
 		"mistakenWordsIn:" : "ow 5/22/2018 12:04:41",

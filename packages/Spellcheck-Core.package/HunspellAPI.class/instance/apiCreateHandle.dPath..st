@@ -1,4 +1,5 @@
 api callouts
 apiCreateHandle: anAffPath dPath: aDPath
 
-	self subclassResponsibility 
+	<cdecl: void* 'Hunspell_create' (char* char*)>
+	^ self externalCallFailed

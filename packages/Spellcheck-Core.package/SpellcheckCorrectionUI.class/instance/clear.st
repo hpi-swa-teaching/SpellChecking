@@ -2,6 +2,6 @@ as yet unclassified
 clear
 
 
-	self wrongWordText: 'No spell checking errror'.
+	self wrongWordText: 'No misspelled words left'.
 	self alternatives: #(#'---').
 	inputText := ''
