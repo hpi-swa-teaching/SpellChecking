@@ -1,22 +1,25 @@
 as yet unclassified
 parseText: aString
 
-	| parsedWords i startIndex endIndex |
+	| words endIndex startIndex lastChar |
 	
-	i := 1. startIndex := 1. endIndex := 1.
-	parsedWords := Dictionary new. 
-	"The dictionary does not actually store the parsed words as a string, rather the start and end index of them within the whole text."
-
+	words := Dictionary new.
+	startIndex := 1.
+	endIndex := 1.
+	lastChar := $a.
+	
 	aString do: [ :c |
-		(self isSeparator: c) ifTrue: [
-			endIndex := i - 1. 
-			(endIndex - startIndex >= 0) ifTrue: [
-				self addParsedWord: aString from: startIndex to: endIndex into: parsedWords.].
-			startIndex := i + 1. ]. 
-		i :=  i + 1. ].
-
-	endIndex := i - 1.
-	(endIndex - startIndex >= 0) ifTrue: [
-		self addParsedWord: aString from: startIndex to: endIndex into: parsedWords.].
+		((lastChar isSeparator) & (c isLetter) & (c isLowercase)) ifTrue:[startIndex := startIndex +1].
+		(c isSeparator) 
+			ifTrue: [
+				words at: startIndex put: endIndex - 1. 
+				startIndex := endIndex].
+		((c isLetter) & (c isUppercase))
+			ifTrue:
+				[words at: startIndex put: endIndex  - 1.
+				startIndex := endIndex].
+		lastChar := c.
+		endIndex := endIndex +1].
+	words at: startIndex put: endIndex - 1.
 	
-	^ parsedWords
+	^ words

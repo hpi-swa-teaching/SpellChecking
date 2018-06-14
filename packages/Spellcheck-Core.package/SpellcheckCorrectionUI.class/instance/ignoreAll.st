@@ -1,4 +1,4 @@
-buttons
+as yet unclassified
 ignoreAll
 
 	wrongWords ifNotNil: [

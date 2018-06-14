@@ -2,10 +2,5 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testAddParsedWord" : "ow 6/11/2018 22:52:13",
-		"testCamelCaseParsing" : "II 6/9/2018 14:24:13",
-		"testGetSentenceContext" : "II 6/9/2018 14:51:56",
-		"testIsSentenceSeparator" : "II 6/9/2018 14:55:44",
-		"testIsSeparator" : "II 6/9/2018 14:54:56",
-		"testParsingWithSeparator" : "II 6/9/2018 01:28:57",
-		"testShouldCheckSpelling" : "II 6/2/2018 20:48:39" } }
+		"testCamelCaseParsing" : "ow 5/22/2018 16:07:00",
+		"testParsingWithSeparator" : "ow 5/31/2018 18:10:30" } }
