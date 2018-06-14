@@ -1,7 +1,7 @@
-as yet unclassified
+private
 clear
 
-
+	currentWord := ''.
+	inputText := ''.
 	self wrongWordText: 'No misspelled words left'.
-	self alternatives: #(#'---').
-	inputText := ''
+	self alternatives: #(#'---')
