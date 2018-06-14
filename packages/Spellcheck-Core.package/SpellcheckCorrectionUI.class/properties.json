@@ -11,7 +11,10 @@
 		"currentWord",
 		"currentKey",
 		"alternatives",
-		"selectedIndex" ],
+		"selectedIndex",
+		"iterateIndex",
+		"keyArray",
+		"valueArray" ],
 	"name" : "SpellcheckCorrectionUI",
 	"pools" : [
 		 ],
