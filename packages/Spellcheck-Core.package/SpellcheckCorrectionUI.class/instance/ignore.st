@@ -1,4 +1,4 @@
-as yet unclassified
+buttons
 ignore
 	
 	SpellChecker instance ignoreWord: currentWord.

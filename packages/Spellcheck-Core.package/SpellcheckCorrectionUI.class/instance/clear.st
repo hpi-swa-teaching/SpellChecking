@@ -1,7 +1,7 @@
-as yet unclassified
+private
 clear
 
-
-	self wrongWordText: 'No spell checking errror'.
-	self alternatives: #(#'---').
-	inputText := ''
+	currentWord := ''.
+	inputText := ''.
+	self wrongWordText: 'No misspelled words left'.
+	self alternatives: #(#'---')
