@@ -55,7 +55,7 @@ buildWith: builder
 	leftButtonSpec 
 		model: self;
 		label: '<';
-		action: #previousWord;
+		action: #displayPreviousWord;
 		frame: (0.7@0.9 corner: 0.75@1.0). 
 	windowSpec children add: leftButtonSpec.
 	
@@ -63,7 +63,7 @@ buildWith: builder
 	rightButtonSpec 
 		model: self;
 		label: '>';
-		action: #nextWord;
+		action: #displayNextWord;
 		frame: (0.95@0.9 corner: 1.0@1.0). 
 	windowSpec children add: rightButtonSpec.
 	

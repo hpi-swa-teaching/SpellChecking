@@ -1,4 +1,4 @@
 as yet unclassified
 ignore
 	
-	self next
+	self dismissCurrentDisplayedWord 
