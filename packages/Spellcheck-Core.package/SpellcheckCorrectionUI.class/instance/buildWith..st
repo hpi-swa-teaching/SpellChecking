@@ -6,7 +6,7 @@ buildWith: builder
 	windowSpec 
 		model: self;
 		extent: 500@300;
-		label: 'Spellchecking UI';
+		label: 'Spellchecking - Correct your misspelled words';
 		children: OrderedCollection new.
 		
 	wrongWordSpec := builder pluggableTextSpec new.

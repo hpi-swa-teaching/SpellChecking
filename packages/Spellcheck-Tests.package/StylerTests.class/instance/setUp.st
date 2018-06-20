@@ -1,4 +1,5 @@
 as yet unclassified
 setUp
 
-	styler := SpellingTextStylerTestStub new
+	spellingStyler := SpellingTextStylerTestStub new.
+	correctionStyler := SpellcheckCorrectionTextStyler new
