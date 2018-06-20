@@ -1,0 +1,15 @@
+{
+	"category" : "Spellcheck-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"ignoredWords",
+		"selectedWord" ],
+	"name" : "SpellcheckOrganizeUI",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }
