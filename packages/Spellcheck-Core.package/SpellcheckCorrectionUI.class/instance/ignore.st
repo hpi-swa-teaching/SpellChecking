@@ -1,5 +1,5 @@
-as yet unclassified
+buttons
 ignore
 	
-	SpellChecker instance ignoreWord: currentWord.
+	SpellChecker instance ignoreWord: self currentWord.
 	self dismissCurrentDisplayedWord 

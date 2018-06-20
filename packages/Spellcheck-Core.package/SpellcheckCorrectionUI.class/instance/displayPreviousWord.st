@@ -1,4 +1,4 @@
-as yet unclassified
+buttons
 displayPreviousWord
 	
 	keyArray isEmpty ifFalse: [

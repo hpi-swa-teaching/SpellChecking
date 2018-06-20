@@ -1,7 +1,7 @@
 as yet unclassified
 clear
 
-	self wrongWordText: 'No spell checking errror'.
-	self alternatives: #(#'---').
 	inputText := ''.
-	currentWord := ''
+	self wrongWordText: 'No spell checking error'.
+	self alternatives: #(#'---')
+	

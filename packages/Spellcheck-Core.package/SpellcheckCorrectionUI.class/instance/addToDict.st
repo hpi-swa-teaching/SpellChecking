@@ -1,5 +1,5 @@
-as yet unclassified
+buttons
 addToDict
 
-	SpellChecker instance addWordToDictionary: currentWord.
+	SpellChecker instance addWordToDictionary: self currentWord.
 	self dismissCurrentDisplayedWord 

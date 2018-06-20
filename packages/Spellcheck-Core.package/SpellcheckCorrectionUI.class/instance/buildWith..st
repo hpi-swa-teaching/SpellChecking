@@ -1,4 +1,4 @@
-as yet unclassified
+toolbuilder
 buildWith: builder
 
 	| windowSpec wrongWordSpec alternativesListSpec ignoreButtonSpec ignoreAllButtonSpec addButtonSpec leftButtonSpec  	rightButtonSpec	|
@@ -13,6 +13,7 @@ buildWith: builder
 	wrongWordSpec 
 		model: self;
 		frame: (0@0 corner: 0.7@0.2);
+		stylerClass: SpellcheckCorrectionTextStyler;
 		getText: #wrongWordText;
 		setText: #wrongWordText:.
 		
