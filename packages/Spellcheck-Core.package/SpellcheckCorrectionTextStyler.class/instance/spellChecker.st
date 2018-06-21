@@ -1,4 +1,4 @@
 as yet unclassified
 spellChecker
 
-	^ spellChecker 
+	^ spellChecker

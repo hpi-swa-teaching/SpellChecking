@@ -1,12 +1,12 @@
 toolbuilder
 buildWith: builder
 
-	| windowSpec wrongWordSpec alternativesListSpec ignoreButtonSpec ignoreAllButtonSpec addButtonSpec |
+	| windowSpec wrongWordSpec alternativesListSpec ignoreButtonSpec ignoreAllButtonSpec addButtonSpec leftButtonSpec  	rightButtonSpec	|
 	windowSpec := builder pluggableWindowSpec new.
 	windowSpec 
 		model: self;
 		extent: 500@300;
-		label: 'Spellchecking - Correct your misspelled words ';
+		label: 'Spellchecking - Correct your misspelled words';
 		children: OrderedCollection new.
 		
 	wrongWordSpec := builder pluggableTextSpec new.
@@ -24,7 +24,7 @@ buildWith: builder
 		model: self;
 		frame: (0@0.2 corner: 0.7@1);
 		list: #alternatives;
-		getIndex: #selectedAlternativeIndex;
+		getIndex: #selectedAlternativeIndex; 
 		setIndex: #selectedAlternativeIndex:.
 	windowSpec children add: alternativesListSpec.
 	
@@ -51,5 +51,21 @@ buildWith: builder
 		action: #addToDict;
 		frame: (0.7@0.133 corner: 1@0.2). 
 	windowSpec children add: addButtonSpec.
+	
+	leftButtonSpec := builder pluggableButtonSpec new.
+	leftButtonSpec 
+		model: self;
+		label: '<';
+		action: #displayPreviousWord;
+		frame: (0.7@0.9 corner: 0.75@1.0). 
+	windowSpec children add: leftButtonSpec.
+	
+	rightButtonSpec := builder pluggableButtonSpec new.
+	rightButtonSpec 
+		model: self;
+		label: '>';
+		action: #displayNextWord;
+		frame: (0.95@0.9 corner: 1.0@1.0). 
+	windowSpec children add: rightButtonSpec.
 	
 	^ builder build: windowSpec 

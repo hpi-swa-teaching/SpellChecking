@@ -1,5 +1,5 @@
 buttons
 ignore
 	
-	SpellChecker instance ignoreWord: currentWord.
-	self next
+	SpellChecker instance ignoreWord: self currentWord.
+	self dismissCurrentDisplayedWord 
