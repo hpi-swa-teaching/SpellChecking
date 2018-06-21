@@ -1,0 +1,14 @@
+{
+	"category" : "Spellcheck-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "OrganizeUITests",
+	"pools" : [
+		 ],
+	"super" : "MTFTestCase",
+	"type" : "normal" }
