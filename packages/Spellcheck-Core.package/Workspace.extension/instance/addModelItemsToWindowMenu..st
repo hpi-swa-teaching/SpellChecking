@@ -1,4 +1,4 @@
-*Spellcheck-Core
+*Spellcheck-Core-override
 addModelItemsToWindowMenu: aMenu 
 	
 	aMenu addLine.
