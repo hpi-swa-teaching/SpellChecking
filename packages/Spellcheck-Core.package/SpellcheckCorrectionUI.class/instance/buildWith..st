@@ -24,8 +24,8 @@ buildWith: builder
 		model: self;
 		frame: (0@0.2 corner: 0.7@1);
 		list: #alternatives;
-		getIndex: #selectedAlternativeIndex; 
-		setIndex: #selectedAlternativeIndex:.
+		getSelected: #selectedAlternative;
+		setSelected: #selectedAlternative:.
 	windowSpec children add: alternativesListSpec.
 	
 	ignoreButtonSpec := builder pluggableButtonSpec new.

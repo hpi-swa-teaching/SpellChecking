@@ -1,5 +1,5 @@
 select alternative
 replaceWorkspaceTextWithAlternative
 
-	Transcript show: selectedIndex asString.
-	workspace contents: (inputText replaceFrom: self startIndex to: self endIndex with: self selectedAlternative)
+	workspace contents: (inputText replaceFrom: self startIndex to: self endIndex with: self selectedAlternative).
+	self updateWrongWordsAfter: self endIndex By: (self selectedAlternative size - (self currentWord size))
