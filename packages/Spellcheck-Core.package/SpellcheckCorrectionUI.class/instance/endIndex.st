@@ -1,4 +1,4 @@
 private
 endIndex
 
-	^ wrongWords at: currentKey
+	^ wrongWords at: (self startIndex)

@@ -1,4 +1,4 @@
 private
 startIndex
 
-	^ currentKey
+	^ keyArray first
