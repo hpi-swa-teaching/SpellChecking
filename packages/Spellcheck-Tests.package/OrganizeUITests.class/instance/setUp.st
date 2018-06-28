@@ -1,4 +1,5 @@
-as yet unclassified
+initialize-release
 setUp 
 
-	self wantsToTest: SpellcheckOrganizeUI new open.
+	ui := SpellcheckOrganizeUI new.
+	self wantsToTest: ui open.
