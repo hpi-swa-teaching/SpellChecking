@@ -1,6 +1,9 @@
 {
 	"class" : {
-		 },
+		"initialize" : "RS 6/28/2018 21:04",
+		"open" : "RS 6/28/2018 20:46",
+		"registerInWorldMenu" : "RS 6/28/2018 20:50",
+		"unregisterInWorldMenu" : "RS 6/28/2018 20:51" },
 	"instance" : {
 		"buildWith:" : "RS 6/20/2018 23:59:08",
 		"ignoredWords" : "RS 6/28/2018 20:17",
