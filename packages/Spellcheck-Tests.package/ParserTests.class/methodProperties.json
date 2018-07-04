@@ -2,10 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testAddParsedWord" : "ow 6/11/2018 22:52:13",
-		"testCamelCaseParsing" : "II 6/9/2018 14:24:13",
-		"testGetSentenceContext" : "II 6/9/2018 14:51:56",
-		"testIsSentenceSeparator" : "II 6/9/2018 14:55:44",
-		"testIsSeparator" : "II 6/9/2018 14:54:56",
-		"testParsingWithSeparator" : "II 6/9/2018 01:28:57",
-		"testShouldCheckSpelling" : "II 6/2/2018 20:48:39" } }
+		"setUp" : "ow 7/4/2018 23:43",
+		"testAddParsedWord" : "ow 7/4/2018 23:43",
+		"testCamelCaseParsing" : "ow 7/4/2018 23:44",
+		"testGetSentenceContext" : "ow 7/4/2018 23:45",
+		"testIsSentenceSeparator" : "ow 7/4/2018 23:46",
+		"testIsSeparator" : "ow 7/4/2018 23:46",
+		"testParsingWithSeparator" : "ow 7/4/2018 23:46",
+		"testShouldCheckSpelling" : "ow 7/4/2018 23:47" } }

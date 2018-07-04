@@ -1,5 +1,6 @@
 select alternative
 replaceTextWithAlternative
+
 	| updatedText |
 	updatedText := inputText replaceFrom: self startIndex to: self endIndex with: self selectedAlternative.
 	workspace ifNotNil: [workspace contents: updatedText].
