@@ -1,4 +1,4 @@
 as yet unclassified
 ignoredWords
- 	^SpellChecker instance AddedWords asOrderedCollection 
+ 	^SpellChecker instance addedWords asOrderedCollection 
 		sort: [:a :b | (a asLowercase) < (b asLowercase)].
