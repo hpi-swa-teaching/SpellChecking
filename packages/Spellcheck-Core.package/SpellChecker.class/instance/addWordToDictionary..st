@@ -1,5 +1,5 @@
 as yet unclassified
 addWordToDictionary: aString
 
-	AddedWords add: aString.
+	self addedWords add: aString.
 	hunspell addWordToDictionary: aString

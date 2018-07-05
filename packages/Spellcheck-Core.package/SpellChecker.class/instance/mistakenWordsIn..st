@@ -7,9 +7,7 @@ mistakenWordsIn: aString
 	strings := (parser parseText: aString).
 	
 	strings keysAndValuesDo: [ :start :end |
-			(hunspell isWordCorrect: (aString copyFrom: start to: end)) ifFalse: [
-				wrongWords at: start put: end.				
-			].
-		].
+			(hunspell isWordCorrect: (aString copyFrom: start to: end)) 
+				ifFalse: [wrongWords at: start put: end]].
 	
 	^ wrongWords  
