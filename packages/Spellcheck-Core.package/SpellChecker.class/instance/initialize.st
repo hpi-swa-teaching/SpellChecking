@@ -1,8 +1,7 @@
-as yet unclassified
+initialize-release
 initialize 
 
-	Smalltalk addToStartUpList: self class.
 	hunspell := HunspellAPI new.
 	parser := SpellingTextParser new.
-	AddedWords ifNil:[AddedWords := Set new].
+	AddedWords ifNil: [AddedWords := Set new].
 	self reloadAddedWords

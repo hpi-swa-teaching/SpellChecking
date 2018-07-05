@@ -10,13 +10,13 @@ parseText: aString
 	aString do: [ :c |
 		(self isSeparator: c) ifTrue: [
 			endIndex := i - 1. 
-			(endIndex - startIndex >= 0) ifTrue: [
+			endIndex - startIndex >= 0 ifTrue: [
 				self addParsedWord: aString from: startIndex to: endIndex into: parsedWords.].
 			startIndex := i + 1. ]. 
 		i :=  i + 1. ].
 
 	endIndex := i - 1.
-	(endIndex - startIndex >= 0) ifTrue: [
+	endIndex - startIndex >= 0 ifTrue: [
 		self addParsedWord: aString from: startIndex to: endIndex into: parsedWords.].
 	
 	^ parsedWords
