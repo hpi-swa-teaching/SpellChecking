@@ -4,6 +4,6 @@ testAddDictionary
 	hunspell := HunspellAPI new.
 	self deny: (hunspell isWordCorrect: 'Schnee').
 
-	hunspell addDictionary: 'de_DE.dic'.
+	hunspell addDictionary: self class germanDictionary.
 	
 	self assert: (hunspell isWordCorrect: 'Schnee')

@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testToolOpens	
 	
 	self assert: ((self subject findByClass: PluggableTextMorphPlus) morphs notEmpty). 

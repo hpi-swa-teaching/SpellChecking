@@ -1,4 +1,4 @@
-as yet unclassified
+initialize-release
 setUp 
 
-	self wantsToTest: SpellcheckCorrectionUI new open.
+	self wantsToTest: SpellcheckCorrectionUI new open
