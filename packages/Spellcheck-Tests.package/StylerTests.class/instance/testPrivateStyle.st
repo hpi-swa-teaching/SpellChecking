@@ -1,18 +1,17 @@
 testing
 testPrivateStyle
 
-	| text runs |
+	| text runArray |
 	
 	text := 'There is a miscake in the text' asText.
 	spellingStyler privateStyle: text.
-	runs := text runs.
+	runArray := text runs.
 	
-	self assert: ((runs at: 12) includes: TextEmphasis underlined).
-	self assert: ((runs at: 12) includes: (TextColor color: Color orange)).
-	
-	runs := nil.
+	self assert: ((runArray at: 12) includes: TextEmphasis underlined).
+	self assert: ((runArray at: 12) includes: (TextColor color: Color orange)).
+		
 	correctionStyler privateStyle: text.	
-	runs := text runs.
+	runArray := text runs.
 	
-	self assert: ((runs at: 12) includes: (TextEmphasis bold)).
-	self deny: ((runs at: 1) includes: (TextEmphasis bold))
+	self assert: ((runArray at: 12) includes: TextEmphasis underlined).
+	self assert: ((runArray at: 12) includes: (TextColor color: Color orange)).

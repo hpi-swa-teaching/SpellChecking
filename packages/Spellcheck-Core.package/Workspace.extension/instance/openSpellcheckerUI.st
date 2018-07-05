@@ -1,6 +1,6 @@
 *Spellcheck-Core
 openSpellcheckerUI
-	| spellchecker |
-	spellchecker := SpellcheckCorrectionUI new. 
-	spellchecker open.
-	spellchecker input: self.
+	| correctionUI |
+	correctionUI := SpellcheckCorrectionUI new. 
+	correctionUI open.
+	correctionUI input: self.
