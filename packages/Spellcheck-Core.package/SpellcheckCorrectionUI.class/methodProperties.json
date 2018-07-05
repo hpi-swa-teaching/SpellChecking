@@ -1,6 +1,7 @@
 {
 	"class" : {
-		 },
+		"noAlternativesText" : "ow 7/4/2018 23:32",
+		"noWrongWordsText" : "ow 7/4/2018 23:32" },
 	"instance" : {
 		"addToDict" : "ow 6/21/2018 00:21:46",
 		"alternatives" : "ow 6/1/2018 11:22:08",
@@ -19,12 +20,12 @@
 		"input:" : "ow 6/21/2018 00:13:53",
 		"inputText:" : "RS 6/27/2018 16:37:50",
 		"open" : "pz 5/29/2018 21:55:12",
-		"replaceTextWithAlternative" : "RS 6/27/2018 18:45:42",
+		"replaceTextWithAlternative" : "ow 7/4/2018 23:34",
 		"selectedAlternative" : "RS 6/27/2018 15:19:24",
 		"selectedAlternative:" : "RS 6/27/2018 16:07:04",
 		"startIndex" : "RS 6/27/2018 14:48:38",
-		"updateDictionaryAfter:By:" : "RS 6/27/2018 15:51:20",
-		"updateKeyArrayAfter:By:" : "RS 6/27/2018 15:51:37",
+		"updateDictionaryAfter:By:" : "ow 7/4/2018 23:35",
+		"updateKeyArrayAfter:By:" : "ow 7/4/2018 23:36",
 		"updateWrongWordsAfter:By:" : "RS 6/27/2018 15:52:13",
 		"wrongWordText" : "II 6/9/2018 15:50:26",
 		"wrongWordText:" : "ow 6/21/2018 00:21:37" } }
