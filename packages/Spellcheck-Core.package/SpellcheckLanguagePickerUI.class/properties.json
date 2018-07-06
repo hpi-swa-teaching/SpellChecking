@@ -1,0 +1,14 @@
+{
+	"category" : "Spellcheck-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"selectedLanguage" ],
+	"name" : "SpellcheckLanguagePickerUI",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }
