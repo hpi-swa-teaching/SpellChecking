@@ -8,7 +8,9 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"hunspell",
-		"parser" ],
+		"parser",
+		"dictionaryPath",
+		"affixPath" ],
 	"name" : "SpellChecker",
 	"pools" : [
 		 ],

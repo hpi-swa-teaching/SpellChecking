@@ -3,3 +3,4 @@ selectedLanguage: anObject
 	
 	selectedLanguage := anObject.
 	self changed: #selectedLanguage.
+	self loadLanguage 
