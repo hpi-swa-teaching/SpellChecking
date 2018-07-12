@@ -1,4 +1,4 @@
 as yet unclassified
 dictionaryPath
 
-	^ self selectedLanguageDirectoryPath, '\', self dictionaryFileName 
+	^ self selectedLanguageDirectoryPath fileNamed: self dictionaryFileName 

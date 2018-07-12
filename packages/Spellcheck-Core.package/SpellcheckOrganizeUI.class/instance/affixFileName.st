@@ -1,4 +1,4 @@
 as yet unclassified
 affixFileName
 
-	^ ((FileDirectory default directoryNamed: self selectedLanguageDirectoryPath)fileNamesMatching: '*.aff') first  
+	^ (self selectedLanguageDirectoryPath fileNamesMatching: '*.aff') first  

@@ -1,4 +1,4 @@
 as yet unclassified
 affixPath
 
-	^ self selectedLanguageDirectoryPath, '\', self affixFileName
+	^ self selectedLanguageDirectoryPath fileNamed: self affixFileName

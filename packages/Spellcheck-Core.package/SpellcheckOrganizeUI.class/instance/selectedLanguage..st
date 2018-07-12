@@ -1,6 +1,7 @@
 as yet unclassified
 selectedLanguage: anObject
 	
-	selectedLanguage := anObject.
-	self changed: #selectedLanguage.
-	self loadLanguage 
+	anObject ifNotNil:[
+		selectedLanguage := anObject.
+		self changed: #selectedLanguage.
+		self loadLanguage]

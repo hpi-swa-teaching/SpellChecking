@@ -1,4 +1,4 @@
 as yet unclassified
 selectedLanguageDirectoryPath
 	
-	^ self class defaultDictionaryDirectoryPath, '\' ,self selectedLanguage
+	^ self class defaultDictionaryDirectoryPath directoryNamed: self selectedLanguage

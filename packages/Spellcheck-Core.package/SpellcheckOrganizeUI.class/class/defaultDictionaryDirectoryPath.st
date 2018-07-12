@@ -1,4 +1,4 @@
 as yet unclassified
 defaultDictionaryDirectoryPath
 
-	^ 'dictionaries'
+	^ FileDirectory default directoryNamed: 'dictionaries'
