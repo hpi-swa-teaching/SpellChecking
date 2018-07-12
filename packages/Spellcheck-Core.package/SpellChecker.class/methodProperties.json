@@ -1,19 +1,23 @@
 {
 	"class" : {
 		"initialize" : "ow 7/5/2018 16:58",
-		"instance" : "ow 5/31/2018 18:30:23",
+		"instance" : "ow 7/7/2018 17:29",
 		"instance:" : "ow 6/8/2018 13:26:08",
 		"startUp:" : "ow 5/31/2018 18:30:40" },
 	"instance" : {
 		"addWordToDictionary:" : "ow 7/5/2018 17:02",
 		"addedWords" : "ow 7/5/2018 17:01",
+		"affixPath" : "ow 7/7/2018 17:30",
+		"affixPath:" : "ow 7/7/2018 17:18",
 		"clearIgnoredWords" : "ow 5/31/2018 18:29:49",
+		"dictionaryPath" : "ow 7/7/2018 17:30",
+		"dictionaryPath:" : "ow 7/7/2018 17:18",
 		"ignoreWord:" : "yk 6/14/2018 17:30:11",
 		"initialize" : "ow 7/5/2018 16:59",
 		"isSpelledCorrectly:" : "ow 5/24/2018 17:13:38",
 		"mistakenWordsIn:" : "ow 7/5/2018 17:03",
 		"reloadAddedWords" : "yk 5/26/2018 11:18:44",
-		"reloadHunspellHandle" : "ow 6/8/2018 17:18:14",
+		"reloadHunspellHandle" : "ow 7/7/2018 17:19",
 		"removeWordFromDictionary:" : "yk 5/26/2018 11:32:55",
 		"removeWordFromIgnoreList:" : "ow 7/4/2018 23:25",
 		"suggestionsFor:" : "loading 5/22/2018 11:24:33" } }

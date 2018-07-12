@@ -1,13 +1,23 @@
 {
 	"class" : {
+		"defaultDictionaryDirectoryPath" : "ow 7/12/2018 16:55",
 		"initialize" : "RS 6/28/2018 21:04",
 		"open" : "RS 6/28/2018 20:46",
 		"registerInWorldMenu" : "RS 6/28/2018 20:50",
-		"unregisterInWorldMenu" : "RS 6/28/2018 20:51" },
+		"unregisterInWorldMenu" : "ow 7/12/2018 10:04" },
 	"instance" : {
-		"buildWith:" : "RS 6/20/2018 23:59:08",
-		"ignoredWords" : "ow 7/5/2018 17:13",
+		"affixFileName" : "ow 7/12/2018 16:53",
+		"affixPath" : "ow 7/12/2018 17:04",
+		"buildWith:" : "ow 7/12/2018 10:06",
+		"dictionaryFileName" : "ow 7/12/2018 16:53",
+		"dictionaryPath" : "ow 7/12/2018 17:03",
+		"ignoredWords" : "ow 7/12/2018 09:34",
+		"loadLanguage" : "ow 7/12/2018 17:03",
+		"loadedLanguages" : "ow 7/12/2018 16:41",
 		"open" : "ow 7/5/2018 17:05",
 		"removeFromIgnoredWords" : "ow 7/5/2018 17:05",
+		"selectedLanguage" : "ow 7/12/2018 09:35",
+		"selectedLanguage:" : "ow 7/12/2018 17:05",
+		"selectedLanguageDirectoryPath" : "ow 7/12/2018 16:56",
 		"selectedWord" : "ow 7/5/2018 17:05",
 		"selectedWord:" : "ow 7/5/2018 17:05" } }

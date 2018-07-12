@@ -3,5 +3,6 @@
 		 },
 	"instance" : {
 		"setUp" : "ow 7/4/2018 23:41",
+		"testLoadLanguage" : "ow 7/12/2018 10:15",
 		"testRemoveFromIgnoredWords" : "ow 6/25/2018 18:36:35",
 		"testToolOpens" : "ow 7/4/2018 23:41" } }
