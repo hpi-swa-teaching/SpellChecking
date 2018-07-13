@@ -2,12 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addParsedWord:from:to:into:" : "ow 7/5/2018 17:06",
-		"getSentenceContextOfWordAt:within:" : "ow 6/11/2018 22:07:19",
-		"getSentenceContextStartIndex:within:" : "II 7/13/2018 13:41",
-		"getStartIndexOfSentenceContextOfWordAt:within:" : "II 7/13/2018 13:40",
+		"addWord:from:to:into:" : "II 7/13/2018 14:08",
+		"getEndOfSentenceContextOfWordAt:within:" : "II 7/13/2018 14:26",
+		"getSentenceContextOfWordAt:within:" : "II 7/13/2018 14:20",
+		"getStartOfSentenceContextOfWordAt:within:" : "II 7/13/2018 14:21",
 		"isSentenceSeparator:" : "II 6/9/2018 02:40:56",
-		"isSeparator:" : "II 6/9/2018 00:50:55",
-		"parseCamelCaseWord:" : "ow 6/11/2018 18:29:00",
-		"parseText:" : "ow 7/5/2018 17:07",
+		"isSeparator:" : "II 7/13/2018 14:13",
+		"parseCamelCaseWord:" : "II 7/13/2018 14:04",
+		"parseText:" : "II 7/13/2018 14:09",
 		"shouldCheckSpelling:" : "ow 7/5/2018 17:07" } }

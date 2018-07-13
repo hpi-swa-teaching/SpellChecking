@@ -1,9 +1,8 @@
 as yet unclassified
-getStartIndexOfSentenceContextOfWordAt: startIndex within: aText
+getStartOfSentenceContextOfWordAt: startIndex within: aText
 
 	| i sentenceStart |
 	
-	sentenceStart := 0.	
 	"find end of preceding sentence"
 	i := startIndex.
 	[i > 0] whileTrue: [ 

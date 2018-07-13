@@ -3,7 +3,7 @@ parseCamelCaseWord: aString
 
 	| subWords i startIndex endIndex |
 	
-	i := 1. startIndex := 1.	endIndex := 1.
+	i := 1. startIndex := 1. endIndex := 1.
 	subWords := Dictionary new.
 	
 	aString do: [ :c |

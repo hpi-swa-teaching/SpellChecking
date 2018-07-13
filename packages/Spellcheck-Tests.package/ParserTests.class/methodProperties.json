@@ -3,7 +3,7 @@
 		 },
 	"instance" : {
 		"setUp" : "ow 7/4/2018 23:43",
-		"testAddParsedWord" : "ow 7/4/2018 23:43",
+		"testAddWord" : "II 7/13/2018 14:09",
 		"testCamelCaseParsing" : "ow 7/4/2018 23:44",
 		"testGetSentenceContext" : "ow 7/4/2018 23:45",
 		"testIsSentenceSeparator" : "ow 7/4/2018 23:46",
