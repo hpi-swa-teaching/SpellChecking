@@ -2,4 +2,4 @@ as yet unclassified
 unregisterInWorldMenu
 
 	(TheWorldMenu respondsTo: #unregisterOpenCommand:)
-		ifTrue: [TheWorldMenu unregisterOpenCommand: 'SpellcheckOrganizeUI'].
+		ifTrue: [TheWorldMenu unregisterOpenCommand: 'Organize Dictionary'].
