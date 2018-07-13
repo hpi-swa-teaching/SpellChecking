@@ -4,6 +4,8 @@
 	"instance" : {
 		"addParsedWord:from:to:into:" : "ow 7/5/2018 17:06",
 		"getSentenceContextOfWordAt:within:" : "ow 6/11/2018 22:07:19",
+		"getSentenceContextStartIndex:within:" : "II 7/13/2018 13:41",
+		"getStartIndexOfSentenceContextOfWordAt:within:" : "II 7/13/2018 13:40",
 		"isSentenceSeparator:" : "II 6/9/2018 02:40:56",
 		"isSeparator:" : "II 6/9/2018 00:50:55",
 		"parseCamelCaseWord:" : "ow 6/11/2018 18:29:00",
