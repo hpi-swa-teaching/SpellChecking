@@ -1,5 +1,5 @@
 initialize
 initialize 
 	
-	parser := SpellingTextParser new.
+	self parser: SpellingTextParser new.
 	self clear

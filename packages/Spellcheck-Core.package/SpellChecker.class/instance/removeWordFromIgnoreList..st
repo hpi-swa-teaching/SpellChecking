@@ -1,4 +1,4 @@
 as yet unclassified
 removeWordFromIgnoreList: aString
 
-	hunspell removeWordFromDictionary: aString
+	self hunspell removeWordFromDictionary: aString

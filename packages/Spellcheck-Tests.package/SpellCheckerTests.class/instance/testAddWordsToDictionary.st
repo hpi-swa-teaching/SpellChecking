@@ -6,6 +6,4 @@ testAddWordsToDictionary
 	self deny: (spellChecker isSpelledCorrectly: 'squeack').
 	
 	spellChecker addWordToDictionary: 'squeack'.
-	self assert: (spellChecker isSpelledCorrectly: 'squeack').
-	spellChecker removeWordFromDictionary: 'squeack'.
-	self deny: (spellChecker isSpelledCorrectly: 'squeack').
+	self assert: (spellChecker isSpelledCorrectly: 'squeack')

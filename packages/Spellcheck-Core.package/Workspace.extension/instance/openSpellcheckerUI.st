@@ -1,6 +1,10 @@
 *Spellcheck-Core
 openSpellcheckerUI
+
 	| correctionUI |
-	correctionUI := SpellcheckCorrectionUI new. 
-	correctionUI open.
-	correctionUI input: self.
+	
+	correctionUI := 
+		SpellcheckCorrectionUI new;
+		open;
+		workspace: self;
+		yourself

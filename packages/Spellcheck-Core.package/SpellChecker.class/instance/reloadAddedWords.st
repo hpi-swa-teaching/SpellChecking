@@ -1,4 +1,4 @@
 as yet unclassified
 reloadAddedWords
 	
-	AddedWords do: [:each | hunspell addWordToDictionary: each]
+	self addedWords do: [:each | self hunspell addWordToDictionary: each]

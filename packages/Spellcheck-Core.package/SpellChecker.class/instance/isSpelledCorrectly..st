@@ -1,4 +1,4 @@
 as yet unclassified
 isSpelledCorrectly: aString
 
-	^ hunspell isWordCorrect: aString
+	^ self hunspell isWordCorrect: aString

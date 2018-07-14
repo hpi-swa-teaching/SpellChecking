@@ -1,6 +1,6 @@
 as yet unclassified
 removeFromIgnoredWords
 
-	selectedWord ifNotNil: 
-		[SpellChecker instance removeWordFromDictionary: selectedWord.
+	self selectedWord ifNotNil: 
+		[SpellChecker instance removeWordFromDictionary: self selectedWord.
 		self changed: #ignoredWords]

@@ -23,4 +23,4 @@ addOriginalModelItemsToWindowMenu: aMenu
 		target: self
 		action: #toggleDroppingMorphForReference.
 
-	self addToggleStylingMenuItemTo: aMenu.
+	self addToggleStylingMenuItemTo: aMenu

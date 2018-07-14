@@ -1,6 +1,6 @@
 accessing
 currentWord
 
-	inputText 
-		ifEmpty: [^''] 
-		ifNotEmpty: [^inputText string copyFrom: self startIndex to: self endIndex]
+	self inputText 
+		ifEmpty: [^ ''] 
+		ifNotEmpty: [^ self inputText string copyFrom: self startIndex to: self endIndex]

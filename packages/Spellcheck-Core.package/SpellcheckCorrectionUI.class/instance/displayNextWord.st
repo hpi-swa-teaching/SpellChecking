@@ -1,6 +1,6 @@
 buttons
 displayNextWord
 	
-	keyArray ifNotEmpty: [
-		keyArray addLast: keyArray removeFirst.
+	self keyArray ifNotEmpty: [
+		self keyArray addLast: self keyArray removeFirst.
 		self displayCurrentWrongWord]

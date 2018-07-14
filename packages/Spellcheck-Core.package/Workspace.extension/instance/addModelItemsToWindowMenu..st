@@ -7,4 +7,4 @@ addModelItemsToWindowMenu: aMenu
 		target: self
 		action: #openSpellcheckerUI.
 
-	self addOriginalModelItemsToWindowMenu: aMenu.
+	self addOriginalModelItemsToWindowMenu: aMenu

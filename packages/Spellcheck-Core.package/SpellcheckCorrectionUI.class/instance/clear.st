@@ -1,7 +1,7 @@
 as yet unclassified
 clear
 
-	inputText := ''.
-	self wrongWordText: self class noWrongWordsText.
+	self inputText: ''.
+	self contextSentence: self class noWrongWordsText.
 	self alternatives: self class noAlternativesText
 	

@@ -1,4 +1,4 @@
 private
 endIndex
 
-	^ wrongWords at: (self startIndex)
+	^ self wrongWords at: self startIndex

@@ -1,5 +1,5 @@
 as yet unclassified
 clearIgnoredWords
 	
-	AddedWords do: [:each | hunspell removeWordFromDictionary: each ].
-	AddedWords := Set new
+	self addedWords do: [:each | self hunspell removeWordFromDictionary: each ].
+	self addedWords: Set new

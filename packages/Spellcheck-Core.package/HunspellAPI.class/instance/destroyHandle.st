@@ -1,4 +1,4 @@
 private
 destroyHandle
 
-	self apiDestroyHandle: apiHandle
+	self apiDestroyHandle: self apiHandle

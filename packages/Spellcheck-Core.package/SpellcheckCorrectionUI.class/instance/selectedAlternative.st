@@ -1,4 +1,4 @@
-select alternative
+accessing
 selectedAlternative
 
 	^ selectedAlternative

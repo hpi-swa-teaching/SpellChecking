@@ -1,4 +1,4 @@
 spellchecking
 addWordToDictionary: aString
 
-	self apiAdd: apiHandle word: aString 
+	self apiAdd: self apiHandle word: aString 

@@ -1,6 +1,6 @@
 as yet unclassified
 dismissCurrentDisplayedWord
 
-	inputText ~= '' ifTrue: [
-		keyArray removeFirst.
+	self inputText ~= '' ifTrue: [
+		self keyArray removeFirst.
 		self displayCurrentWrongWord]

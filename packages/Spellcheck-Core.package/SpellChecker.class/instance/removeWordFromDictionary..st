@@ -1,5 +1,5 @@
 as yet unclassified
 removeWordFromDictionary: aString
 
-	AddedWords remove: aString ifAbsent: [].
-	hunspell removeWordFromDictionary: aString
+	self addedWords remove: aString ifAbsent: [].
+	self hunspell removeWordFromDictionary: aString

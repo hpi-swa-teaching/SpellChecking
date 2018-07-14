@@ -1,9 +1,9 @@
-initialize
+accessing
 inputText: aText
 
 	inputText := aText asText.	"might be a string"
-	wrongWords := (SpellChecker instance mistakenWordsIn: aText string).
-	keyArray := wrongWords keys asSortedCollection asOrderedCollection.
+	self wrongWords: (SpellChecker instance mistakenWordsIn: aText string).
+	self keyArray: self wrongWords keys asSortedCollection asOrderedCollection.
 	
-	self displayCurrentWrongWord
+	self inputText ifNotEmpty: [self displayCurrentWrongWord]
 	

@@ -14,4 +14,4 @@ testPrivateStyle
 	runArray := text runs.
 	
 	self assert: ((runArray at: 12) includes: TextEmphasis underlined).
-	self assert: ((runArray at: 12) includes: (TextColor color: Color orange)).
+	self assert: ((runArray at: 12) includes: (TextColor color: Color orange))

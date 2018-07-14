@@ -1,4 +1,4 @@
 as yet unclassified
 privateStyle: aText
 
-	self highlightSpellingMistakes: (spellChecker mistakenWordsIn: aText string) in: aText
+	self highlightSpellingMistakes: (self spellChecker mistakenWordsIn: aText string) in: aText

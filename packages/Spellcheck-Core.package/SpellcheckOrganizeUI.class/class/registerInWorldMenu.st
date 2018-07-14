@@ -1,3 +1,4 @@
 as yet unclassified
 registerInWorldMenu
-	TheWorldMenu registerOpenCommand: {'SpellcheckOrganizeUI'. {self. #open}}
+
+	TheWorldMenu registerOpenCommand: {'Dictionary Settings'. {self. #open}}

@@ -2,7 +2,6 @@ toolbuilder
 buildWith: builder
 
 	| windowSpec wrongWordSpec alternativesListSpec ignoreButtonSpec ignoreAllButtonSpec addButtonSpec leftButtonSpec rightButtonSpec |
-	
 	windowSpec := builder pluggableWindowSpec new.
 	windowSpec 
 		model: self;
@@ -15,8 +14,8 @@ buildWith: builder
 		model: self;
 		frame: (0@0 corner: 0.7@0.2);
 		stylerClass: SpellcheckCorrectionTextStyler;
-		getText: #wrongWordText;
-		setText: #wrongWordText:.
+		getText: #contextSentence;
+		setText: #contextSentence:.
 		
 	windowSpec children add: wrongWordSpec.
 		

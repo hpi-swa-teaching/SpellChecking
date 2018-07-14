@@ -1,4 +1,4 @@
 as yet unclassified
 suggestionsFor: aWord
 
-  	^ hunspell getSuggestions: aWord
+  	^ self hunspell getSuggestions: aWord

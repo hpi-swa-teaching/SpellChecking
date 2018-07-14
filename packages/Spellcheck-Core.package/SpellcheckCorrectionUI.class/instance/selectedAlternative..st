@@ -1,7 +1,7 @@
-select alternative
+accessing
 selectedAlternative: anObject
 
-	(anObject = nil or: [keyArray isEmpty]) ifTrue: [^self].
+	(anObject = nil or: [self keyArray isEmpty]) ifTrue: [^self].
 	selectedAlternative := anObject.
 	self changed: #selectedAlternative.
 	self replaceTextWithAlternative.

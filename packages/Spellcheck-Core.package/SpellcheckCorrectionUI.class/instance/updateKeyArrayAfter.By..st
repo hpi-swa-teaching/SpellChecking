@@ -1,7 +1,7 @@
 as yet unclassified
 updateKeyArrayAfter: index By: offset
 
-	keyArray := keyArray collect: [:k | 
+	self keyArray: (self keyArray collect: [:k | 
 		k >= index 
 			ifTrue: [k+offset]
-			ifFalse: [k]]
+			ifFalse: [k]])

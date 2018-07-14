@@ -1,5 +1,5 @@
 *Spellcheck-Core
 addWordToDictionaryAndUpdateStyling
 
-	styler spellChecker addWordToDictionary: (self textMorph editor selection string).
-	styler style: textMorph contents.
+	self styler spellChecker addWordToDictionary: (self textMorph editor selection string).
+	self styler style: self textMorph contents

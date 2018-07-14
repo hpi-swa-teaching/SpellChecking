@@ -1,4 +1,4 @@
 private
 createHandle
 
-	apiHandle := self apiCreateHandle: self defaultAffixPath dPath: self defaultDictionaryPath.
+	self apiHandle: (self apiCreateHandle: SpellChecker instance affixPath dPath: SpellChecker instance dictionaryPath)

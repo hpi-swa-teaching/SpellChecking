@@ -4,4 +4,4 @@ aboutToStyle: aStyler
 	aStyler 
 		classOrMetaClass: nil;
 		workspace: self.
-	^true
+	^ true

@@ -1,4 +1,4 @@
 spellchecking
 removeWordFromDictionary: aString
 
-	self apiRemove: apiHandle word: aString 
+	self apiRemove: self apiHandle word: aString 
