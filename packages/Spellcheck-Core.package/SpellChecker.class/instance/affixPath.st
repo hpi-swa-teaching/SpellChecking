@@ -1,4 +1,4 @@
 accessing
 affixPath
 
-	^ affixPath ifNil: ['dictionaries/english/en_US.aff']
+	^ affixPath ifNil: [self class defaultAffixPath]
