@@ -10,7 +10,13 @@ before_install:
   - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then ln -s /usr/lib/i386-linux-gnu/libhunspell-1.3.so.0 libhunspell-1.3.so.0 ; fi
   
   - ls -la
+
+  - chmod -R 777 $TRAVIS_BUILD_DIR/build-support/*.sh
+  - $TRAVIS_BUILD_DIR/build-support/copydictionaries.sh
   
+install:
+  - chmod -R 777 $TRAVIS_BUILD_DIR/build-support/*.sh
+  - $TRAVIS_BUILD_DIR/build-support/copydictionaries.sh
 
 os:
   - linux
