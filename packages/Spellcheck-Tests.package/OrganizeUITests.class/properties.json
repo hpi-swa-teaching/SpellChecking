@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"ui" ],
+		"ui",
+		"wrongWord",
+		"germanWord" ],
 	"name" : "OrganizeUITests",
 	"pools" : [
 		 ],

@@ -6,7 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"hunspell" ],
+		"hunspell",
+		"wrongWord",
+		"correctWord",
+		"germanWord" ],
 	"name" : "HunspellTests",
 	"pools" : [
 		 ],

@@ -1,9 +1,9 @@
 testing
 testAddWordsToDictionary
 	
-	spellChecker clearIgnoredWords.
-	self assert: spellChecker addedWords size equals: 0.
-	self deny: (spellChecker isSpelledCorrectly: 'squeack').
+	self deny: (spellChecker isSpelledCorrectly: wrongWord).
 	
-	spellChecker addWordToDictionary: 'squeack'.
-	self assert: (spellChecker isSpelledCorrectly: 'squeack')
+	spellChecker addWordToDictionary: wrongWord.
+	self assert: (spellChecker isSpelledCorrectly: wrongWord).
+	
+	spellChecker removeWordFromDictionary: wrongWord

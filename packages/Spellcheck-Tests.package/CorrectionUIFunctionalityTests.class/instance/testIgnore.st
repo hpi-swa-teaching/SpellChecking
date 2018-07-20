@@ -1,9 +1,10 @@
 testing
 testIgnore
 	
-	correctionUI inputText: 'miscake'.
-	correctionUI ignore.
-	self assert: correctionUI contextSentence = correctionUI class noWrongWordsText.
-	self assert: correctionUI alternatives = correctionUI class noAlternativesText.
+	correctionUI inputText: wrongWord.
+	self deny: (spellchecker isSpelledCorrectly: wrongWord).
 	
-	spellchecker removeWordFromIgnoreList: 'miscake'
+	correctionUI ignore.
+	self assert: (spellchecker isSpelledCorrectly: wrongWord).
+	
+	spellchecker removeWordFromIgnoreList: wrongWord

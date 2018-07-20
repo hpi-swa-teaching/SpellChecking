@@ -2,6 +2,7 @@ testing
 testSuggestions
 
 	| suggestions |
-	suggestions := hunspell getSuggestions: 'laptpo'.
+	
+	suggestions := hunspell getSuggestions: wrongWord.
 	self assert: 1 <= suggestions size.
-	self assert: (suggestions includes: 'laptop')
+	self assert: (suggestions includes: correctWord)

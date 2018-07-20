@@ -8,6 +8,7 @@
 		"startUp:" : "ow 7/14/2018 14:30" },
 	"instance" : {
 		"addWordToDictionary:" : "ow 7/14/2018 14:26",
+		"addWordToIgnoreList:" : "ow 7/20/2018 15:28",
 		"addedWords" : "ow 7/12/2018 19:34",
 		"addedWords:" : "ow 7/14/2018 14:27",
 		"affixPath" : "ow 7/19/2018 11:23",
@@ -17,7 +18,6 @@
 		"dictionaryPath:" : "ow 7/7/2018 17:18",
 		"hunspell" : "ow 7/14/2018 14:26",
 		"hunspell:" : "ow 7/14/2018 14:26",
-		"ignoreWord:" : "ow 7/14/2018 14:27",
 		"initialize" : "ow 7/14/2018 14:29",
 		"isSpelledCorrectly:" : "ow 7/14/2018 14:28",
 		"mistakenWordsIn:" : "ow 7/14/2018 14:28",

@@ -1,10 +1,10 @@
 testing
 testAddToDict
 
-	self deny: (spellchecker isSpelledCorrectly: 'tset').
+	self deny: (spellchecker isSpelledCorrectly: wrongWord).
 	
-	correctionUI inputText: 'tset'.
-	correctionUI addToDict.
-	self assert: (spellchecker isSpelledCorrectly: 'tset').
+	correctionUI inputText: wrongWord.
+	correctionUI addToDictionary.
+	self assert: (spellchecker isSpelledCorrectly: wrongWord).
 	
-	spellchecker removeWordFromDictionary: 'tset'
+	spellchecker removeWordFromDictionary: wrongWord

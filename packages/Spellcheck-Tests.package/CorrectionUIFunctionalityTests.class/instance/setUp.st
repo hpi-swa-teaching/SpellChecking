@@ -3,4 +3,7 @@ setUp
 
 	correctionUI := SpellcheckCorrectionUI new. 
 	spellchecker := SpellChecker instance.
-	spellchecker reloadHunspellHandle
+	spellchecker reloadHunspellHandle.
+	
+	wrongWord := 'squeack'.
+	textWithMistakes := 'Manny miscakes in the texxt.'

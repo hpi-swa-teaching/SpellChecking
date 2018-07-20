@@ -2,9 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "ow 7/4/2018 23:56",
+		"setUp" : "ow 7/20/2018 15:32",
 		"testAddWordsAcrossInstances" : "ow 7/4/2018 23:57",
-		"testAddWordsToDictionary" : "ow 7/12/2018 19:26",
-		"testIgnore" : "ow 7/4/2018 23:54",
-		"testMistakenWordsIn" : "ow 7/4/2018 23:54",
-		"testSpellCheckAfterRestart" : "ow 5/31/2018 18:27:20" } }
+		"testAddWordsToDictionary" : "ow 7/20/2018 15:30",
+		"testIgnore" : "ow 7/20/2018 15:29",
+		"testMistakenWordsIn" : "ow 7/20/2018 15:33",
+		"testSpellCheckAfterRestart" : "ow 7/20/2018 15:24" } }

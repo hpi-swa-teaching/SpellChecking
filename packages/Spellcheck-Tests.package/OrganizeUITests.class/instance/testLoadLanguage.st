@@ -2,10 +2,10 @@ testing
 testLoadLanguage
 
 	ui selectedLanguage: 'english'.
-	self deny: (SpellChecker instance isSpelledCorrectly: 'Haus').
+	self deny: (SpellChecker instance isSpelledCorrectly: germanWord).
 	
 	ui selectedLanguage: 'deutsch'.
-	self assert: (SpellChecker instance isSpelledCorrectly: 'Haus').
+	self assert: (SpellChecker instance isSpelledCorrectly: germanWord).
 	
 	ui selectedLanguage: 'english'
 	 

@@ -1,4 +1,4 @@
 testing
 testFalseSpelling 
 
-	self deny: (hunspell isWordCorrect: 'helo') 
+	self deny: (hunspell isWordCorrect: wrongWord) 

@@ -7,7 +7,9 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"correctionUI",
-		"spellchecker" ],
+		"spellchecker",
+		"wrongWord",
+		"textWithMistakes" ],
 	"name" : "CorrectionUIFunctionalityTests",
 	"pools" : [
 		 ],

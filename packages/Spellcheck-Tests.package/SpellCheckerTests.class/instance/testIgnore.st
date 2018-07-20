@@ -1,8 +1,10 @@
 testing
 testIgnore
 
-	self deny: (spellChecker isSpelledCorrectly: 'asd').
-	spellChecker ignoreWord: 'asd'.
-	self assert: (spellChecker isSpelledCorrectly: 'asd').
-	spellChecker removeWordFromDictionary: 'asd'.
-	self deny: (spellChecker isSpelledCorrectly: 'asd') 
+	self deny: (spellChecker isSpelledCorrectly: wrongWord).
+	
+	spellChecker addWordToIgnoreList: wrongWord.
+	self assert: (spellChecker isSpelledCorrectly: wrongWord).
+	
+	spellChecker removeWordFromIgnoreList: wrongWord.
+	self deny: (spellChecker isSpelledCorrectly: wrongWord) 

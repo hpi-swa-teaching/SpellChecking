@@ -4,7 +4,6 @@ openSpellcheckerUI
 	| correctionUI |
 	
 	correctionUI := 
-		SpellcheckCorrectionUI new;
-		open;
+		SpellcheckCorrectionUI new open;
 		workspace: self;
 		yourself

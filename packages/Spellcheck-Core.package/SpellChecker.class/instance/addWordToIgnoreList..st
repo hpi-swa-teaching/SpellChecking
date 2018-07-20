@@ -1,4 +1,4 @@
 as yet unclassified
-ignoreWord: aString
+addWordToIgnoreList: aString
 
 	self hunspell addWordToDictionary: aString 

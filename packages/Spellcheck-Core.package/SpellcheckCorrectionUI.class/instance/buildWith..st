@@ -48,7 +48,7 @@ buildWith: builder
 	addButtonSpec 
 		model: self;
 		label: 'Add to dictionary';
-		action: #addToDict;
+		action: #addToDictionary;
 		frame: (0.7@0.133 corner: 1@0.2). 
 	windowSpec children add: addButtonSpec.
 	

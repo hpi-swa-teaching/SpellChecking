@@ -1,14 +1,12 @@
 testing
 testUnstyle
 
-	| text runArray |
+	| runArray |
 	
-	text := 'There is a miscake in the text' asText.
+	spellingStyler privateStyle: textWithMistake.
+	runArray := textWithMistake runs.	
+	self assert: ((runArray at: wrongWordIndex) includes: (TextColor color: Color orange)).
 	
-	spellingStyler privateStyle: text.
-	runArray := text runs.	
-	self assert: ((runArray at: 12) includes: (TextColor color: Color orange)).
-	
-	spellingStyler unstyle: text.
-	runArray := text runs.
-	self deny: ((runArray at: 12) includes: (TextColor color: Color orange))
+	spellingStyler unstyle: textWithMistake.
+	runArray := textWithMistake runs.
+	self deny: ((runArray at: wrongWordIndex) includes: (TextColor color: Color orange))

@@ -2,8 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "ow 7/4/2018 23:36",
-		"testAddToDict" : "ow 7/4/2018 23:23",
-		"testIgnore" : "ow 7/14/2018 14:43",
-		"testIgnoreAll" : "ow 7/14/2018 14:43",
-		"testIteratingWrongWords" : "ow 7/4/2018 23:41" } }
+		"setUp" : "ow 7/20/2018 15:46",
+		"testAddToDict" : "ow 7/20/2018 15:47",
+		"testIgnore" : "ow 7/20/2018 15:54",
+		"testIgnoreAll" : "ow 7/20/2018 15:55",
+		"testIteratingWrongWords" : "ow 7/20/2018 15:55" } }

@@ -7,7 +7,9 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"spellingStyler",
-		"correctionStyler" ],
+		"correctionUIStyler",
+		"textWithMistake",
+		"wrongWordIndex" ],
 	"name" : "StylerTests",
 	"pools" : [
 		 ],
