@@ -5,7 +5,7 @@
 	"classvars" : [
 		"AddedWords",
 		"Instance" ],
-	"commentStamp" : "",
+	"commentStamp" : "ow 7/21/2018 17:31",
 	"instvars" : [
 		"hunspell",
 		"parser",
