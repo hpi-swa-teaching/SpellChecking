@@ -1,5 +1,5 @@
 language: smalltalk
-sudo: false
+sudo: true
 
 before_install:
   - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then ls -la ; fi
