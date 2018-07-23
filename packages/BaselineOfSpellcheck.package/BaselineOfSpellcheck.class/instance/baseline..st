@@ -4,6 +4,9 @@ baseline: spec
 	spec
 		for: #'common'
 		do: [
+			spec baseline: 'Project12' with: [
+				spec
+					repository: 'github://HPI-SWA-Teaching/Morphic-Testing-Framework:master/packages'. ].
 			spec project: 'FFI' with: [
 				spec
 					className: 'ConfigurationOfFFI';
@@ -12,7 +15,7 @@ baseline: spec
 					versionString: '1.5' ].
 			spec
 				package: 'Spellcheck-Core' with: [spec requires: #('FFI')];
-				package: 'Spellcheck-Tests' with: [spec requires: #('Spellcheck-Core')];
+				package: 'Spellcheck-Tests' with: [spec requires: #('Spellcheck-Core' 'Project12')];
 				yourself.
 			spec
 				group: 'default' with: #('Spellcheck-Core');
