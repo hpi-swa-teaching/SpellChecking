@@ -15,6 +15,9 @@ install:
   - chmod -R 777 $TRAVIS_BUILD_DIR/build-support/*.sh
   - $TRAVIS_BUILD_DIR/build-support/copydictionaries.sh
 
+after_install:
+  - $TRAVIS_BUILD_DIR/build-support/copydictionaries.sh
+
 os:
   - linux
   - osx
