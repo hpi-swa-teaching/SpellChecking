@@ -3,6 +3,7 @@ sudo: true
 
 before_install:
   - chmod -R 777 $TRAVIS_BUILD_DIR/build-support/*.sh
+  - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then $TRAVIS_BUILD_DIR/build-support/installHunspellOnLinux.sh; fi
   - $TRAVIS_BUILD_DIR/build-support/copydictionaries.sh
 
 os:
