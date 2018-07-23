@@ -1,5 +1,5 @@
 language: smalltalk
-sudo: false
+sudo: true
 
 before_install:
   - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then ls -la ; fi
@@ -11,9 +11,6 @@ before_install:
   
   - ls -la
 
-  - chmod -R 777 $TRAVIS_BUILD_DIR/build-support/*.sh
-  - $TRAVIS_BUILD_DIR/build-support/copydictionaries.sh
-  
 install:
   - chmod -R 777 $TRAVIS_BUILD_DIR/build-support/*.sh
   - $TRAVIS_BUILD_DIR/build-support/copydictionaries.sh
