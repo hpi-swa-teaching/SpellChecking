@@ -1,0 +1,4 @@
+accessing
+endOfCurrentWord
+
+	^ endOfCurrentWord

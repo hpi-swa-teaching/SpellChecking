@@ -1,4 +1,4 @@
-as yet unclassified
+context sentence
 getStartOfSentenceContextOfWordAt: startIndex within: aText
 
 	| i sentenceStart |

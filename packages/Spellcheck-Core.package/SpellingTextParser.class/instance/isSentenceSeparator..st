@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 isSentenceSeparator: aCharacter
 
 	^ #($. $: $, $; $? $!) includes: aCharacter

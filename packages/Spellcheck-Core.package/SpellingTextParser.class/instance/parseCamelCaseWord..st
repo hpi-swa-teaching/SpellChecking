@@ -1,19 +1,17 @@
-as yet unclassified
+parsing
 parseCamelCaseWord: aString
 
-	| subWords i startIndex endIndex |
+	| subWords i startIndex |
 	
-	i := 1. startIndex := 1. endIndex := 1.
+	i := 1. startIndex := 1. 
 	subWords := Dictionary new.
 	
 	aString do: [ :c |
-		((c isLetter) & (c isUppercase)) ifTrue: [						
-			endIndex := i - 1. 						
-			subWords at: startIndex put: endIndex.
-			startIndex := i. ].
-		i :=  i + 1. ].
+		c isLetter & c isUppercase ifTrue: [											
+			subWords at: startIndex put: i - 1.
+			startIndex := i].
+		i :=  i + 1].
 
-	endIndex := i - 1.
-	subWords at: startIndex put: endIndex.
+	subWords at: startIndex put: i - 1.
 	
 	^ subWords

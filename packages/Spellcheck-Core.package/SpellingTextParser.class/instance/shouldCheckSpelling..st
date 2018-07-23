@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 shouldCheckSpelling: aString
 
 	^ aString allSatisfy: [:char | char isAlphaNumeric]

@@ -4,10 +4,10 @@
 	"instance" : {
 		"addDictionary:" : "ow 7/14/2018 14:23",
 		"addWordToDictionary:" : "ow 7/14/2018 14:23",
-		"apiAdd:dictionary:" : "ow 6/8/2018 11:49:01",
+		"apiAdd:dictionary:" : "ow 7/23/2018 12:56",
 		"apiAdd:word:" : "ow 6/8/2018 11:49:18",
 		"apiCheckWord:Text:" : "ow 6/8/2018 11:49:40",
-		"apiCreateHandle:dPath:" : "ow 6/8/2018 11:49:57",
+		"apiCreateHandle:dPath:" : "ow 7/23/2018 12:56",
 		"apiDestroyHandle:" : "ow 6/8/2018 11:50:10",
 		"apiFreeSuggests:list:size:" : "ow 6/8/2018 11:50:23",
 		"apiHandle" : "ow 7/14/2018 14:21",

@@ -1,4 +1,4 @@
 *Spellcheck-Core-override
 stylerClass
 
-	^ super stylerClass ifNil: [Smalltalk classNamed: 'SpellingTextStyler']
+	^ super stylerClass ifNil: [Smalltalk classNamed: 'SpellcheckTextStyler']

@@ -3,5 +3,5 @@ selectedLanguage: anObject
 	
 	anObject ifNotNil:[
 		selectedLanguage := anObject.
-		self changed: #selectedLanguage.
-		self loadLanguage]
+		self changed: #selectedLanguage; 
+			 loadLanguage]

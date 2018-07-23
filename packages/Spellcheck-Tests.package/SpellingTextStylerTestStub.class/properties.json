@@ -10,5 +10,5 @@
 	"name" : "SpellingTextStylerTestStub",
 	"pools" : [
 		 ],
-	"super" : "SpellingTextStyler",
+	"super" : "SpellcheckTextStyler",
 	"type" : "normal" }

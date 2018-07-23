@@ -1,0 +1,4 @@
+accessing
+stringToParse
+
+	^ stringToParse

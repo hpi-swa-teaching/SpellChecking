@@ -3,9 +3,9 @@
 		 },
 	"instance" : {
 		"addDictionaryMenuItemsTo:" : "ow 7/14/2018 15:06",
-		"addSpellcheckingMenuItems:selectedText:" : "ow 5/29/2018 12:20:19",
+		"addSpellcheckingMenuItems:selectedText:" : "ow 7/23/2018 18:33",
 		"addSuggestionsMenuItemsTo:For:" : "ow 7/14/2018 15:06",
-		"addWordToDictionaryAndUpdateStyling" : "ow 7/14/2018 15:08",
+		"addWordToDictionaryAndUpdateStyling" : "ow 7/23/2018 18:34",
 		"getMenu:" : "ow 7/14/2018 15:08",
 		"getMenuWithSpellcheckingAtTop:" : "ow 7/14/2018 15:10",
-		"handleSpellCheckingMenuItems:" : "ow 5/29/2018 12:17:34" } }
+		"handleSpellCheckingMenuItems:" : "ow 7/23/2018 18:34" } }

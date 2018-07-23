@@ -1,21 +1,12 @@
-as yet unclassified
+parsing
 parseText: aString
 
-	| parsedWords i startIndex endIndex |
-
-	i := 1. startIndex := 1. endIndex := 1.
-	parsedWords := Dictionary new. 
+	self initializeParser: aString.
 	
-	aString do: [ :c |
-		(self isSeparator: c) ifTrue: [
-			endIndex := i - 1. 
-			endIndex - startIndex >= 0 ifTrue: [
-				self addWord: aString from: startIndex to: endIndex into: parsedWords.].
-			startIndex := i + 1. ]. 
-		i :=  i + 1. ].
+	self stringToParse do: [ :c |
+		(self isSeparator: c) ifTrue: [self storeCurrentWord].
+		self incrementLoopVariable].
 
-	endIndex := i - 1.
-	endIndex - startIndex >= 0 ifTrue: [
-		self addWord: aString from: startIndex to: endIndex into: parsedWords.].
+	self storeCurrentWord.
 	
-	^ parsedWords
+	^ self parsedWords

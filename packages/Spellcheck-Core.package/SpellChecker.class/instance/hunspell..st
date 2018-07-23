@@ -1,4 +1,4 @@
 accessing
-hunspell: anObject
+hunspell: aHunspellAPI
 
-	hunspell := anObject
+	hunspell := aHunspellAPI

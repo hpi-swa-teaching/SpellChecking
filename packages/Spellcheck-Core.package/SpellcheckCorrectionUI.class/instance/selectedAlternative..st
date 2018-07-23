@@ -1,9 +1,9 @@
 accessing
 selectedAlternative: anObject
 
-	(anObject = nil or: [self keyArray isEmpty]) ifTrue: [	^self].
+	(anObject isNil or: [self keyArray isEmpty]) ifTrue: [^self].
 	selectedAlternative := anObject.
-	self changed: #selectedAlternative.
-	self replaceTextWithAlternative.
-	self dismissCurrentDisplayedWord.
-	self deselectAlternative
+	self changed: #selectedAlternative;
+		replaceTextWithAlternative;
+		dismissCurrentDisplayedWord;
+		deselectAlternative

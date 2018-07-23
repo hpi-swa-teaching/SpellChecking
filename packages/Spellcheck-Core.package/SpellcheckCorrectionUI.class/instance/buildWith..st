@@ -13,7 +13,7 @@ buildWith: builder
 	wrongWordSpec 
 		model: self;
 		frame: (0@0 corner: 0.7@0.2);
-		stylerClass: SpellcheckCorrectionTextStyler;
+		stylerClass: SpellcheckCorrectionUIStyler;
 		getText: #contextSentence;
 		setText: #contextSentence:.
 		

@@ -1,5 +1,5 @@
 api callouts
-apiCreateHandle: anAffPath dPath: aDPath
+apiCreateHandle: anAffixPath dPath: aDictionaryPath
 
 	<cdecl: void* 'Hunspell_create' (char* char*)>
 	^ self externalCallFailed

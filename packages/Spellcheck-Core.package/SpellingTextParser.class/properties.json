@@ -4,9 +4,13 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "ow 7/21/2018 18:14",
+	"commentStamp" : "ow 7/23/2018 18:15",
 	"instvars" : [
-		 ],
+		"parsedWords",
+		"stringToParse",
+		"loopVariable",
+		"startOfCurrentWord",
+		"endOfCurrentWord" ],
 	"name" : "SpellingTextParser",
 	"pools" : [
 		 ],

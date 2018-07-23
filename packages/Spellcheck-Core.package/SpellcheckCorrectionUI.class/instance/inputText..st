@@ -6,4 +6,3 @@ inputText: aText
 	self keyArray: self wrongWords keys asSortedCollection asOrderedCollection.
 	
 	self inputText ifNotEmpty: [self displayCurrentWrongWord]
-	
