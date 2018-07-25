@@ -3,9 +3,9 @@ buildWith: builder
 
 	| windowSpec ignoredWordsListSpec removeButtonSpec languageListSpec titleSpec |
 	windowSpec := builder pluggableWindowSpec new.
-	windowSpec 
+	windowSpec
 		model: self;
-		extent: 400@400;
+		extent: 500@500;
 		label: 'Manage your Dictionary';
 		children: OrderedCollection new.
 				
@@ -18,18 +18,10 @@ buildWith: builder
 		setSelected: #selectedWord:.
 	windowSpec children add: ignoredWordsListSpec.
 	
-	"titleSpec := builder pluggableTextSpec new.
-	titleSpec
-		model: self;
-		frame: (0.7@0 corner: 1@0.1);
-		setText: 'Loaded dictionary';
-		readOnly: true.
-	windowSpec children add: titleSpec."
-	
 	languageListSpec := builder pluggableListSpec new.
 	languageListSpec 
 		model: self;
-		frame: (0.7@0 corner: 1@0.9);
+		frame: (0.5@0 corner: 1@0.9);
 		list: #loadedLanguages;
 		getSelected: #selectedLanguage;
 		setSelected: #selectedLanguage:.
@@ -42,5 +34,13 @@ buildWith: builder
 		action: #removeFromIgnoredWords;
 		frame: (0.1@0.9 corner: 0.4@1). 
 	windowSpec children add: removeButtonSpec.		
+		
+	"titleSpec := builder pluggableTextSpec new.
+	titleSpec
+		model: self;
+		frame: (0.7@0.1 corner: 1@0.1);
+		setText: 'Loaded dictionary';
+		readOnly: true.
+	windowSpec children add: titleSpec."
 		
 	^ builder build: windowSpec 
