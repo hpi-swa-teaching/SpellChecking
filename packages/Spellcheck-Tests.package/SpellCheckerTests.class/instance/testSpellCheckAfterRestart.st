@@ -3,5 +3,5 @@ testSpellCheckAfterRestart
 
 	| instance |
 	
-	SpellChecker startUp: true.
-	self shouldnt: [instance := SpellChecker instance] raise: Error
+	SPCSpellChecker startUp: true.
+	self shouldnt: [instance := SPCSpellChecker instance] raise: Error

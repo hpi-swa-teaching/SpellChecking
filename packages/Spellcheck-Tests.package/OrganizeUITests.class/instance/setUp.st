@@ -1,7 +1,7 @@
 initialize-release
 setUp 
 
-	ui := SpellcheckOrganizeUI new.
+	ui := SPCOrganizeUI new.
 	self wantsToTest: ui open.
 	
 	wrongWord := 'squeack'.

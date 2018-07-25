@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "ow 7/4/2018 23:43",
+		"setUp" : "RS 7/25/2018 17:33",
 		"testCamelCaseParsing" : "ow 7/4/2018 23:44",
 		"testGetSentenceContext" : "ow 7/4/2018 23:45",
 		"testIsSentenceSeparator" : "ow 7/4/2018 23:46",

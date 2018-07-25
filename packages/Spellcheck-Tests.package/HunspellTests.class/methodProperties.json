@@ -3,7 +3,7 @@
 		"germanDictionary" : "ow 7/4/2018 23:38" },
 	"instance" : {
 		"expectedFailures" : "RS 5/31/2018 19:46:18",
-		"setUp" : "ow 7/20/2018 15:40",
+		"setUp" : "RS 7/25/2018 17:29",
 		"testAddDictionary" : "ow 7/20/2018 15:41",
 		"testAdjustDictionary" : "ow 7/20/2018 15:41",
 		"testCorrectSpelling" : "ow 7/20/2018 15:41",

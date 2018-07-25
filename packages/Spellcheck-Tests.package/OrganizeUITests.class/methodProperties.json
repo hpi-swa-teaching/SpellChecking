@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "ow 7/20/2018 15:37",
-		"testLoadLanguage" : "ow 7/20/2018 15:38",
-		"testRemoveFromIgnoredWords" : "ow 7/20/2018 15:38",
+		"setUp" : "RS 7/25/2018 17:31",
+		"testLoadLanguage" : "RS 7/25/2018 17:41",
+		"testRemoveFromIgnoredWords" : "RS 7/25/2018 17:41",
 		"testToolOpens" : "ow 7/4/2018 23:41" } }

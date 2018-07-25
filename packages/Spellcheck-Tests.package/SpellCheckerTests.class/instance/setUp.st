@@ -1,7 +1,7 @@
 initialize-release
 setUp
 
-	spellChecker := SpellChecker new.
+	spellChecker := SPCSpellChecker new.
 	wrongWord := 'squeack'.
 	textWithMistake := 'A text with a miscake'.
 	wrongWordStartIndex := 15.

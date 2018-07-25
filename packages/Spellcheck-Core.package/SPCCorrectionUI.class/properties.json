@@ -1,0 +1,21 @@
+{
+	"category" : "Spellcheck-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "ow 7/21/2018 18:11",
+	"instvars" : [
+		"inputText",
+		"wrongWords",
+		"contextSentence",
+		"alternativeWords",
+		"parser",
+		"workspace",
+		"keyArray",
+		"selectedAlternative" ],
+	"name" : "SPCCorrectionUI",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

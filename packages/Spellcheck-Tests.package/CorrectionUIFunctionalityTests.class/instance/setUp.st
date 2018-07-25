@@ -1,8 +1,8 @@
 initialize-release
 setUp
 
-	correctionUI := SpellcheckCorrectionUI new. 
-	spellchecker := SpellChecker instance.
+	correctionUI := SPCCorrectionUI new. 
+	spellchecker := SPCSpellChecker instance.
 	
 	wrongWord := 'squeack'.
 	textWithMistakes := 'Manny miscakes in the texxt.'

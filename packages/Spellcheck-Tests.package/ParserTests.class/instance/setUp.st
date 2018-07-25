@@ -1,4 +1,4 @@
 initialize-release
 setUp
 
-	parser := SpellingTextParser new
+	parser := SPCTextParser new

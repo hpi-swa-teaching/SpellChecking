@@ -1,13 +1,13 @@
 testing
 testRemoveFromIgnoredWords
 
-	self deny: (SpellChecker instance isSpelledCorrectly: wrongWord).
+	self deny: (SPCSpellChecker instance isSpelledCorrectly: wrongWord).
 	
-	SpellChecker instance addWordToDictionary: wrongWord.
-	self assert: (SpellChecker instance isSpelledCorrectly: wrongWord).
+	SPCSpellChecker instance addWordToDictionary: wrongWord.
+	self assert: (SPCSpellChecker instance isSpelledCorrectly: wrongWord).
 	
 	ui selectedWord: wrongWord.
 	ui removeFromIgnoredWords.
 	
-	self deny: (SpellChecker instance isSpelledCorrectly: wrongWord)
+	self deny: (SPCSpellChecker instance isSpelledCorrectly: wrongWord)
 	

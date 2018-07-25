@@ -1,0 +1,18 @@
+{
+	"category" : "Spellcheck-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"AddedWords",
+		"Instance" ],
+	"commentStamp" : "ow 7/21/2018 17:31",
+	"instvars" : [
+		"hunspell",
+		"parser",
+		"dictionaryPath",
+		"affixPath" ],
+	"name" : "SPCSpellChecker",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

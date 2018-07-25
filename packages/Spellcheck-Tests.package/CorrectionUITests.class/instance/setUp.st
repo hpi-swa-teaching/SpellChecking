@@ -1,4 +1,4 @@
 initialize-release
 setUp 
 
-	self wantsToTest: SpellcheckCorrectionUI new open
+	self wantsToTest: SPCCorrectionUI new open

@@ -4,6 +4,6 @@ getMenu: shiftKeyState
 	so we can give the selection interval to the model."
 	
 	getMenuSelector ifNil: [^ nil].
-	(getMenuSelector numArgs < 3 and: [self styler class == SpellcheckTextStyler])
+	(getMenuSelector numArgs < 3 and: [self styler class == SPCTextStyler])
 	ifTrue: [^ self getMenuWithSpellcheckingAtTop:  (super getMenu: shiftKeyState)]
 	ifFalse: [^ super getMenu: shiftKeyState]
