@@ -1,0 +1,18 @@
+{
+	"category" : "SPC-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"spellChecker",
+		"wrongWord",
+		"textWithMistake",
+		"wrongWordStartIndex",
+		"wrongWordEndIndex" ],
+	"name" : "SPCSpellCheckerTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

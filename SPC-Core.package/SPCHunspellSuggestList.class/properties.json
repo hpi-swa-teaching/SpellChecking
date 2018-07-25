@@ -1,0 +1,14 @@
+{
+	"category" : "SPC-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "ow 7/21/2018 17:27",
+	"instvars" : [
+		"listSize" ],
+	"name" : "SPCHunspellSuggestList",
+	"pools" : [
+		 ],
+	"super" : "ExternalStructure",
+	"type" : "normal" }

@@ -1,0 +1,15 @@
+{
+	"category" : "SPC-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "ow 7/21/2018 18:12",
+	"instvars" : [
+		"selectedWord",
+		"selectedLanguage" ],
+	"name" : "SPCDictionaryManagementUI",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

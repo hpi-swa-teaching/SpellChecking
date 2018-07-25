@@ -1,4 +1,7 @@
 OrderedDictionary {
+	'46Deprecated-Morphic.package' : #SquotCypressCodeSerializer,
+	'SPC-Core.package' : #SquotCypressCodeSerializer,
+	'SPC-Tests.package' : #SquotCypressCodeSerializer,
 	'packages\/BaselineOfSpellcheck.package' : #SquotCypressCodeSerializer,
 	'packages\/Spellcheck-Core.package' : #SquotCypressCodeSerializer,
 	'packages\/Spellcheck-Tests.package' : #SquotCypressCodeSerializer

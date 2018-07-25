@@ -1,0 +1,14 @@
+{
+	"category" : "SPC-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SPCFFITests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

@@ -1,0 +1,16 @@
+{
+	"category" : "SPC-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"ui",
+		"wrongWord",
+		"germanWord" ],
+	"name" : "SPCDictionaryManagementUITests",
+	"pools" : [
+		 ],
+	"super" : "MTFTestCase",
+	"type" : "normal" }

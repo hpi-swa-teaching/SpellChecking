@@ -1,0 +1,14 @@
+{
+	"category" : "SPC-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "ow 7/21/2018 17:23",
+	"instvars" : [
+		"apiHandle" ],
+	"name" : "SPCHunspellAPI",
+	"pools" : [
+		 ],
+	"super" : "ExternalLibrary",
+	"type" : "normal" }

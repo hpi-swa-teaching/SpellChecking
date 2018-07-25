@@ -1,7 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"expectedFailures" : "RS 5/17/2018 11:51:53",
-		"testAddCall" : "ow 7/4/2018 23:37",
-		"testGetString" : "ow 7/4/2018 23:37" } }

@@ -1,0 +1,15 @@
+{
+	"category" : "46Deprecated-Morphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"getRawListSelector",
+		"priorRawList" ],
+	"name" : "PluggableMessageCategoryListMorph",
+	"pools" : [
+		 ],
+	"super" : "PluggableListMorph",
+	"type" : "normal" }

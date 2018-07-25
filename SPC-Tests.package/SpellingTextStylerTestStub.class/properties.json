@@ -1,0 +1,14 @@
+{
+	"category" : "SPC-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SpellingTextStylerTestStub",
+	"pools" : [
+		 ],
+	"super" : "SPCTextStyler",
+	"type" : "normal" }

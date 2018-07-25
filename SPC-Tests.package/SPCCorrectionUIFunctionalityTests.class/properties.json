@@ -1,0 +1,17 @@
+{
+	"category" : "SPC-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"correctionUI",
+		"spellchecker",
+		"wrongWord",
+		"textWithMistakes" ],
+	"name" : "SPCCorrectionUIFunctionalityTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "pz 7/25/2018 11:21",
+		"testAddWordsAcrossInstances" : "pz 7/25/2018 11:21",
+		"testAddWordsToDictionary" : "ow 7/20/2018 15:30",
+		"testIgnore" : "ow 7/20/2018 15:29",
+		"testMistakenWordsIn" : "ow 7/20/2018 15:33",
+		"testSpellCheckAfterRestart" : "pz 7/25/2018 11:21" } }

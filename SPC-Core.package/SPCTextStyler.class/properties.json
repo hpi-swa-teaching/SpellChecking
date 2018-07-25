@@ -1,0 +1,14 @@
+{
+	"category" : "SPC-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"SpellCheckingEnabled" ],
+	"commentStamp" : "ow 7/21/2018 18:16",
+	"instvars" : [
+		 ],
+	"name" : "SPCTextStyler",
+	"pools" : [
+		 ],
+	"super" : "SPCStyler",
+	"type" : "normal" }
