@@ -6,8 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "CorrectionUITests",
+		"ui",
+		"wrongWord",
+		"germanWord" ],
+	"name" : "SPCDictionaryManagementUITests",
 	"pools" : [
 		 ],
 	"super" : "MTFTestCase",

@@ -2,5 +2,5 @@ testing
 testGetString
 
 	| result |
-	result := FFIMyLibrary new ffiGetString.
+	result := ffi getString.
 	self assert: result = 'This is a string'

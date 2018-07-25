@@ -6,13 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"spellChecker",
-		"wrongWord",
-		"textWithMistake",
-		"wrongWordStartIndex",
-		"wrongWordEndIndex" ],
-	"name" : "SpellCheckerTests",
+		 ],
+	"name" : "SPCCorrectionUITests",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "MTFTestCase",
 	"type" : "normal" }

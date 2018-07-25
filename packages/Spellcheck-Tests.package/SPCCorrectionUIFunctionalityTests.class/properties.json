@@ -6,9 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"pluggableTextMorphPlus",
-		"spellChecker" ],
-	"name" : "PluggableTextMorphPlusTests",
+		"correctionUI",
+		"spellchecker",
+		"wrongWord",
+		"textWithMistakes" ],
+	"name" : "SPCCorrectionUIFunctionalityTests",
 	"pools" : [
 		 ],
 	"super" : "TestCase",

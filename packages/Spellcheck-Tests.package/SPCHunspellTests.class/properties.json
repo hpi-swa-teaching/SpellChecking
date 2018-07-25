@@ -6,11 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"correctionUI",
-		"spellchecker",
+		"hunspell",
 		"wrongWord",
-		"textWithMistakes" ],
-	"name" : "CorrectionUIFunctionalityTests",
+		"correctWord",
+		"germanWord" ],
+	"name" : "SPCHunspellTests",
 	"pools" : [
 		 ],
 	"super" : "TestCase",

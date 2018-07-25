@@ -6,11 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"ui",
-		"wrongWord",
-		"germanWord" ],
-	"name" : "OrganizeUITests",
+		"parser" ],
+	"name" : "SPCTextParserTests",
 	"pools" : [
 		 ],
-	"super" : "MTFTestCase",
+	"super" : "TestCase",
 	"type" : "normal" }

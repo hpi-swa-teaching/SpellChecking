@@ -6,8 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"parser" ],
-	"name" : "ParserTests",
+		"pluggableTextMorphPlus",
+		"spellChecker" ],
+	"name" : "SPCPluggableTextMorphPlusTests",
 	"pools" : [
 		 ],
 	"super" : "TestCase",

@@ -10,7 +10,7 @@
 		"correctionUIStyler",
 		"textWithMistake",
 		"wrongWordIndex" ],
-	"name" : "StylerTests",
+	"name" : "SPCStylerTests",
 	"pools" : [
 		 ],
 	"super" : "TestCase",

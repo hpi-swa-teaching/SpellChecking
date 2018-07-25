@@ -6,11 +6,12 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"hunspell",
+		"spellChecker",
 		"wrongWord",
-		"correctWord",
-		"germanWord" ],
-	"name" : "HunspellTests",
+		"textWithMistake",
+		"wrongWordStartIndex",
+		"wrongWordEndIndex" ],
+	"name" : "SPCSpellCheckerTests",
 	"pools" : [
 		 ],
 	"super" : "TestCase",

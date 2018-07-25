@@ -1,4 +1,4 @@
 primitives
-ffiGetString
+getString
 	<cdecl: char* 'GetString' ()>
 	^self externalCallFailed
