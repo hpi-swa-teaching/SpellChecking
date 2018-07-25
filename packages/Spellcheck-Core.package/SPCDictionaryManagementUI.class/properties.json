@@ -8,7 +8,7 @@
 	"instvars" : [
 		"selectedWord",
 		"selectedLanguage" ],
-	"name" : "SPCOrganizeUI",
+	"name" : "SPCDictionaryManagementUI",
 	"pools" : [
 		 ],
 	"super" : "Model",

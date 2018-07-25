@@ -1,7 +1,7 @@
 initialize-release
 setUp 
 
-	ui := SPCOrganizeUI new.
+	ui := SPCDictionaryManagementUI new.
 	self wantsToTest: ui open.
 	
 	wrongWord := 'squeack'.
