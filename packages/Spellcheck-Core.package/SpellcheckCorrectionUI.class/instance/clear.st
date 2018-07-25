@@ -3,5 +3,5 @@ clear
 
 	self inputText: '';
 		contextSentence: self class noWrongWordsText;
-		alternatives: self class noAlternativesText
+		alternativeWords: self class noAlternativesText
 	

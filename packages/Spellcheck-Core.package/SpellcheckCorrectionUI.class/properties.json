@@ -9,7 +9,7 @@
 		"inputText",
 		"wrongWords",
 		"contextSentence",
-		"alternatives",
+		"alternativeWords",
 		"parser",
 		"workspace",
 		"keyArray",

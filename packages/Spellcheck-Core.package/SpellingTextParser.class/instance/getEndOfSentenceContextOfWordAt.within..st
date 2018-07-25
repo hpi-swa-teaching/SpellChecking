@@ -1,12 +1,12 @@
 context sentence
 getEndOfSentenceContextOfWordAt: startIndex within: aText
 
-	| i sentenceEnd |
+	| currentIndex sentenceEnd |
 		
-	i := startIndex.	
-	[i <= aText size] whileTrue: [
-		sentenceEnd := i.
-		(self isSentenceSeparator: (aText at: i)) ifTrue: [ i := aText size ].
-		i := i + 1].
+	currentIndex := startIndex.	
+	[currentIndex <= aText size] whileTrue: [
+		sentenceEnd := currentIndex.
+		(self isSentenceSeparator: (aText at: currentIndex)) ifTrue: [ currentIndex := aText size ].
+		currentIndex := currentIndex + 1].
 
 	^ sentenceEnd

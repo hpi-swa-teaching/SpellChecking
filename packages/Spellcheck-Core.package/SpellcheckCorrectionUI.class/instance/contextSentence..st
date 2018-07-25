@@ -2,5 +2,5 @@ accessing
 contextSentence: aString
 	
 	contextSentence := aString.
-	self alternatives: (SpellChecker instance suggestionsFor: self currentWord);
+	self alternativeWords: (SpellChecker instance suggestionsFor: self currentWord);
 		changed: #contextSentence

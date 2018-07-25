@@ -1,4 +1,4 @@
 styling
 privateStyle: aText
 
-	self highlight: (self spellChecker mistakenWordsIn: aText string) in: aText
+	self highlight: (self spellChecker misspelledWordsIn: aText string) in: aText

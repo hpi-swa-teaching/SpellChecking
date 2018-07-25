@@ -1,10 +1,10 @@
 testing
-testIgnore
+testIgnoreCurrent
 	
 	correctionUI inputText: wrongWord.
 	self deny: (spellchecker isSpelledCorrectly: wrongWord).
 	
-	correctionUI ignore.
+	correctionUI ignoreCurrent.
 	self assert: (spellchecker isSpelledCorrectly: wrongWord).
 	
 	spellchecker removeWordFromIgnoreList: wrongWord

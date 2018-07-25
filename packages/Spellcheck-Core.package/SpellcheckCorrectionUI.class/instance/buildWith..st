@@ -23,7 +23,7 @@ buildWith: builder
 	alternativesListSpec 
 		model: self;
 		frame: (0@0.2 corner: 0.7@1);
-		list: #alternatives;
+		list: #alternativeWords;
 		getSelected: #selectedAlternative;
 		setSelected: #selectedAlternative:.
 	windowSpec children add: alternativesListSpec.
@@ -32,7 +32,7 @@ buildWith: builder
 	ignoreButtonSpec 
 		model: self;
 		label: 'Ignore';
-		action: #ignore;
+		action: #ignoreCurrent;
 		frame: (0.7@0 corner: 1@0.066). 
 	windowSpec children add: ignoreButtonSpec.		
 			

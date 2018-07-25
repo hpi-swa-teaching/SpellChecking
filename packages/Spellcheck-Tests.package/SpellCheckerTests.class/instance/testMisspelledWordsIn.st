@@ -1,7 +1,7 @@
 testing
-testMistakenWordsIn
+testMisspelledWordsIn
 
 	| result |
 	
-	result := spellChecker mistakenWordsIn: textWithMistake.
+	result := spellChecker misspelledWordsIn: textWithMistake.
 	self assert: (result at: wrongWordStartIndex) = wrongWordEndIndex
