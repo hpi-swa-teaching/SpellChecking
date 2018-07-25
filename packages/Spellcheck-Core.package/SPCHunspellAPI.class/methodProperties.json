@@ -1,0 +1,26 @@
+{
+	"class" : {
+		"moduleName" : "ow 6/28/2018 16:59" },
+	"instance" : {
+		"addDictionary:" : "ow 7/14/2018 14:23",
+		"addWordToDictionary:" : "ow 7/14/2018 14:23",
+		"apiAdd:dictionary:" : "ow 7/23/2018 12:56",
+		"apiAdd:word:" : "ow 6/8/2018 11:49:18",
+		"apiCheckWord:Text:" : "ow 6/8/2018 11:49:40",
+		"apiCreateHandle:dPath:" : "ow 7/23/2018 12:56",
+		"apiDestroyHandle:" : "ow 6/8/2018 11:50:10",
+		"apiFreeSuggests:list:size:" : "RS 7/25/2018 17:28",
+		"apiHandle" : "ow 7/14/2018 14:21",
+		"apiHandle:" : "ow 7/14/2018 14:21",
+		"apiRemove:word:" : "ow 6/8/2018 11:52:17",
+		"apiSuggest:list:word:" : "ow 6/8/2018 11:52:31",
+		"createHandle" : "RS 7/25/2018 17:40",
+		"createHandle:affix:" : "ow 7/14/2018 14:22",
+		"destroyHandle" : "ow 7/14/2018 14:22",
+		"finalize" : "loading 5/11/2018 12:05:38",
+		"freeSuggestionList:" : "ow 7/14/2018 14:22",
+		"getSuggestionList:" : "RS 7/25/2018 17:25",
+		"getSuggestions:" : "ow 7/14/2018 14:24",
+		"initialize" : "ow 6/8/2018 11:53:17",
+		"isWordCorrect:" : "ow 7/14/2018 14:25",
+		"removeWordFromDictionary:" : "ow 7/14/2018 14:25" } }

@@ -2,5 +2,5 @@
 	"class" : {
 		"moduleName" : "ow 6/28/2018 17:01" },
 	"instance" : {
-		"ffiAdd:with:" : "loading 5/8/2018 12:07:29",
-		"ffiGetString" : "loading 5/8/2018 11:33:53" } }
+		"add:with:" : "RS 7/25/2018 18:18",
+		"getString" : "RS 7/25/2018 18:18" } }

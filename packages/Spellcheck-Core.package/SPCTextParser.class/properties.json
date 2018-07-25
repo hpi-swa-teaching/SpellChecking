@@ -1,0 +1,18 @@
+{
+	"category" : "Spellcheck-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "ow 7/23/2018 18:15",
+	"instvars" : [
+		"parsedWords",
+		"stringToParse",
+		"loopVariable",
+		"startOfCurrentWord",
+		"endOfCurrentWord" ],
+	"name" : "SPCTextParser",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

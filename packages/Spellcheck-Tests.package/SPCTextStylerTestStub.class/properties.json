@@ -1,0 +1,14 @@
+{
+	"category" : "Spellcheck-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SPCTextStylerTestStub",
+	"pools" : [
+		 ],
+	"super" : "SPCTextStyler",
+	"type" : "normal" }
