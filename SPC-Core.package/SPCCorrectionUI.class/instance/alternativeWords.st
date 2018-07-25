@@ -1,4 +1,4 @@
 accessing
-alternatives
+alternativeWords
 
 	^ alternatives

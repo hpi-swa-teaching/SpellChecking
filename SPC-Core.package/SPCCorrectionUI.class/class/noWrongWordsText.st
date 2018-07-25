@@ -1,4 +1,4 @@
 constants
 noWrongWordsText
 
-	^ 'No spell checking error'
+	^ 'No spelling mistakes could be found. '

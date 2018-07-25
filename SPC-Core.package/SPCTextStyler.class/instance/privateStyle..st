@@ -2,5 +2,5 @@ styling
 privateStyle: aText
 
 	self unstyle: aText;
-		 highlightSyntax: aText;
-		 highlightSpellingMistakes: aText
+		 highlightSyntaxIn: aText;
+		 highlightSpellingMistakesIn: aText

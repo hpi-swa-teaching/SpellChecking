@@ -1,6 +1,6 @@
 parsing
 storeCurrentWord
 
-	self endOfCurrentWord: self loopVariable - 1. 
+	self endOfCurrentWord: self loopCounter - 1. 
 	self currentWordIsNotEmpty ifTrue: [self addCurrentWordToParsedWords].
-	self startOfCurrentWord: self loopVariable + 1
+	self startOfCurrentWord: self loopCounter + 1

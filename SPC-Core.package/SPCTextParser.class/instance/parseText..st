@@ -5,7 +5,7 @@ parseText: aString
 	
 	self stringToParse do: [ :c |
 		(self isSeparator: c) ifTrue: [self storeCurrentWord].
-		self incrementLoopVariable].
+		self loopCounter: self loopCounter + 1].
 
 	self storeCurrentWord.
 	

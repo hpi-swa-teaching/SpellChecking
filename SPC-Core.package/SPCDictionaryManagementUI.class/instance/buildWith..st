@@ -6,7 +6,7 @@ buildWith: builder
 	windowSpec 
 		model: self;
 		extent: 400@400;
-		label: 'Manage your Dictionary';
+		label: 'Manage your Dictionaries';
 		children: OrderedCollection new.
 				
 	ignoredWordsListSpec := builder pluggableListSpec new.

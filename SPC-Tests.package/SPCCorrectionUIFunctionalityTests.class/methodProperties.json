@@ -4,6 +4,6 @@
 	"instance" : {
 		"setUp" : "pz 7/25/2018 11:19",
 		"testAddToDict" : "ow 7/20/2018 15:47",
-		"testIgnore" : "ow 7/20/2018 15:54",
-		"testIgnoreAll" : "ow 7/20/2018 15:55",
+		"testIgnore" : "pz 7/25/2018 11:33",
+		"testIgnoreAll" : "pz 7/25/2018 11:29",
 		"testIteratingWrongWords" : "ow 7/20/2018 15:55" } }

@@ -1,5 +1,5 @@
 as yet unclassified
-mistakenWordsIn: aString
+misspelledWordsIn: aString
 
 	| wrongWords |
 	

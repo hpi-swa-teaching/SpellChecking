@@ -1,5 +1,5 @@
 styling
-highlightSyntax: aText
+highlightSyntaxIn: aText
 
 	self workspace
 		 ifNotNil: [Workspace shouldStyle ifTrue: [super privateStyle: aText]] 

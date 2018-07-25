@@ -8,9 +8,9 @@
 	"instvars" : [
 		"parsedWords",
 		"stringToParse",
-		"loopVariable",
 		"startOfCurrentWord",
-		"endOfCurrentWord" ],
+		"endOfCurrentWord",
+		"loopCounter" ],
 	"name" : "SPCTextParser",
 	"pools" : [
 		 ],

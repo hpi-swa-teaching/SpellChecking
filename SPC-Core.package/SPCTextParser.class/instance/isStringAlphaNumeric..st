@@ -1,4 +1,4 @@
 testing
-shouldCheckSpelling: aString
+isStringAlphaNumeric: aString
 
 	^ aString allSatisfy: [:char | char isAlphaNumeric]
