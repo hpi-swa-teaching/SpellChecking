@@ -1,4 +1,4 @@
-as yet unclassified
+dictionary loading
 loadedLanguages
 
 	^ (FileDirectory default directoryNamed: 'dictionaries') directoryNames 

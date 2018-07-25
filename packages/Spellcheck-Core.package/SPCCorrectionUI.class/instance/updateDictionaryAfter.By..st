@@ -1,4 +1,4 @@
-as yet unclassified
+select alternative
 updateDictionaryAfter: index By: offset
 
 	| newAssociations |

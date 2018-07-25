@@ -1,4 +1,4 @@
 accessing
-parser: aParser
+parser: aSPCParser
 
-	parser := aParser
+	parser := aSPCParser

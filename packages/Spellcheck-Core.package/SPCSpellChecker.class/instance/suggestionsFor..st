@@ -1,4 +1,4 @@
-as yet unclassified
+spellchecking
 suggestionsFor: aWord
 
   	^ self hunspell getSuggestions: aWord

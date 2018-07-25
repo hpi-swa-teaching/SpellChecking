@@ -1,4 +1,4 @@
-as yet unclassified
+paths
 selectedLanguageDirectoryPath
 	
 	^ self class defaultDictionaryDirectoryPath directoryNamed: self selectedLanguage

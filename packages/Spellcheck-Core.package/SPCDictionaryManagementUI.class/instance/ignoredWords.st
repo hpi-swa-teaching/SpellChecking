@@ -1,5 +1,5 @@
-as yet unclassified
+ignored words
 ignoredWords
 
- 	^ SPCSpellChecker instance addedWords asOrderedCollection 
+ 	^ self spellchecker addedWords asOrderedCollection 
 		sort: [:a :b | a asLowercase < b asLowercase]

@@ -1,4 +1,4 @@
-as yet unclassified
+select alternative
 updateWrongWordsAfter: index By: offset
 	
 	self 

@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "ow 7/25/2018 20:03",
 	"instvars" : [
 		"spellChecker" ],
 	"name" : "SPCStyler",

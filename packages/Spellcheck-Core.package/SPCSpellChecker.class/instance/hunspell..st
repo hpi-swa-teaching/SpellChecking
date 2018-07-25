@@ -1,4 +1,4 @@
 accessing
-hunspell: aHunspellAPI
+hunspell: aSPCHunspellAPI
 
-	hunspell := aHunspellAPI
+	hunspell := aSPCHunspellAPI

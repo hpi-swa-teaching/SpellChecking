@@ -1,4 +1,4 @@
-as yet unclassified
+library
 moduleName 
 
 	^(Smalltalk os platformName asLowercase caseOf: {

@@ -4,10 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "ow 7/21/2018 18:12",
+	"commentStamp" : "ow 7/25/2018 20:14",
 	"instvars" : [
 		"selectedWord",
-		"selectedLanguage" ],
+		"selectedLanguage",
+		"spellchecker" ],
 	"name" : "SPCDictionaryManagementUI",
 	"pools" : [
 		 ],

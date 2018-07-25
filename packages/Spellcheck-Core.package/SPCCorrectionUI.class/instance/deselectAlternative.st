@@ -1,4 +1,4 @@
-accessing
+select alternative
 deselectAlternative
 
 	selectedAlternative := ''.

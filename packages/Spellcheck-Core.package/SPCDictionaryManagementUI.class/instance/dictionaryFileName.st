@@ -1,4 +1,4 @@
-as yet unclassified
+paths
 dictionaryFileName
 
 	^ (self selectedLanguageDirectoryPath fileNamesMatching: '*.dic') first  

@@ -1,4 +1,4 @@
-as yet unclassified
+registering
 unregisterInWorldMenu
 
 	(TheWorldMenu respondsTo: #unregisterOpenCommand:)

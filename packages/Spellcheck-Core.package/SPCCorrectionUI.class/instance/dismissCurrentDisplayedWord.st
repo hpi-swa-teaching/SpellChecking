@@ -1,4 +1,4 @@
-as yet unclassified
+displaying
 dismissCurrentDisplayedWord
 
 	self inputText ifNotEmpty: [

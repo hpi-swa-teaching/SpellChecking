@@ -1,4 +1,4 @@
-as yet unclassified
+registering
 registerInWorldMenu
 
 	TheWorldMenu registerOpenCommand: {'Dictionary Settings'. {self. #open}}

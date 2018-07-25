@@ -1,4 +1,4 @@
-as yet unclassified
+constants
 defaultDictionaryPath
 
 	^ (SPCSpellChecker defaultLanguageDirectory fileNamed:'en_US.dic') name

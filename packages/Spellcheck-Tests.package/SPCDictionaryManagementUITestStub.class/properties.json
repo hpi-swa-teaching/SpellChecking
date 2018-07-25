@@ -1,0 +1,14 @@
+{
+	"category" : "Spellcheck-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SPCDictionaryManagementUITestStub",
+	"pools" : [
+		 ],
+	"super" : "SPCDictionaryManagementUI",
+	"type" : "normal" }

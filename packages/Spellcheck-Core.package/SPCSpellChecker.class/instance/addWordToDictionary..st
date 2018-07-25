@@ -1,4 +1,4 @@
-as yet unclassified
+dictionary and ignore list
 addWordToDictionary: aString
 
 	self addedWords add: aString.
