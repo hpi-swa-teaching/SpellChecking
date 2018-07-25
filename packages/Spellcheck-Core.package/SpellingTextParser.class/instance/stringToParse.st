@@ -1,4 +1,0 @@
-accessing
-stringToParse
-
-	^ stringToParse

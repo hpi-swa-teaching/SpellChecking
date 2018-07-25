@@ -1,4 +1,0 @@
-accessing
-addedWords
-
-	^ AddedWords
