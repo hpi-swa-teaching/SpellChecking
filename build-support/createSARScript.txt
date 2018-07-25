@@ -1,0 +1,44 @@
+| folder mczStream workingCopy version names preambleString |
+
+folder := 'dictionaries'.
+names := OrderedCollection new.
+preambleString := ''.
+
+names add: 'FFI'.
+names add: 'MorphicTestingFramework'.
+names add: 'Spellcheck'.
+names add: 'BaselineOfSpellcheck'.
+
+zip := ZipArchive new.
+ 
+"add the code to the zip"
+names do: [:n | 
+	preambleString := preambleString, 'self fileInMonticelloZipVersionNamed: ''' , n, '.mcz''.'.
+	mczStream := RWBinaryOrTextStream on: (String new: 10000).
+	workingCopy := MCWorkingCopy forPackage: (MCPackage new name: n).
+	version := workingCopy newVersion.
+	version fileOutOn: mczStream.
+	(zip addString: mczStream contents as: n , '.mcz') desiredCompressionLevel: 0.
+	].
+
+"add to dictionaries to the zip"
+zip addTree: Smalltalk imagePath match: [:e | e fullName startsWith:
+    Smalltalk imagePath , FileDirectory slash , folder].
+
+"add the libraries to the zip"
+zip addFile: Smalltalk imagePath, FileDirectory slash, 'libhunspell.dll' as: 'libhunspell.dll'.
+zip addFile: Smalltalk imagePath, FileDirectory slash, 'MyAwesomeLibrary.dll' as: 'MyAwesomeLibrary.dll'.
+zip addFile: '/home/robert/Dropbox/HPI/semester4/SWT/64bit3/', 'libhunspell-1.3.so.0' as: 'libhunspell-1.3.so.0'.
+zip addFile: '/home/robert/Dropbox/HPI/semester4/SWT/64bit3/', 'MyAwesomeLibrary.so' as: 'MyAwesomeLibrary.so'.
+
+preambleString := preambleString, 'self extractMember: ''libhunspell.dll''.'.
+preambleString := preambleString, 'self extractMemberWithoutPath: ''libhunspell-1.3.so.0'' inDirectory: (FileDirectory default / ''..'' / ''..'' / ''..'').'. "this puts the library next to the script"
+preambleString := preambleString, 'self extractMemberWithoutPath: ''MyAwesomeLibrary.so'' inDirectory: (FileDirectory default / ''..'' / ''..'' / ''..'').'. "this puts the library next to the script"
+preambleString := preambleString, 'self extractMember: ''MyAwesomeLibrary.dll''.'.
+
+"define the preamble (the files need to be extracted during the installation)"
+zip addString:  preambleString,
+'(self membersMatching: ''' , folder , FileDirectory slash , '*.*'') do: [ :f | self
+    extractMember: f].' as: 'install/preamble'.
+
+zip writeToFileNamed: 'Spellcheck.sar'.
