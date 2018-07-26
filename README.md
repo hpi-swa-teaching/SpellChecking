@@ -17,7 +17,7 @@ This project was part of SWT SoSe 2018
 #### Activate the feature in the preferences:
 1. Go to "tools" -> "preferences" to open the preference browser
 2. Look for the category 'Spellchecking'
-3. Enable '''SpellChecking in TextMorphs''', you may also leave '''syntaxHighlightingAsYouType''' activated if you wish to
+3. Enable ```SpellChecking in TextMorphs```. you may also leave ```syntaxHighlightingAsYouType``` activated if you wish to
 4. Start typing! Don't be surprised, the default spellcheck-language is German
 
 #### Usage in a TextMorphs
@@ -29,7 +29,7 @@ This project was part of SWT SoSe 2018
    - words that are added to the dictionary survive a restart
    
 #### Dictionary Management
-- Go to '''Apps''' -> '''Dictionary Setting''' to change the language or organize added words
+- Go to ```Apps``` -> ```Dictionary Setting``` to change the language or organize added words
 - On the left side you see the words that you added to your dictionary, you may select a word there and remove it with the 'remove'-button below
 - On the right side you see an overview over your available dictionaries, choose another one and start typing to see changes
 
