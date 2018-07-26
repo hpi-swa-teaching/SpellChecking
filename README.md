@@ -15,7 +15,7 @@ This project was part of SWT SoSe 2018
 
 ## Usage
 #### Activate the feature in the preferences:
-1. Go to "tools" -> "preferences" to open the preference browser
+1. Go to ```tools``` -> ```preferences``` to open the preference browser
 2. Look for the category 'Spellchecking'
 3. Enable ```SpellChecking in TextMorphs```. you may also leave ```syntaxHighlightingAsYouType``` activated if you wish to
 4. Start typing! Don't be surprised, the default spellcheck-language is German
@@ -24,13 +24,13 @@ This project was part of SWT SoSe 2018
 - Seemingly misspelled words are highlighted and underlined in orange color
 - selecting and right-clicking on a wrong word let's you correct the word or add it to the dictionary
 - ##### in Worspace only: 
-   - save the content of the workspace (ctrl+s) and click on the blue arrow in the top right corner. Then click on 'Open SpellChecker'
+   - save the content of the workspace (ctrl+s) and click on the blue arrow in the top right corner. Then click ```Open SpellChecker```
    - ignored words are only ignored for the duration of this session 
    - words that are added to the dictionary survive a restart
    
 #### Dictionary Management
 - Go to ```Apps``` -> ```Dictionary Setting``` to change the language or organize added words
-- On the left side you see the words that you added to your dictionary, you may select a word there and remove it with the 'remove'-button below
+- On the left side you see the words that you added to your dictionary, you may select a word there and remove it with the 'remove word'-button below
 - On the right side you see an overview over your available dictionaries, choose another one and start typing to see changes
 
 #### How to add more languages?
