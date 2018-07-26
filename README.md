@@ -8,29 +8,35 @@ This project was part of SWT SoSe 2018
  
  ## Features
  - Spellchecking inside TextMorphs (for example the workspace)
- - SpellCheckUI
- - UI for organizing the words you added to your dictionary or change the language
+ - User Interface for checking all mistakes in a text, comparable to other spellchecking tools 
+ - User Interface for organizing the words you added to your dictionary or change the language
+ - Choose between multiple languages, new language-dictionaries can be added too
  - Supported for Windows, Linux and Mac
 
 ## Usage
 #### Activate the feature in the preferences:
-- Enable 'SpellChecking in TextMorphs' and 'syntaxHighlightingAsYouType'
+1. Go to "tools" -> "preferences" to open the preference browser
+2. Look for the category 'Spellchecking'
+3. Enable '''SpellChecking in TextMorphs''', you may also leave '''syntaxHighlightingAsYouType''' activated if you wish to
+4. Start typing! Don't be surprised, the default spellcheck-language is German
 
-#### Usage in a TextMorph
-- wrong words are highlighted in yellow color
-- selecting and rightclicking on a wrong word lets you correct the word or add it to the dictionary
+#### Usage in a TextMorphs
+- Seemingly misspelled words are highlighted and underlined in orange color
+- selecting and right-clicking on a wrong word let's you correct the word or add it to the dictionary
 - ##### in Worspace only: 
-   - save the content of the workspace (ctrl s) and click on the blue arrow in the top right corner. Then click on 'Open SpellChecker'
+   - save the content of the workspace (ctrl+s) and click on the blue arrow in the top right corner. Then click on 'Open SpellChecker'
    - ignored words are only ignored for the duration of this session 
    - words that are added to the dictionary survive a restart
    
-#### OrganizeUI
-- go to 'Apps' -> 'Dictionary Setting' to change the language or organize added words
+#### Dictionary Management
+- Go to '''Apps''' -> '''Dictionary Setting''' to change the language or organize added words
+- On the left side you see the words that you added to your dictionary, you may select a word there and remove it with the 'remove'-button below
+- On the right side you see an overview over your available dictionaries, choose another one and start typing to see changes
 
 #### How to add more languages?
-- Languages are stored in the 'dictionaries'-folder in 'Ressources'
-- To add a language, simply create a new subfolder and insert the .dic and .aff file you downloaded from the web
-- The name of the subfolder will be the name of the language
+- All available Languages are stored in the 'dictionaries'-folder in 'Ressources'
+- To add a language, simply create a new subfolder and insert the .dic and .aff file; no worries - those are available for free from the web
+- The name of the subfolder will be the name of the language on
 - The name of the .dic and .aff files do not matter
 
 
