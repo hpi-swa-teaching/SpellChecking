@@ -18,7 +18,7 @@ This project was part of SWT SoSe 2018
 1. Go to ```tools``` -> ```preferences``` to open the preference browser
 2. Look for the category 'Spellchecking'
 3. Enable ```SpellChecking in TextMorphs```. you may also leave ```syntaxHighlightingAsYouType``` activated if you wish to
-4. Start typing! Don't be surprised, the default spellcheck-language is German
+4. Start typing! 
 
 #### Usage in a TextMorphs
 - Seemingly misspelled words are highlighted and underlined in orange color
