@@ -10,7 +10,7 @@
 Note:Currently only works on Linux.
 1. Install libhunspell by running 
 > sudo apt install libhunspell-1.6-0
-2. Create a directory 
+2. Create a directory "<Your Squeak-Image-Root>/SWT2019Trunk.app/Contents/Resources/dictionaries/english" and /german, and copy files en_US.aff, en_US.dic, de_DE.aff, de_DE.dic in the two folders.
 3. Start Squeak, and run the following code in a workspace:
 >   (Installer repository: 'http://source.squeak.org/FFI') <br/>
         install: 'FFI-Pools'; <br/>
