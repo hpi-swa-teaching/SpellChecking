@@ -6,7 +6,18 @@
  - User Interface for organizing the words you added to your dictionary or change the language
  - Choose between multiple languages, new language-dictionaries can be added too
  - Supported for Windows, Linux and Mac
+## Requirements
+Note:Currently only works on Linux.
+1. Install libhunspell by running 
+> sudo apt install libhunspell-1.6-0
+2. Create a directory 
+3. Start Squeak, and run the following code in a workspace:
+> Metacello new
+    baseline: 'Spellcheck';
+    repository: 'github://hpi-swa-teaching/SpellChecking:fix-libraries-linux/packages';
+    load: 'tests'.
 
+Tasks 1 and 2 can be done autonomously by *install-dependencies.sh*. Just copy it in the same directory as *squeak.sh* (root directory of HPI SWA image) and run it.
 ## Usage
 
 ### Activate the feature in the preferences:
