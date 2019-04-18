@@ -12,12 +12,21 @@ Note:Currently only works on Linux.
 > sudo apt install libhunspell-1.6-0
 2. Create a directory 
 3. Start Squeak, and run the following code in a workspace:
-> Metacello new
-    baseline: 'Spellcheck';
-    repository: 'github://hpi-swa-teaching/SpellChecking:fix-libraries-linux/packages';
+>   (Installer repository: 'http://source.squeak.org/FFI') <br/>
+        install: 'FFI-Pools'; <br/>
+        install: 'FFI-Kernel'; <br/>
+        install: 'FFI-Tests'; <br/>
+        install: 'FFI-Examples'. <br/>
+    Metacello new <br/>
+    baseline: 'Spellcheck';<br/>
+    repository: 'github://hpi-swa-teaching/SpellChecking:fix-libraries-linux/packages';<br/>
     load: 'tests'.
 
-Tasks 1 and 2 can be done autonomously by *install-dependencies.sh*. Just copy it in the same directory as *squeak.sh* (root directory of HPI SWA image) and run it.
+Tasks 1 and 2 can be done autonomously by *install-dependencies.sh*. Just copy it in the same directory as *squeak.sh* (root directory of HPI SWA image) and run it. Its first command-line parameter is the path to where you cloned 
+your Git repository to, e.g.
+> install-dependencies.sh ~/SWE/SpellChecking
+
+make sure there is no slash at the end of the path.
 ## Usage
 
 ### Activate the feature in the preferences:
