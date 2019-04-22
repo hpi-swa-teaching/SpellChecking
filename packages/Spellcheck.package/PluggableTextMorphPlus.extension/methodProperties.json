@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addDictionaryMenuItemsTo:" : "ow 7/14/2018 15:06",
+		"addSpellcheckingMenuItems:selectedText:" : "ow 7/23/2018 18:33",
+		"addSuggestionsMenuItemsTo:For:" : "ow 7/14/2018 15:06",
+		"addWordToDictionaryAndUpdateStyling" : "ow 7/23/2018 18:34",
+		"getMenu:" : "RS 7/25/2018 17:35",
+		"getMenuWithSpellcheckingAtTop:" : "ow 7/14/2018 15:10",
+		"handleSpellCheckingMenuItems:" : "ow 7/23/2018 18:34" } }

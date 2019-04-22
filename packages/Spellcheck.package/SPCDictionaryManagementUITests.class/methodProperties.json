@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "ow 7/25/2018 20:07",
+		"testLoadLanguage" : "ow 7/25/2018 20:13",
+		"testRemoveFromIgnoredWords" : "ow 7/25/2018 20:13",
+		"testToolOpens" : "ow 7/4/2018 23:41" } }

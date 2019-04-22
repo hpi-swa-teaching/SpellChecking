@@ -1,0 +1,16 @@
+{
+	"category" : "Spellcheck-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "ow 7/25/2018 20:14",
+	"instvars" : [
+		"selectedWord",
+		"selectedLanguage",
+		"spellchecker" ],
+	"name" : "SPCDictionaryManagementUI",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }
