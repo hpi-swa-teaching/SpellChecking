@@ -29,7 +29,7 @@ your Git repository to, e.g.
 Make sure there is no slash at the end of the path.
 
 ### Windows
-Copy *install-dependencies.cmd* to the root directory of your image (same folder as *Contents*) and run it in a cmd window   
+Copy *install-dependencies.cmd* to the root directory of your image (same folder as *squeak.bat*) and run it in a cmd window   
 > install-dependencies.cmd <path to the root of your cloned Git Repo> <br/>
 
 Start Squeak, and run the following code in a workspace:
