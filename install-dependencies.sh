@@ -1,5 +1,5 @@
 sudo apt install libhunspell-1.6-0
-SPCDIR=SWT2019Trunk.app/Contents/Resources/dictionaries
+SPCDIR=${2}/Contents/Resources/dictionaries
 SPCDIR_EN=$SPCDIR/english
 SPCDIR_DE=$SPCDIR/german
 mkdir -p $SPCDIR_DE $SPCDIR_EN
