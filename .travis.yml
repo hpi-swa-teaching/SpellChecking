@@ -1,9 +1,9 @@
 #language: smalltalk
-#sudo: true
+sudo: true
 
 matrix:
   include:
-    - language: smalltalk
+  - language: smalltalk
     os: linux
     dist: bionic
 
