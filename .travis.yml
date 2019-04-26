@@ -1,12 +1,11 @@
 language: smalltalk
 sudo: true
 
-before_script:
-  - chmod -R 777 $TRAVIS_BUILD_DIR/install-dependencies.sh
-  - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then $TRAVIS_BUILD_DIR/install-dependencies.sh $TRAVIS_BUILD_DIR ${SMALLTALK_CI_HOME}; fi
-  - ls $SMALLTALK_CI_HOME
-after_failure:
-  - ls $SMALLTALK_CI_HOME
+before_install:
+  - chmod -R 777 $TRAVIS_BUILD_DIR/build-support/*.sh
+  - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then $TRAVIS_BUILD_DIR/build-support/installHunspellOnLinux.sh; fi
+  - $TRAVIS_BUILD_DIR/build-support/copydictionaries.sh
+
 os:
   - linux
   #- osx
