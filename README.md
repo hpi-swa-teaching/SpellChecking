@@ -12,14 +12,9 @@
 > sudo apt install libhunspell-1.6-0
 2. Create a directory "<Your Squeak-Image-Root>/SWT2019Trunk.app/Contents/Resources/dictionaries/english" and /german, and copy files en_US.aff, en_US.dic, de_DE.aff, de_DE.dic in the two folders.
 3. Start Squeak, and run the following code in a workspace:
->   (Installer repository: 'http://source.squeak.org/FFI') <br/>
-        install: 'FFI-Pools'; <br/>
-        install: 'FFI-Kernel'; <br/>
-        install: 'FFI-Tests'; <br/>
-        install: 'FFI-Examples'. <br/>
-    Metacello new <br/>
-    baseline: 'Spellcheck';<br/>
-    repository: 'github://hpi-swa-teaching/SpellChecking:fix-libraries-linux/packages';<br/>
+>   Metacello new   
+    baseline: 'Spellcheck';  
+    repository: 'github://hpi-swa-teaching/SpellChecking:fix-libraries-windows/packages';  
     load: 'tests'.
 
 Tasks 1 and 2 can be done autonomously by *install-dependencies.sh*. Just copy it in the same directory as *squeak.sh* (root directory of HPI SWA image) and run it. Its first command-line parameter is the path to where you cloned
@@ -31,19 +26,27 @@ Make sure there is no slash at the end of the path.
 ### Windows
 Copy *install-dependencies.cmd* to the root directory of your image (same folder as *squeak.bat*) and run it in a cmd window. Its first command-line parameter is the path to where you cloned
 your Git repository to,its second command-line argument is the path to the folder of your Squeak image containing the "Contents" subfolder, e.g.
-> install-dependencies.cmd C:\SpellChecking C:\SWT2019Trunk.app <br/>
+> install-dependencies.cmd C:\SpellChecking C:\SWT2019Trunk.app   
 
 Start Squeak, and run the following code in a workspace:
->   (Installer repository: 'http://source.squeak.org/FFI') <br/>
-        install: 'FFI-Pools'; <br/>
-        install: 'FFI-Kernel'; <br/>
-        install: 'FFI-Tests'; <br/>
-        install: 'FFI-Examples'. <br/>
-    Metacello new <br/>
-    baseline: 'Spellcheck';<br/>
-    repository: 'github://hpi-swa-teaching/SpellChecking:fix-libraries-windows/packages';<br/>
+```Smalltalk
+Metacello new   
+    baseline: 'Spellcheck';  
+    repository: 'github://hpi-swa-teaching/SpellChecking:fix-libraries-windows/packages';  
     load: 'tests'.
+```    
 
+### Installing additional Examples for the Foreign Function Interface
+
+A note to future maintainers of this project: If you have any trouble with the FFI and want to see some working examples, install the following packages:
+
+```Smalltalk
+(Installer repository: 'http://source.squeak.org/FFI')   
+install: 'FFI-Pools';   
+install: 'FFI-Kernel';   
+install: 'FFI-Tests';      
+install: 'FFI-Examples'.
+```
 
 ## Usage
 
