@@ -8,5 +8,7 @@ set sourceHunspell64=%gitrepo%%filename64%
 set dictPath=%gitrepo%%dicts%
 copy /B %sourceHunspell32% %squeakrepo%\Contents\Win32\
 copy /B %sourceHunspell64% %squeakrepo%\Contents\Win32\
+copy /B %sourceHunspell32% %squeakrepo%\Contents\Win64\
+copy /B %sourceHunspell64% %squeakrepo%\Contents\Win64\
 mkdir %squeakrepo%\Contents\Resources\dictionaries
 xcopy /S %dictPath% %squeakrepo%\Contents\Resources\dictionaries
