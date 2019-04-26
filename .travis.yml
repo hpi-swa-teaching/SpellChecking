@@ -1,11 +1,12 @@
-#language: smalltalk
+language: smalltalk
 sudo: true
 
 matrix:
   include:
-  - language: smalltalk
-    os: linux
+  - os: linux
     dist: bionic
+  - os: linux
+    dist: xenial
 
 before_install:
   - echo "Installing lib."
