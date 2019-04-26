@@ -1,12 +1,14 @@
-dist: bionic
 language: smalltalk
 sudo: true
 
 before_install:
   - chmod -R 777 $TRAVIS_BUILD_DIR/build-support/*.sh
-  - chmod -R 777 $TRAVIS_BUILD_DIR/*.sh
-  - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then $TRAVIS_BUILD_DIR/install-dependencies.sh $TRAVIS_BUILD_DIR $SMALLTALK_CI_HOME; fi
+  - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then $TRAVIS_BUILD_DIR/build-support/installHunspellOnLinux.sh; fi
   - $TRAVIS_BUILD_DIR/build-support/copydictionaries.sh
+
+os:
+  - linux
+  - osx
 
 os:
   - linux
