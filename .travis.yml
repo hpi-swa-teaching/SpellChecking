@@ -4,7 +4,7 @@ sudo: true
 before_install:
   - chmod -R 777 $TRAVIS_BUILD_DIR/install-dependencies.sh
   - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then $TRAVIS_BUILD_DIR/install-dependencies.sh $TRAVIS_BUILD_DIR ${SMALLTALK_CI_BUILD}/../../; fi
-  - ls ${SMALLTALK_CI_BUILD}/Contents/Resources
+  - ls ${SMALLTALK_CI_BUILD}
 
 os:
   - linux
