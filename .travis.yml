@@ -3,7 +3,7 @@ sudo: true
 
 before_script:
   - chmod -R 777 $TRAVIS_BUILD_DIR/install-dependencies.sh
-  #- if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then $TRAVIS_BUILD_DIR/install-dependencies.sh $TRAVIS_BUILD_DIR ${SMALLTALK_CI_BUILD}; fi
+  - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then $TRAVIS_BUILD_DIR/install-dependencies.sh $TRAVIS_BUILD_DIR ${SMALLTALK_CI_HOME}; fi
   - ls $SMALLTALK_CI_HOME
 after_failure:
   - ls $SMALLTALK_CI_HOME
