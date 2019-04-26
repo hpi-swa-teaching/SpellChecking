@@ -10,6 +10,6 @@ after_failure:
 os:
   - linux
   #- osx
-
+dist: bionic
 smalltalk:
   - Squeak64-5.2
