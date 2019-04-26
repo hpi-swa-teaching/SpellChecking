@@ -12,7 +12,7 @@ baseline: spec
 					className: 'ConfigurationOfFFI';
 					file: 'ConfigurationOfFFI';
 					repository: 'http://source.squeak.org/FFI';
-					loads: #('FFI-Pools' 'FFI-Kernel' 'FFI-Tests' 'FFI-Examples');
+					loads: #('FFI-Pools' 'FFI-Kernel' 'FFI-Tests');
 					versionString: '1.12' ].
 			spec
 				package: 'Spellcheck-Core' with: [spec requires: #('FFI')];
