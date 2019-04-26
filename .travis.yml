@@ -19,4 +19,4 @@ os:
   #- osx
 
 smalltalk:
-  - Squeak64-5.2
+  - Squeak32-5.2
