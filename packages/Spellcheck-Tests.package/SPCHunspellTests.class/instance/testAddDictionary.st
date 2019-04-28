@@ -6,3 +6,5 @@ testAddDictionary
 	"hunspell addDictionary: self class germanDictionary."
 
 	"self assert: (hunspell isWordCorrect: germanWord)"
+	
+	Transcript showln: 'Hallo.'

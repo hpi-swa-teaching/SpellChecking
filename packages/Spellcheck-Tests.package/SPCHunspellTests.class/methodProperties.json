@@ -4,7 +4,7 @@
 	"instance" : {
 		"expectedFailures" : "RS 5/31/2018 19:46:18",
 		"setUp" : "RS 7/25/2018 17:29",
-		"testAddDictionary" : "ow 7/20/2018 15:41",
+		"testAddDictionary" : "ea 4/28/2019 18:19",
 		"testAdjustDictionary" : "ow 7/20/2018 15:41",
 		"testCorrectSpelling" : "ow 7/20/2018 15:41",
 		"testFalseSpelling" : "ow 7/20/2018 15:41",
