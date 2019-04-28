@@ -7,14 +7,6 @@ matrix:
     dist: bionic
   - os: linux
     dist: xenial
-    
-    
-before_install:
-  - sudo apt-get install libstdc++6
-  - sudo apt-get install gcc g++ -y
-  - LD_LIBRARY_PATH=/usr/local/lib64/:$LD_LIBRARY_PATH
-  - export LD_LIBRARY_PATH
-  
   
 os:
   - linux
@@ -22,4 +14,4 @@ os:
   #- osx
 
 smalltalk:
-  - Squeak64-5.2
+  - Squeak32-5.2
