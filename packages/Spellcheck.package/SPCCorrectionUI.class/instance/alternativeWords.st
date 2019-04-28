@@ -1,4 +1,0 @@
-accessing
-alternativeWords
-
-	^ alternativeWords

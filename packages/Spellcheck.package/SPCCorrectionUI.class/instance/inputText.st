@@ -1,5 +1,0 @@
-accessing
-inputText
-
-	^ inputText
-	
