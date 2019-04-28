@@ -15,6 +15,9 @@ downloadLibraries
 					subdir := subdir asFileDirectory.
 					(subdir fileExists: 'libhunspell-1.6.so.0') ifFalse: [
 						self downloadFileTo: subdir fromURL: 'https://github.com/hpi-swa-teaching/SpellChecking/raw/libraries-install-squeak/libhunspell-1.6.so.0' toFileNamed: 'libhunspell-1.6.so.0' inBinary: true.
+					].
+				(subdir fileExists: 'libstdc++.so.6') ifFalse: [
+						self downloadFileTo: subdir fromURL: 'https://github.com/hpi-swa-teaching/SpellChecking/raw/libraries-install-squeak/libstdc++.so.6' toFileNamed: 'libstdc++.so.6' inBinary: true.
 					]
 				]
 			].
