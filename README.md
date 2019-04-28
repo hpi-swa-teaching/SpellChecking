@@ -7,37 +7,12 @@
  - Choose between multiple languages, new language-dictionaries can be added too
  - Supported for Windows, Linux and Mac
 ## Installation
-### Linux
-1. Install libhunspell by running
-```shell
-sudo apt install libhunspell-1.6-0
-```
-2. Create a directory "<Your Squeak-Image-Root>/SWT2019Trunk.app/Contents/Resources/dictionaries/english" and /german, and copy files en_US.aff, en_US.dic, de_DE.aff, de_DE.dic in the two folders.
-3. Start Squeak, and run the following code in a workspace:
-```Smalltalk
-Metacello new   
-    baseline: 'Spellcheck';  
-    repository: 'github://hpi-swa-teaching/SpellChecking:fix-travis/packages';  
-    load: 'tests'.
-```
-Tasks 1 and 2 can be done autonomously by *install-dependencies.sh*. Just copy it in the same directory as *squeak.sh* (root directory of HPI SWA image) and run it. Its first command-line parameter is the path to where you cloned
-your Git repository to, its second command-line argument is the path to the folder of your Squeak image containing the "Contents" subfolder, e.g.
-```shell
-install-dependencies.sh ~/SWE/SpellChecking ~/SWE/SWT2019Trunk.app
-```
-Make sure there is no slash at the end of the path.
 
-### Windows
-Copy *install-dependencies.cmd* to the root directory of your image (same folder as *squeak.bat*) and run it in a cmd window. Its first command-line parameter is the path to where you cloned
-your Git repository to,its second command-line argument is the path to the folder of your Squeak image containing the "Contents" subfolder, e.g.
-```cmd
-install-dependencies.cmd C:\SpellChecking C:\SWT2019Trunk.app   
-```
 Start Squeak, and run the following code in a workspace:
 ```Smalltalk
 Metacello new   
     baseline: 'Spellcheck';  
-    repository: 'github://hpi-swa-teaching/SpellChecking:fix-travis/packages';  
+    repository: 'github://hpi-swa-teaching/SpellChecking:libraries-install-squeak/packages';  
     load: 'tests'.
 ```    
 
