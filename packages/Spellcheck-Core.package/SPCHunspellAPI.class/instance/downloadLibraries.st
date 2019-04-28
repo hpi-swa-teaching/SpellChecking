@@ -17,14 +17,19 @@ downloadLibraries
 				]
 			].
 		(entry name asLowercase includesSubstring: 'linux') ifTrue: [
-				(entry asFileDirectory fileExists: 'libhunspell-1.6.so.0') ifFalse: [
+				(self findLinuxLibraryPaths: entry asFileDirectory) do: [ :subdir |
+					subdir := subdir asFileDirectory.
 					(Smalltalk os platformSubtype asLowercase = 'x86_64') ifTrue: [
-						self downloadFileTo: entry asFileDirectory fromURL: 'https://github.com/hpi-swa-teaching/SpellChecking/raw/libraries-install-squeak/32bit-libhunspell-1.6.so.0' toFileNamed: 'libhunspell-1.6.so.0' inBinary: true.
-					]
-					ifFalse: [
-							self downloadFileTo: entry asFileDirectory fromURL: 'https://github.com/hpi-swa-teaching/SpellChecking/raw/libraries-install-squeak/64bit-libhunspell-1.6.so.0' toFileNamed: 'libhunspell-1.6.so.0' inBinary: true.
-							"Travis needs libstdc++."
-							self downloadFileTo: entry asFileDirectory fromURL: 'https://github.com/hpi-swa-teaching/SpellChecking/raw/libraries-install-squeak/libstdc++.so.6' toFileNamed: 'llibstdc++.so.6' inBinary: true.
+						(subdir fileExists: 'libhunspell-1.6.so.0') ifFalse: [
+							self downloadFileTo: subdir fromURL: 'https://github.com/hpi-swa-teaching/SpellChecking/raw/libraries-install-squeak/64bit-libhunspell-1.6.so.0' toFileNamed: 'libhunspell-1.6.so.0' inBinary: true.
+						].
+					] ifFalse: [
+						(subdir fileExists: 'libhunspell-1.6.so.0') ifFalse: [
+							self downloadFileTo: subdir fromURL: 'https://github.com/hpi-swa-teaching/SpellChecking/raw/libraries-install-squeak/32bit-libhunspell-1.6.so.0' toFileNamed: 'libhunspell-1.6.so.0' inBinary: true.
+						].
+						(subdir fileExists: 'libstdc++.so.6') ifFalse: [
+							self downloadFileTo: subdir fromURL: 'https://github.com/hpi-swa-teaching/SpellChecking/raw/libraries-install-squeak/libstdc%2B%2B.so.6' toFileNamed: 'libstdc++.so.6' inBinary: true.
+						]
 					]
 				]
 			].
