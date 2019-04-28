@@ -11,7 +11,9 @@ matrix:
     
 before_install:
   - sudo apt-get install libstdc++6
-  - sudo apt-get install gcc-6 g++-6 -y
+  - sudo apt-get install gcc g++ -y
+  - LD_LIBRARY_PATH=/usr/local/lib64/:$LD_LIBRARY_PATH
+  - export LD_LIBRARY_PATH
   
   
 os:
