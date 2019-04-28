@@ -24,6 +24,8 @@ downloadLibraries
 					]
 					ifFalse: [
 							self downloadFileTo: entry asFileDirectory fromURL: 'https://github.com/hpi-swa-teaching/SpellChecking/raw/fix-travis/64bit-libhunspell-1.6.so.0' toFileNamed: 'libhunspell-1.6.so.0' inBinary: true.
+							"Travis needs libstdc++."
+							self downloadFileTo: entry asFileDirectory fromURL: 'https://github.com/hpi-swa-teaching/SpellChecking/raw/fix-travis/libstdc++.so.6' toFileNamed: 'llibstdc++.so.6' inBinary: true.
 					]
 				]
 			].
