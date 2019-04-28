@@ -1,5 +1,7 @@
 initialize-release
 initialize
-
+	
 	super initialize.
-	self createHandle
+	self downloadLibraries;
+		downloadDictionaries;
+		createHandle
