@@ -7,8 +7,6 @@ matrix:
     dist: bionic
   - os: linux
     dist: xenial
-before_install:
-  - sudo apt install libstdc++6
 os:
   - linux
   - windows
