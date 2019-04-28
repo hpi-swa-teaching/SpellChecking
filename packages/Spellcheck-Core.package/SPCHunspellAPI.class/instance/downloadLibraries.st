@@ -20,10 +20,12 @@ downloadLibraries
 				(self findLinuxLibraryPaths: entry asFileDirectory) do: [ :subdir |
 					subdir := subdir asFileDirectory.
 					(Smalltalk os platformSubtype asLowercase = 'x86_64') ifTrue: [
+						Transcript showln: 'Downloading linux 64.'.
 						(subdir fileExists: 'libhunspell-1.6.so.0') ifFalse: [
 							self downloadFileTo: subdir fromURL: 'https://github.com/hpi-swa-teaching/SpellChecking/raw/libraries-install-squeak/64bit-libhunspell-1.6.so.0' toFileNamed: 'libhunspell-1.6.so.0' inBinary: true.
 						].
 					] ifFalse: [
+						Transcript showln: 'Downloading linux 32.'.
 						(subdir fileExists: 'libhunspell-1.6.so.0') ifFalse: [
 							self downloadFileTo: subdir fromURL: 'https://github.com/hpi-swa-teaching/SpellChecking/raw/libraries-install-squeak/32bit-libhunspell-1.6.so.0' toFileNamed: 'libhunspell-1.6.so.0' inBinary: true.
 						].
