@@ -38,7 +38,7 @@ downloadLibraries
 			].
 		(entry name asLowercase includesSubstring: 'macos') ifTrue: [
 				(entry asFileDirectory fileExists: 'libhunspell-darwin-x86-32.dylib') ifFalse: [
-					self downloadFileTo: entry asFileDirectory fromURL: 'https://github.com/hpi-swa-teaching/SpellChecking/libraries-install-squeak/fix-travis/libhunspell-darwin-x86-32.dylib' toFileNamed: 'libhunspell-darwin-x86-32.dylib' inBinary: true.
+					self downloadFileTo: (entry asFileDirectory) fromURL: 'https://github.com/hpi-swa-teaching/SpellChecking/raw/libraries-install-squeak/libhunspell-darwin-x86-32.dylib'  toFileNamed: 'libhunspell-darwin-x86-32.dylib' inBinary: true.
 				]
 			]
 	].
