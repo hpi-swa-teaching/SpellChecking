@@ -12,7 +12,7 @@ Start Squeak, and run the following code in a workspace:
 ```Smalltalk
 Metacello new   
     baseline: 'Spellcheck';  
-    repository: 'github://hpi-swa-teaching/SpellChecking:libraries-install-squeak/packages';  
+    repository: 'github://hpi-swa-teaching/SpellChecking:dev/packages';  
     load: 'tests'.
 ```    
 
