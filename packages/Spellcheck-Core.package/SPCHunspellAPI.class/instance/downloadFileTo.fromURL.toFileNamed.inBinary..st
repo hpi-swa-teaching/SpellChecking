@@ -1,4 +1,4 @@
-spellchecking
+library installation
 downloadFileTo: aFileDirectory fromURL: aString toFileNamed: anotherString inBinary: aBoolean
 	| downloadDir downloadedLibrary |
 	downloadDir := aFileDirectory.
@@ -12,4 +12,3 @@ downloadFileTo: aFileDirectory fromURL: aString toFileNamed: anotherString inBin
 				stream nextPutAll: downloadedLibrary upToEnd
 			]
 	].
-	Transcript showln: 'Downloaded.'

@@ -1,4 +1,4 @@
-spellchecking
+library installation
 downloadLibraries
 	| ressourceDir libDir bitsPerWord |
 	ressourceDir := FileDirectory default fullName.

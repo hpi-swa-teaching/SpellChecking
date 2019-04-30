@@ -1,8 +1,6 @@
 private
 createHandle
 	| handle |
-	Smalltalk os platformName asLowercase = 'unix' ifTrue: [ handle :=self apiCreateHandleLinux: SPCSpellChecker defaultAffixPath dPath: SPCSpellChecker defaultDictionaryPath. ].
-	Smalltalk os platformName asLowercase = 'win32' ifTrue: [ handle :=self apiCreateHandleWindows: SPCSpellChecker defaultAffixPath dPath: SPCSpellChecker defaultDictionaryPath. ].
-	Smalltalk os platformName asLowercase = 'macos' ifTrue: [ handle :=self apiCreateHandleOSX: SPCSpellChecker defaultAffixPath dPath: SPCSpellChecker defaultDictionaryPath. ].
-	
+	"Left local variable for easier debugging."
+	handle :=self apiCreateHandle: SPCSpellChecker defaultAffixPath dPath: SPCSpellChecker defaultDictionaryPath.
 	self apiHandle: (handle)

@@ -1,4 +1,4 @@
-spellchecking
+library installation
 downloadDictionaries
 	| ressourceDir |
 	ressourceDir := FileDirectory default.
