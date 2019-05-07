@@ -1,7 +1,6 @@
 library installation
 downloadLibraries
 	| ressourceDir libDir bitsPerWord |
-	self halt.
 	ressourceDir := FileDirectory default fullName.
 	"This will set libDir to the parent of the resource dir."
 	libDir := FileDirectory forFileName: ressourceDir. 

@@ -1,10 +1,10 @@
 {
 	"class" : {
 		"spellCheckingEnabled" : "RS 7/25/2018 17:58",
-		"spellCheckingEnabled:" : "ea 5/7/2019 18:33" },
+		"spellCheckingEnabled:" : "ea 5/7/2019 19:16" },
 	"instance" : {
 		"highlightSpellingMistakesIn:" : "RS 7/25/2018 16:44",
-		"highlightSyntaxIn:" : "RS 7/25/2018 16:47",
-		"privateStyle:" : "RS 7/25/2018 18:01",
-		"unstyle:" : "ow 7/23/2018 17:07",
+		"highlightSyntaxIn:" : "ea 5/7/2019 19:40",
+		"privateStyle:" : "ea 5/7/2019 19:46",
+		"unstyle:" : "ea 5/7/2019 19:51",
 		"workspace" : "ow 6/8/2018 17:07:53" } }
