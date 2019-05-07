@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"parser" ],
-	"name" : "SPCTextParserTests",
+		"originalState" ],
+	"name" : "SPCSpellCheckTests",
 	"pools" : [
 		 ],
-	"super" : "SPCSpellCheckTests",
+	"super" : "TestCase",
 	"type" : "normal" }

@@ -1,4 +1,5 @@
 initialize-release
 setUp 
-
-	self wantsToTest: SPCCorrectionUI new open
+	super setUp.
+	ui := SPCCorrectionUI new open.
+	self wantsToTest: ui

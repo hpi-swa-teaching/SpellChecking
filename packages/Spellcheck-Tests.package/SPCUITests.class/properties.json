@@ -6,9 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"parser" ],
-	"name" : "SPCTextParserTests",
+		"originalState",
+		"ui" ],
+	"name" : "SPCUITests",
 	"pools" : [
 		 ],
-	"super" : "SPCSpellCheckTests",
+	"super" : "MTFTestCase",
 	"type" : "normal" }

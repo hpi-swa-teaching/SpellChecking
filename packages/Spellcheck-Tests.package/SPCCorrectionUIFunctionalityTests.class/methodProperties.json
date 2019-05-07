@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "RS 7/25/2018 17:40",
+		"setUp" : "ea 5/7/2019 20:48",
 		"testAddToDict" : "ow 7/20/2018 15:47",
 		"testIgnoreAll" : "RS 7/25/2018 16:21",
 		"testIgnoreCurrent" : "RS 7/25/2018 16:24",
