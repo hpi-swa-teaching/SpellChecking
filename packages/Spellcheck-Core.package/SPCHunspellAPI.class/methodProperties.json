@@ -29,6 +29,7 @@
 		"installLibrariesForLinux:in:" : "mka 5/6/2019 16:20",
 		"installLibrariesForMacOS:in:" : "mka 5/6/2019 16:22",
 		"installLibrariesForWindows:in:" : "mka 5/6/2019 16:18",
+		"isNilObject" : "ea 5/7/2019 18:13",
 		"isWordCorrect:" : "ea 4/30/2019 19:24",
 		"removeWordFromDictionary:" : "ea 4/30/2019 19:24",
 		"systemArchitecture" : "ea 4/30/2019 19:43" } }

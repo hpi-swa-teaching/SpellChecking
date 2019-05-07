@@ -1,5 +1,5 @@
 {
-	"category" : "Spellcheck-Tests",
+	"category" : "Spellcheck-Core",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
@@ -7,8 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "SPCTextStylerTestStub",
+	"name" : "SPCHunspellAPINullObject",
 	"pools" : [
 		 ],
-	"super" : "SPCTextStyler",
+	"super" : "SPCHunspellAPI",
 	"type" : "normal" }
