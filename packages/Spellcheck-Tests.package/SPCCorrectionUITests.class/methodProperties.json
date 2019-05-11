@@ -2,5 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "RS 7/25/2018 17:29",
+		"setUp" : "ea 5/7/2019 21:03",
+		"tearDown" : "ea 5/7/2019 21:07",
 		"testToolOpens" : "ow 6/28/2018 17:23" } }

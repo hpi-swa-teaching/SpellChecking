@@ -11,5 +11,5 @@
 	"name" : "SPCPluggableTextMorphPlusTests",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "SPCSpellCheckTests",
 	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "Spellcheck-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SPCHunspellAPINullObject",
+	"pools" : [
+		 ],
+	"super" : "SPCHunspellAPI",
+	"type" : "normal" }

@@ -1,6 +1,6 @@
 initialize-release
 setUp
-
+	super setUp.
 	correctionUI := SPCCorrectionUI new. 
 	spellchecker := SPCSpellChecker instance.
 	

@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "SPCTextStylerTestStub",
+		"originalState" ],
+	"name" : "SPCSpellCheckTests",
 	"pools" : [
 		 ],
-	"super" : "SPCTextStyler",
+	"super" : "TestCase",
 	"type" : "normal" }

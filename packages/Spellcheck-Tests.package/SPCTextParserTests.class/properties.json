@@ -10,5 +10,5 @@
 	"name" : "SPCTextParserTests",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "SPCSpellCheckTests",
 	"type" : "normal" }
