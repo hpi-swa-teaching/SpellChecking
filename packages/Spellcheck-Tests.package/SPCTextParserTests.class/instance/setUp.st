@@ -1,4 +1,6 @@
 initialize-release
 setUp
 	super setUp.
-	parser := SPCTextParser new
+	parser := SPCTextParser new.
+	originalStateStringsOnly := SPCTextParser parseStringsOnly.
+	SPCTextParser parseStringsOnly: false
