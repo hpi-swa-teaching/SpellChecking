@@ -1,3 +1,4 @@
 as yet unclassified
 tearDown
-	SPCTextStyler spellCheckingEnabled: originalState
+	SPCTextStyler spellCheckingEnabled: originalStateSpellcheck.
+	SPCTextParser parseStringsOnly: originalStateOnlyInStrings

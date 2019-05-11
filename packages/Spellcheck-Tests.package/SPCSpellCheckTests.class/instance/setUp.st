@@ -1,4 +1,6 @@
 as yet unclassified
 setUp
-	originalState := SPCTextStyler spellCheckingEnabled.
-	SPCTextStyler spellCheckingEnabled: true
+	originalStateSpellcheck := SPCTextStyler spellCheckingEnabled.
+	SPCTextStyler spellCheckingEnabled: true.
+	originalStateOnlyInStrings := SPCTextParser parseStringsOnly.
+	SPCTextParser parseStringsOnly: false
