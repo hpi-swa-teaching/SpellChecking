@@ -3,4 +3,5 @@ initialize
 
 	self reloadHunspellHandle;
 		parser: SPCTextParser new;
-		initializeAddedWords 
+		initializeAddedWords.
+	TheWorldMenu registerOpenCommand: { 'SpellCheck' . { (self class).#addDictionary } }
