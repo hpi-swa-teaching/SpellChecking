@@ -1,0 +1,4 @@
+as yet unclassified
+tearDown
+	SPCTextStyler spellCheckingEnabled: originalStateSpellcheck.
+	SPCTextParser parseStringsOnly: originalStateOnlyInStrings

@@ -1,0 +1,18 @@
+{
+	"category" : "Spellcheck-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"spellChecker",
+		"wrongWord",
+		"textWithMistake",
+		"wrongWordStartIndex",
+		"wrongWordEndIndex" ],
+	"name" : "SPCSpellCheckerTests",
+	"pools" : [
+		 ],
+	"super" : "SPCSpellCheckTests",
+	"type" : "normal" }

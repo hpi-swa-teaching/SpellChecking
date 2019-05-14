@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "ea 5/11/2019 15:30",
+		"tearDown" : "ea 5/11/2019 14:30",
+		"testCamelCaseParsing" : "ow 7/4/2018 23:44",
+		"testGetSentenceContext" : "ow 7/4/2018 23:45",
+		"testIsSentenceSeparator" : "ow 7/4/2018 23:46",
+		"testIsSeparator" : "ow 7/4/2018 23:46",
+		"testIsStringAlphaNumeric" : "RS 7/25/2018 16:40",
+		"testParsingCommentsOnly" : "ea 5/11/2019 15:32",
+		"testParsingStringsOnly" : "ea 5/11/2019 15:32",
+		"testParsingWithSeparator" : "ow 7/4/2018 23:46" } }

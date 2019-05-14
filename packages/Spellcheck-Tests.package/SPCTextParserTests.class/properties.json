@@ -1,0 +1,15 @@
+{
+	"category" : "Spellcheck-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"parser",
+		"originalStateStringsOnly" ],
+	"name" : "SPCTextParserTests",
+	"pools" : [
+		 ],
+	"super" : "SPCSpellCheckTests",
+	"type" : "normal" }

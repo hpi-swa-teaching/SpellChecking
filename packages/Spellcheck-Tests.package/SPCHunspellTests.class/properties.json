@@ -1,0 +1,17 @@
+{
+	"category" : "Spellcheck-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"hunspell",
+		"wrongWord",
+		"correctWord",
+		"germanWord" ],
+	"name" : "SPCHunspellTests",
+	"pools" : [
+		 ],
+	"super" : "SPCSpellCheckTests",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "Spellcheck-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"ffi" ],
+	"name" : "FFITests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
