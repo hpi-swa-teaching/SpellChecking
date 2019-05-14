@@ -1,9 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"setUp" : "ea 5/14/2019 11:32",
-		"tearDown" : "ea 5/14/2019 11:34",
-		"testIsNilObject" : "ea 5/14/2019 11:31",
-		"testIsWordCorrect" : "ea 5/14/2019 11:17",
-		"testNoMethodCrashes" : "ea 5/14/2019 11:31" } }
