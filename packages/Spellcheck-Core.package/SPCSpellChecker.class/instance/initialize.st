@@ -1,6 +1,6 @@
 initialize-release
 initialize 
 
-	self hunspell: SPCHunspellAPI new;
+	self reloadHunspellHandle;
 		parser: SPCTextParser new;
 		initializeAddedWords 

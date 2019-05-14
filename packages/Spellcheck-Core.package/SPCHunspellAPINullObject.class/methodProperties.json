@@ -1,0 +1,16 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addDictionary:" : "ea 5/7/2019 18:06",
+		"addWordToDictionary:" : "ea 5/7/2019 18:07",
+		"apiHandle" : "ea 5/7/2019 18:08",
+		"createHandle" : "ea 5/7/2019 18:08",
+		"createHandle:affix:" : "ea 5/7/2019 18:08",
+		"destroyHandle" : "ea 5/7/2019 18:08",
+		"downloadDictionaries" : "ea 5/7/2019 18:08",
+		"downloadFileTo:fromURL:toFileNamed:inBinary:" : "ea 5/7/2019 18:09",
+		"downloadLibraries" : "ea 5/7/2019 18:09",
+		"initialize" : "ea 5/14/2019 11:02",
+		"isNilObject" : "ea 5/7/2019 18:13",
+		"isWordCorrect:" : "ea 5/14/2019 11:01" } }
