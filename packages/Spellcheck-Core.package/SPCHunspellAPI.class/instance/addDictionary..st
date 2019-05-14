@@ -1,4 +1,4 @@
 spellchecking
 addDictionary: aDictionaryPath
-	dictionaries add: aDictionaryPath.
+	self class dictionaries add: aDictionaryPath.
 	self addDictionaryBasic: aDictionaryPath

@@ -1,3 +1,3 @@
 accessing
 dictionaries: anObject
-	dictionaries := anObject
+	Dictionaries := anObject

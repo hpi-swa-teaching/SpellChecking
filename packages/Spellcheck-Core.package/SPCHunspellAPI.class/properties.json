@@ -3,11 +3,10 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
+		"Dictionaries" ],
 	"commentStamp" : "ow 7/21/2018 17:23",
 	"instvars" : [
-		"apiHandle",
-		"dictionaries" ],
+		"apiHandle" ],
 	"name" : "SPCHunspellAPI",
 	"pools" : [
 		 ],

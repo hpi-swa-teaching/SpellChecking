@@ -1,8 +1,10 @@
 {
 	"class" : {
+		"dictionaries" : "BB 5/14/2019 14:36",
+		"dictionaries:" : "BB 5/14/2019 14:32",
 		"moduleName" : "ea 4/30/2019 19:14" },
 	"instance" : {
-		"addDictionary:" : "BB 5/14/2019 12:38",
+		"addDictionary:" : "BB 5/14/2019 14:33",
 		"addDictionaryBasic:" : "BB 5/14/2019 12:38",
 		"addWordToDictionary:" : "ea 4/30/2019 19:19",
 		"apiAdd:dictionary:" : "ea 4/30/2019 19:15",
@@ -19,8 +21,6 @@
 		"createHandle" : "ea 4/30/2019 19:20",
 		"createHandle:affix:" : "ea 4/30/2019 19:21",
 		"destroyHandle" : "ea 4/30/2019 19:21",
-		"dictionaries" : "BB 5/14/2019 12:34",
-		"dictionaries:" : "BB 5/14/2019 12:30",
 		"downloadDictionaries" : "ea 4/28/2019 15:22",
 		"downloadFileTo:fromURL:toFileNamed:inBinary:" : "ea 4/30/2019 19:21",
 		"downloadLibraries" : "ea 4/30/2019 19:43",
