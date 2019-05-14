@@ -2,7 +2,7 @@ initialize-release
 initialize
 	
 	super initialize.
-	TheWorldMenu registerOpenCommand: { 'SpellCheck'.{SPCHunspellAPI.#chooseDictionaryPath } }.
+	TheWorldMenu registerOpenCommand: { 'SpellCheck'.{self.#chooseDictionaryPath } }.
 	self downloadLibraries;
 		downloadDictionaries;
 		createHandle
