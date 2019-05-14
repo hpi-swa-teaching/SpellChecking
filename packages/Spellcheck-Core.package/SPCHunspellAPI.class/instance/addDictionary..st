@@ -1,3 +1,4 @@
 spellchecking
-addDictionary: dPath
-	self apiAdd: self apiHandle dictionary: dPath
+addDictionary: aDictionaryPath
+	dictionaries add: aDictionaryPath.
+	self addDictionaryBasic: aDictionaryPath

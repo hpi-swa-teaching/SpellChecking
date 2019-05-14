@@ -2,7 +2,8 @@
 	"class" : {
 		"moduleName" : "ea 4/30/2019 19:14" },
 	"instance" : {
-		"addDictionary:" : "ea 4/30/2019 19:19",
+		"addDictionary:" : "BB 5/14/2019 12:38",
+		"addDictionaryBasic:" : "BB 5/14/2019 12:38",
 		"addWordToDictionary:" : "ea 4/30/2019 19:19",
 		"apiAdd:dictionary:" : "ea 4/30/2019 19:15",
 		"apiAdd:word:" : "ea 4/30/2019 19:15",
@@ -18,6 +19,8 @@
 		"createHandle" : "ea 4/30/2019 19:20",
 		"createHandle:affix:" : "ea 4/30/2019 19:21",
 		"destroyHandle" : "ea 4/30/2019 19:21",
+		"dictionaries" : "BB 5/14/2019 12:34",
+		"dictionaries:" : "BB 5/14/2019 12:30",
 		"downloadDictionaries" : "ea 4/28/2019 15:22",
 		"downloadFileTo:fromURL:toFileNamed:inBinary:" : "ea 4/30/2019 19:21",
 		"downloadLibraries" : "ea 4/30/2019 19:43",
@@ -26,7 +29,8 @@
 		"freeSuggestionList:" : "ea 4/30/2019 19:26",
 		"getSuggestionList:" : "ea 4/30/2019 19:25",
 		"getSuggestions:" : "ow 7/14/2018 14:24",
-		"initialize" : "mka 5/14/2019 12:02",
+		"initialize" : "BB 5/14/2019 12:49",
 		"isWordCorrect:" : "ea 4/30/2019 19:24",
 		"removeWordFromDictionary:" : "ea 4/30/2019 19:24",
+		"startUp:" : "BB 5/14/2019 12:48",
 		"systemArchitecture" : "ea 4/30/2019 19:43" } }
