@@ -1,4 +1,6 @@
 spellchecking
 isSpelledCorrectly: aString
-
-	^ self hunspell isWordCorrect: aString
+	self hunspell isNilObject ifFalse: [
+		^ self hunspell isWordCorrect: aString
+	].
+	^ true

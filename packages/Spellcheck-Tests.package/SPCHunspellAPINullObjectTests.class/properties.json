@@ -6,10 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"parser",
-		"originalStateStringsOnly" ],
-	"name" : "SPCTextParserTests",
+		"nullObject",
+		"originalStateSpellcheck",
+		"originalStateOnlyInStrings" ],
+	"name" : "SPCHunspellAPINullObjectTests",
 	"pools" : [
 		 ],
-	"super" : "SPCSpellCheckTests",
+	"super" : "TestCase",
 	"type" : "normal" }

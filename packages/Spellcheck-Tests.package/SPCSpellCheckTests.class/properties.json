@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"originalState" ],
+		"originalStateSpellcheck",
+		"originalStateOnlyInStrings" ],
 	"name" : "SPCSpellCheckTests",
 	"pools" : [
 		 ],
