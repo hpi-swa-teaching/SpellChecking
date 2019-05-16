@@ -2,7 +2,7 @@
 
 ## Trello Boards
 
-[General](https://trello.com/invite/b/0i70BpZw/3ba3987b433155069f915a1692a1a14e/swt19-spellcheck-general)
+[General](https://trello.com/invite/b/0i70BpZw/3ba3987b433155069f915a1692a1a14e/swt19-spellcheck-general)  
 [User-Stories](https://trello.com/invite/b/nu0mnkIn/d9715b0d117c2f7a50abdd99982eb56b/swt19-spellcheck-user-stories)
 
 ## Features
