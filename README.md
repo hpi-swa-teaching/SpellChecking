@@ -1,5 +1,10 @@
 # Spellcheck [![Build Status](https://travis-ci.org/hpi-swa-teaching/SpellChecking.svg?branch=dev)](https://travis-ci.org/hpi-swa-teaching/SpellChecking) [![Coverage Status](https://coveralls.io/repos/github/hpi-swa-teaching/SpellChecking/badge.svg?branch=master)](https://coveralls.io/github/hpi-swa-teaching/SpellChecking?branch=dev)
 
+## Trello Boards
+
+[General](https://trello.com/invite/b/0i70BpZw/3ba3987b433155069f915a1692a1a14e/swt19-spellcheck-general)
+[User-Stories](https://trello.com/invite/b/nu0mnkIn/d9715b0d117c2f7a50abdd99982eb56b/swt19-spellcheck-user-stories)
+
 ## Features
  - Spellchecking inside TextMorphs (for example the workspace)
  - User Interface for checking all mistakes in a text, comparable to other spellchecking tools
