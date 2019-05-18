@@ -1,4 +1,4 @@
-as yet unclassified
+spellchecking
 getAllStringLiterals: aMethodDict
 	| methods methodLiterals |
 	methods := Dictionary new.

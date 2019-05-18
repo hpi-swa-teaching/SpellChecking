@@ -1,4 +1,4 @@
-as yet unclassified
+spellchecking
 getMethodSourceCodeFor: aMethodDict fromClass: aClass
 	| methods |
 	methods := Dictionary new.

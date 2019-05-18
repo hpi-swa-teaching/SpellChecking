@@ -1,4 +1,4 @@
-as yet unclassified
+spellchecking
 findMessagesWithSpellingErrors: aDictionary
 	| originalStateOnlyStrings originalStateSpellcheck methodsWithErrors |
 	"User Story: Only check Strings + Comments. Also, SpellChecking has to be enabled."

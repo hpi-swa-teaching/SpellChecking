@@ -1,4 +1,4 @@
-as yet unclassified
+spellchecking
 checkMethodSpelling
 	| aClass methods |
 	aClass := self selectedClassOrMetaClass.
