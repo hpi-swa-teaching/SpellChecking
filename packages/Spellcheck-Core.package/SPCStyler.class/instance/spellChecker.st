@@ -1,4 +1,4 @@
 accessing
 spellChecker
 
-	^ spellChecker 
+	^ SPCSpellChecker instance
