@@ -1,7 +1,8 @@
 hunspell
 reloadHunspellHandle
 	self hunspell ifNotNil: [
-		self hunspell destroyHandle
+		self hunspell installDependencies;
+		destroyHandle
 	].
 	SPCTextStyler spellCheckingEnabled ifTrue: [
 		self hunspell: SPCHunspellAPI new.
