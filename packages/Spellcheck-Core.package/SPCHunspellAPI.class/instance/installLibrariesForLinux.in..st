@@ -1,7 +1,7 @@
 library installation
 installLibrariesForLinux: anInteger in: anEntry
-
-	(self findLinuxLibraryPaths: anEntry) do: [ :subdir |
+	| subdir |
+	subdir := anEntry.
 			(anInteger = 64) ifTrue: [
 				(subdir fileExists: 'libhunspell-1.6.so.0') ifFalse: [
 					self downloadFileTo: subdir fromURL: 'https://github.com/hpi-swa-teaching/SpellChecking/raw/dev/64bit-libhunspell-1.6.so.0' toFileNamed: 'libhunspell-1.6.so.0' inBinary: true.
@@ -18,4 +18,3 @@ installLibrariesForLinux: anInteger in: anEntry
 		(subdir fileExists: 'MyAwesomeLibrary.so') ifFalse: [
 				self downloadFileTo: subdir fromURL: 'https://github.com/hpi-swa-teaching/SpellChecking/raw/dev/MyAwesomeLibrary.so' toFileNamed: 'MyAwesomeLibrary.so' inBinary: true.
 			].
-	].
