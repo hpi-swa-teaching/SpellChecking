@@ -7,7 +7,7 @@ testParsingStringsOnlySingleWrongWord
 	lastWordInStringStart := 54.
 	lastWordInStringEnd := 60.
 	
-	text := 'a := ''squeak'''.
+	text := 'a := ''sqeek'''.
 	SPCTextParser parseStringsOnly: true.
 	strings := parser parseText: text.
 	self assert: (strings size >0).
