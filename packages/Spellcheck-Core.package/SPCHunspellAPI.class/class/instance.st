@@ -1,4 +1,7 @@
 library
 instance
 
-	^ Instance ifNil: [Instance := self basicNew initialize; yourself]
+	^ (Instance isNil) ifTrue: [
+		Instance := self basicNew initialize; yourself
+	] ifFalse: [ ( Instance isNilObject ) ifTrue: [ 
+		Instance := self basicNew initialize; yourself ] ]
