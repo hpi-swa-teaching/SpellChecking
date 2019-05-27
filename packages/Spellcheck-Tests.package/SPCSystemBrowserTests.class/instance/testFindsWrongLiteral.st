@@ -1,11 +1,11 @@
 as yet unclassified
 testFindsWrongLiteral
-	| browser testLiteral |
+	| browser testLiteral methods |
 	browser := SPCSystemBrowser new.
-	"No PopUps during testing."
+	methods := SPCClassWithWronglySpelledMessage methodDict.
+	methods := browser getMethodSourceCodeFor: methods fromClass: SPCClassWithWronglySpelledMessage.
 	browser informAboutErrors: false.
-	browser selectClass: SPCSystemBrowserTests.
 	testLiteral := 'a wong Word'.
-	self assert: (browser checkMethodSpelling = 1)
-	
+	methods := browser findMessagesWithSpellingErrors: methods.
+	self assert: (methods keys = #(#falselySpelledMethod))
 	

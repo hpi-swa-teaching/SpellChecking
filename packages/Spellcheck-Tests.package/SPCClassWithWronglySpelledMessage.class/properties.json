@@ -1,0 +1,14 @@
+{
+	"category" : "Spellcheck-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SPCClassWithWronglySpelledMessage",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

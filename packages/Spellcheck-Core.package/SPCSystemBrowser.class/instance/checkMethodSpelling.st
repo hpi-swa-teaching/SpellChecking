@@ -4,7 +4,7 @@ checkMethodSpelling
 	| aClass methods |
 	aClass := self selectedClassOrMetaClass.
 	aClass isNil ifTrue: [
-		^ 0	
+		^ self	
 	].
 	
 	methods := aClass methodDict.
@@ -19,5 +19,3 @@ checkMethodSpelling
 	self informAboutErrors ifTrue: [
 		methods isEmpty ifFalse:  [ SPCMethodTextViewer openWith: methods ]
 	].
-
-	^ methods size
