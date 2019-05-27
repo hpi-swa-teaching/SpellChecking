@@ -11,7 +11,8 @@
 		"loopVariable",
 		"startOfCurrentWord",
 		"endOfCurrentWord",
-		"isInString" ],
+		"isInString",
+		"isInComment" ],
 	"name" : "SPCTextParser",
 	"pools" : [
 		 ],
