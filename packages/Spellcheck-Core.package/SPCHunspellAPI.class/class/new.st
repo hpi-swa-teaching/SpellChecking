@@ -1,0 +1,3 @@
+library
+new
+	^self shouldNotImplement

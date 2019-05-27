@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"apiAdd:dictionary:" : "BB 5/27/2019 12:36",
+		"apiAdd:word:" : "BB 5/27/2019 12:37",
+		"apiCheckWord:Text:" : "BB 5/27/2019 12:37",
+		"apiCreateHandle:dPath:" : "BB 5/27/2019 12:37",
+		"apiDestroyHandle:" : "BB 5/27/2019 12:37",
+		"apiFreeSuggests:list:size:" : "BB 5/27/2019 12:38",
+		"apiRemove:word:" : "BB 5/27/2019 12:38",
+		"apiSuggest:list:word:" : "BB 5/27/2019 12:39",
+		"hunspellAPI" : "BB 5/27/2019 11:10",
+		"hunspellAPI:" : "BB 5/27/2019 11:10" } }

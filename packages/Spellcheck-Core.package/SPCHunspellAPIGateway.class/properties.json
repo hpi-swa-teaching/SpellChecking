@@ -3,11 +3,11 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"Instance" ],
-	"commentStamp" : "ow 7/21/2018 17:23",
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
-		"apiHandle" ],
-	"name" : "SPCHunspellAPI",
+		"hunspellAPI" ],
+	"name" : "SPCHunspellAPIGateway",
 	"pools" : [
 		 ],
 	"super" : "ExternalLibrary",
