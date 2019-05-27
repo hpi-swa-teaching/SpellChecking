@@ -1,6 +1,8 @@
 system startup
 startUp: resuming
 	resuming ifTrue: [
-		self instance reloadHunspellHandle.
-		self instance reloadAddedWords].
+		self instance dictionaryPath: nil;
+		affixPath: nil;
+		reloadHunspellHandle;
+		reloadAddedWords].
 	^ super startUp: resuming
