@@ -7,7 +7,7 @@ testParsingStringsOnly
 	lastWordInStringStart := 54.
 	lastWordInStringEnd := 60.
 	
-	text := 'wongVariableName := ',$','This is a String in code with a mistace.',$', 'reverst'.
+	text := 'wongVariableName := ', $', 'This is a String in code with a mistace.', $', 'reverst'.
 	SPCTextParser parseStringsOnly: true.
 	strings := parser parseText: text.
 	self assert: ((strings select: [ :value | (value < firstWordInStringEnd or: [value > lastWordInStringEnd])]) size = 0).

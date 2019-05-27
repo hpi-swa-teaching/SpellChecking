@@ -10,7 +10,8 @@
 		"testIsSeparator" : "ow 7/4/2018 23:46",
 		"testIsStringAlphaNumeric" : "RS 7/25/2018 16:40",
 		"testParsingCommentsOnly" : "ea 5/11/2019 15:32",
-		"testParsingStringsOnly" : "ea 5/11/2019 15:32",
+		"testParsingStringsOnly" : "mka 5/27/2019 14:28",
 		"testParsingStringsOnlySingleCorrectWord" : "ea 5/27/2019 09:53",
 		"testParsingStringsOnlySingleWrongWord" : "ea 5/27/2019 09:52",
+		"testParsingStringsOnlyWhenCommentContainsApostrophe" : "mka 5/27/2019 14:40",
 		"testParsingWithSeparator" : "ow 7/4/2018 23:46" } }
