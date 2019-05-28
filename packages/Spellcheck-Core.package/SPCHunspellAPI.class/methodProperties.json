@@ -1,5 +1,6 @@
 {
 	"class" : {
+		"fileExists:" : "ea 5/28/2019 19:29",
 		"handleNotNil" : "ea 5/28/2019 19:23",
 		"instance" : "ea 5/28/2019 18:53",
 		"instance:" : "ea 5/28/2019 19:27",
@@ -9,9 +10,9 @@
 		"ressourceDirectory" : "ea 5/23/2019 17:26",
 		"vmDirectory" : "ea 5/23/2019 17:27" },
 	"instance" : {
-		"addDictionary:" : "ea 5/28/2019 19:24",
+		"addDictionary:" : "ea 5/28/2019 19:29",
 		"addDictionary:of:" : "mka 5/14/2019 17:59",
-		"addWordToDictionary:" : "ea 5/28/2019 19:24",
+		"addWordToDictionary:" : "ea 5/28/2019 19:31",
 		"apiAdd:dictionary:" : "ea 4/30/2019 19:15",
 		"apiAdd:word:" : "ea 4/30/2019 19:15",
 		"apiCheckWord:Text:" : "ea 4/30/2019 19:13",
@@ -29,7 +30,6 @@
 		"downloadDictionaries" : "ea 5/23/2019 18:05",
 		"downloadFileTo:fromURL:toFileNamed:inBinary:" : "ea 4/30/2019 19:21",
 		"downloadLibraries" : "ea 5/23/2019 18:05",
-		"fileExists:" : "ea 5/28/2019 19:18",
 		"finalize" : "mka 5/14/2019 11:42",
 		"findLinuxLibraryPaths:" : "ea 4/28/2019 15:16",
 		"freeSuggestionList:" : "ea 5/28/2019 19:25",
@@ -42,6 +42,6 @@
 		"installLibrariesForWindows:in:" : "ea 5/23/2019 19:35",
 		"isNilObject" : "mka 5/14/2019 18:02",
 		"isWordCorrect:" : "ea 5/28/2019 19:24",
-		"removeWordFromDictionary:" : "ea 5/28/2019 19:26",
+		"removeWordFromDictionary:" : "ea 5/28/2019 19:31",
 		"startUp" : "mka 5/14/2019 18:20",
 		"systemArchitecture" : "ea 4/30/2019 19:43" } }
