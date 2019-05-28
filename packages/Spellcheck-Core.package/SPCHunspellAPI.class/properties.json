@@ -1,7 +1,7 @@
 {
 	"category" : "Spellcheck-Core",
 	"classinstvars" : [
-		 ],
+		"Instance" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "ow 7/21/2018 17:23",

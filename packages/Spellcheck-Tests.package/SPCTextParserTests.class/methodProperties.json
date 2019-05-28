@@ -13,4 +13,5 @@
 		"testParsingStringsOnly" : "ea 5/28/2019 14:31",
 		"testParsingStringsOnlySingleCorrectWord" : "ea 5/28/2019 14:31",
 		"testParsingStringsOnlySingleWrongWord" : "ea 5/28/2019 14:31",
+		"testParsingStringsWithApostrophe" : "ea 5/28/2019 19:45",
 		"testParsingWithSeparator" : "ea 5/28/2019 14:32" } }
