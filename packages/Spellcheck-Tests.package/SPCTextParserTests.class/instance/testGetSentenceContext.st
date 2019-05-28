@@ -2,6 +2,8 @@ testing
 testGetSentenceContext
 
 	| sentence text |
+	self disableStringsOnly.
+	
 	
 	text := 'Hello this. Is a sentence, and then another half sentence.o'.
 	

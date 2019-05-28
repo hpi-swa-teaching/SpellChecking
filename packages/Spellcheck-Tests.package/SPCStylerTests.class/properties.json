@@ -9,7 +9,9 @@
 		"spellingStyler",
 		"correctionUIStyler",
 		"textWithMistake",
-		"wrongWordIndex" ],
+		"textWithoutMistake",
+		"wrongWordIndex",
+		"originalStateWorkspaceHighlighting" ],
 	"name" : "SPCStylerTests",
 	"pools" : [
 		 ],

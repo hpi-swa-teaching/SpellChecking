@@ -3,6 +3,5 @@ initialize
 	
 	super initialize.
 	Smalltalk addToStartUpList: self.
-	self downloadLibraries;
-		downloadDictionaries;
+	self installDependencies;
 		createHandle

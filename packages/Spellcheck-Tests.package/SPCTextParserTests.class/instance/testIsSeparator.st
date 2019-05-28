@@ -1,6 +1,7 @@
 testing
 testIsSeparator
-
+	
+	self disableStringsOnly.
 	self assert: (parser isSeparator: $.).
 	self assert: (parser isSeparator: $+).
 	self assert: (parser isSeparator: $ ).

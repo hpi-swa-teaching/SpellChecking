@@ -1,0 +1,14 @@
+{
+	"category" : "Spellcheck-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "ea 5/18/2019 14:26",
+	"instvars" : [
+		"informAboutErrors" ],
+	"name" : "SPCSystemBrowser",
+	"pools" : [
+		 ],
+	"super" : "Browser",
+	"type" : "normal" }

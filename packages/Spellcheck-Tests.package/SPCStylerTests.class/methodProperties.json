@@ -2,6 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "ea 5/7/2019 20:48",
+		"setUp" : "ea 5/27/2019 10:43",
 		"testPrivateStyle" : "ow 7/20/2018 15:21",
+		"testStylingInWorkspaceDisabled" : "ea 5/27/2019 10:43",
+		"testStylingInWorkspaceEnabled" : "ea 5/27/2019 10:43",
 		"testUnstyle" : "ow 7/20/2018 15:23" } }

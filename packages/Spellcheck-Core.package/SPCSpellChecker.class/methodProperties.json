@@ -8,8 +8,8 @@
 		"instance" : "ea 5/7/2019 17:59",
 		"instance:" : "ow 6/8/2018 13:26:08",
 		"new" : "ea 5/7/2019 17:58",
-		"startUp:" : "BB 5/16/2019 13:41" },
-	"instance" : {
+		"startUp:" : "ea 5/21/2019 11:27" },
+  	"instance" : {
 		"addWordToDictionary:" : "ow 7/14/2018 14:26",
 		"addWordToIgnoreList:" : "ow 7/20/2018 15:28",
 		"addedWords" : "ow 7/12/2018 19:34",
@@ -28,7 +28,7 @@
 		"parser" : "ow 7/14/2018 14:26",
 		"parser:" : "ow 7/25/2018 20:15",
 		"reloadAddedWords" : "ow 7/14/2018 14:28",
-		"reloadHunspellHandle" : "ea 5/7/2019 19:08",
+		"reloadHunspellHandle" : "ea 5/21/2019 16:12",
 		"removeWordFromDictionary:" : "ow 7/14/2018 14:28",
 		"removeWordFromIgnoreList:" : "ow 7/14/2018 14:29",
 		"suggestionsFor:" : "ow 7/14/2018 14:29" } }

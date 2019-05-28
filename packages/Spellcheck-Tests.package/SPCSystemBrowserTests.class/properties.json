@@ -1,0 +1,14 @@
+{
+	"category" : "Spellcheck-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"classUnderTest" ],
+	"name" : "SPCSystemBrowserTests",
+	"pools" : [
+		 ],
+	"super" : "SPCSpellCheckTests",
+	"type" : "normal" }
