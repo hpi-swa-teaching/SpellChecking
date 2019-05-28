@@ -1,4 +1,4 @@
 constants
 germanDictionary
 
-	^ 'de_DE.dic'
+	^ (FileDirectory default directoryNamed: 'dictionaries', FileDirectory slash, 'german', FileDirectory slash, 'de_DE.dic') pathName

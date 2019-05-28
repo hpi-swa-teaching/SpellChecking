@@ -3,6 +3,8 @@ testParsingWithSeparator
 
 	| strings text |
 	
+	self disableStringsOnly.
+	
 	text := 'Hallo    Max.xx;;  qwertz,k'.
 	strings := parser parseText: text.
 	

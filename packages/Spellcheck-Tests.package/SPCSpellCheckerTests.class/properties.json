@@ -14,5 +14,5 @@
 	"name" : "SPCSpellCheckerTests",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "SPCSpellCheckTests",
 	"type" : "normal" }

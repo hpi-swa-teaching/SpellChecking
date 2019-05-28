@@ -1,4 +1,8 @@
 private
 createHandle: dictionaryPath affix: affixPath
-
-	self apiHandle: (self apiCreateHandle: affixPath dPath: dictionaryPath)
+	| handle |
+	"Local variable for debugging."
+	self class libraryExists ifTrue: [
+		handle :=self apiCreateHandle: affixPath dPath: dictionaryPath.
+		self apiHandle: handle
+	]

@@ -6,4 +6,6 @@ initializeParser: aString
 		loopVariable: 1;
 		startOfCurrentWord: 1; 
 		endOfCurrentWord: 1;
-		parsedWords: Dictionary new
+		parsedWords: Dictionary new;
+		isInString: false;
+		isInComment: false

@@ -1,16 +1,19 @@
 {
 	"category" : "Spellcheck-Core",
 	"classinstvars" : [
-		 ],
+		"parseStringsOnly" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "ow 7/23/2018 18:15",
 	"instvars" : [
 		"parsedWords",
+		"parseStringsOnly",
 		"stringToParse",
 		"loopVariable",
 		"startOfCurrentWord",
-		"endOfCurrentWord" ],
+		"endOfCurrentWord",
+		"isInString",
+		"isInComment" ],
 	"name" : "SPCTextParser",
 	"pools" : [
 		 ],

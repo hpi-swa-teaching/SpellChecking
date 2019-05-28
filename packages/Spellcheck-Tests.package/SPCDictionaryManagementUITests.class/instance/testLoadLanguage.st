@@ -1,6 +1,6 @@
 testing
 testLoadLanguage
-
+	
 	ui selectedLanguage: 'english'.
 	self deny: (ui spellchecker isSpelledCorrectly: germanWord).
 	

@@ -2,6 +2,7 @@ testing
 testCamelCaseParsing
 
 	| strings word |
+	self disableStringsOnly.
 	
 	word := 'aHaXHelloMyNameB'.
 	strings := parser parseText: word.

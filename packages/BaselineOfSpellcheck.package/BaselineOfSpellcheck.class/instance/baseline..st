@@ -11,8 +11,9 @@ baseline: spec
 				spec
 					className: 'ConfigurationOfFFI';
 					file: 'ConfigurationOfFFI';
-					repository: 'http://www.squeaksource.com/MetacelloRepository';
-					versionString: '1.5' ].
+					repository: 'http://source.squeak.org/FFI';
+					loads: #('FFI-Pools' 'FFI-Kernel' 'FFI-Tests');
+					versionString: '1.12' ].
 			spec
 				package: 'Spellcheck-Core' with: [spec requires: #('FFI')];
 				package: 'Spellcheck-Tests' with: [spec requires: #('Spellcheck-Core' 'Project12')];

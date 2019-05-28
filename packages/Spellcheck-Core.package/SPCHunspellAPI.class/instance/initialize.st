@@ -1,5 +1,7 @@
 initialize-release
 initialize
-
+	
 	super initialize.
-	self createHandle
+	Smalltalk addToStartUpList: self.
+	self installDependencies;
+		createHandle

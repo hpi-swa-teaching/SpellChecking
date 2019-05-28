@@ -1,0 +1,3 @@
+as yet unclassified
+tearDown
+	SPCTextStyler spellCheckingEnabled: originalStateSpellcheck.
