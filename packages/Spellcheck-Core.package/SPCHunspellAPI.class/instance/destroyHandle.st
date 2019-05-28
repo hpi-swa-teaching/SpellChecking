@@ -1,3 +1,5 @@
 private
 destroyHandle
-	self apiDestroyHandle: self apiHandle
+	(self class libraryExists  and: [ self class handleNotNil]) ifTrue: [
+		self apiDestroyHandle: self apiHandle
+	]

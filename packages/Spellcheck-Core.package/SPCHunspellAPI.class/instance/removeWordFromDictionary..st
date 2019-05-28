@@ -1,3 +1,5 @@
 spellchecking
 removeWordFromDictionary: aString
-	self apiRemove: self apiHandle word: aString
+	((self class libraryExists and: [self class fileExists: aString])  and: [ self class handleNotNil]) ifTrue: [
+		self apiRemove: self apiHandle word: aString
+	]
