@@ -1,3 +1,3 @@
 parsing
 shouldProcessWord
-	^ (SPCTextParser parseStringsOnly and: [self isInString]) or: [SPCTextParser parseStringsOnly not]
+	^ (self parseStringsOnly and: [self isInString]) or: [self parseStringsOnly not]

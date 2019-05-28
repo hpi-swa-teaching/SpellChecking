@@ -4,8 +4,8 @@ testParsingStringsOnlySingleWrongWord
 	| strings text|
 	
 	text := 'a := ''sqeek'''.
-	SPCTextParser parseStringsOnly: true.
+	parser parseStringsOnly: true.
 	strings := parser parseText: text.
 	self assert: (strings size = 1).
 	
-	SPCTextParser parseStringsOnly: false
+	parser parseStringsOnly: false

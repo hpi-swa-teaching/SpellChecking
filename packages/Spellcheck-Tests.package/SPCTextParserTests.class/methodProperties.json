@@ -2,15 +2,15 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "ea 5/11/2019 15:30",
-		"tearDown" : "ea 5/11/2019 14:30",
-		"testCamelCaseParsing" : "ow 7/4/2018 23:44",
-		"testGetSentenceContext" : "ow 7/4/2018 23:45",
-		"testIsSentenceSeparator" : "ow 7/4/2018 23:46",
-		"testIsSeparator" : "ow 7/4/2018 23:46",
-		"testIsStringAlphaNumeric" : "RS 7/25/2018 16:40",
-		"testParsingCommentsOnly" : "ea 5/11/2019 15:32",
-		"testParsingStringsOnly" : "ea 5/11/2019 15:32",
-		"testParsingStringsOnlySingleCorrectWord" : "ea 5/27/2019 09:53",
-		"testParsingStringsOnlySingleWrongWord" : "ea 5/27/2019 09:52",
-		"testParsingWithSeparator" : "ow 7/4/2018 23:46" } }
+		"disableStringsOnly" : "ea 5/28/2019 14:30",
+		"setUp" : "ea 5/28/2019 14:28",
+		"testCamelCaseParsing" : "ea 5/28/2019 14:30",
+		"testGetSentenceContext" : "ea 5/28/2019 14:30",
+		"testIsSentenceSeparator" : "ea 5/28/2019 14:30",
+		"testIsSeparator" : "ea 5/28/2019 14:30",
+		"testIsStringAlphaNumeric" : "ea 5/28/2019 14:30",
+		"testParsingCommentsOnly" : "ea 5/28/2019 14:29",
+		"testParsingStringsOnly" : "ea 5/28/2019 14:31",
+		"testParsingStringsOnlySingleCorrectWord" : "ea 5/28/2019 14:31",
+		"testParsingStringsOnlySingleWrongWord" : "ea 5/28/2019 14:31",
+		"testParsingWithSeparator" : "ea 5/28/2019 14:32" } }

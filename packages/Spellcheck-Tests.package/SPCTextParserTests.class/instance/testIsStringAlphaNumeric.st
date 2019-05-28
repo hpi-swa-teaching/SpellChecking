@@ -2,6 +2,7 @@ testing
 testIsStringAlphaNumeric
 
 	| text strings|
+	self disableStringsOnly.
 	
 	text := 'do: [ :c | ]'.
 
