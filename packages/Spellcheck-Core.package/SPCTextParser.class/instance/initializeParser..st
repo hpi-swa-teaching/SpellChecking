@@ -7,4 +7,5 @@ initializeParser: aString
 		startOfCurrentWord: 1; 
 		endOfCurrentWord: 1;
 		parsedWords: Dictionary new;
-		isInString: false
+		isInString: false;
+		stringStartSymbol: nil
