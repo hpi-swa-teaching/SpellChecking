@@ -1,7 +1,7 @@
 initialize-release
 setUp
 	super setUp.
-	hunspell := SPCHunspellAPI new.
+	hunspell := SPCHunspellAPI instance.
 	wrongWord := 'squeack'.
 	correctWord := 'squeak'.
 	germanWord := 'Klabautermann'
