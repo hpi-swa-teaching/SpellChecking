@@ -11,7 +11,8 @@
 		"textWithMistake",
 		"textWithoutMistake",
 		"wrongWordIndex",
-		"originalStateWorkspaceHighlighting" ],
+		"originalStateWorkspaceHighlighting",
+		"originalTheme" ],
 	"name" : "SPCStylerTests",
 	"pools" : [
 		 ],

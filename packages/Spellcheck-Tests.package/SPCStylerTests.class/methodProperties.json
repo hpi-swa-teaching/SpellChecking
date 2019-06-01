@@ -2,8 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "ea 5/27/2019 10:43",
+		"getColorFromRunArray:" : "ea 6/1/2019 19:03",
+		"setUp" : "ea 6/1/2019 18:42",
+		"tearDown" : "ea 6/1/2019 18:48",
 		"testPrivateStyle" : "ow 7/20/2018 15:21",
 		"testStylingInWorkspaceDisabled" : "ea 5/27/2019 10:43",
 		"testStylingInWorkspaceEnabled" : "ea 5/27/2019 10:43",
+		"testStylingWithThemes" : "ea 6/1/2019 19:06",
 		"testUnstyle" : "ow 7/20/2018 15:23" } }
