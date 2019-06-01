@@ -7,10 +7,11 @@ testPrivateStyle
 	runArray := textWithMistake runs.
 	
 	self assert: ((runArray at: wrongWordIndex) includes: TextEmphasis underlined).
-	self assert: ((runArray at: wrongWordIndex) includes: (TextColor color: Color orange)).
-		
+	
+	self deny: ( self colorsDiffer: runArray).
+	
 	correctionUIStyler privateStyle: textWithMistake.	
 	runArray := textWithMistake runs.
 	
 	self assert: ((runArray at: wrongWordIndex) includes: TextEmphasis underlined).
-	self assert: ((runArray at: wrongWordIndex) includes: (TextColor color: Color orange))
+	self deny: ( self colorsDiffer: runArray).

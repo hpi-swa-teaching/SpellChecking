@@ -6,11 +6,11 @@ testStylingWithThemes
 	
 	spellingStyler privateStyle: textWithMistake.
 	runArray := textWithMistake runs.
-	colorOld := self getColorFromRunArray:  (runArray at: wrongWordIndex).
+	colorOld := SPCTextStyler getColorFromRunArray:  (runArray at: wrongWordIndex).
 	
 	CommunityTheme createDark apply.
 	spellingStyler privateStyle: textWithMistake.
 	runArray := textWithMistake runs.
-	colorNew := self getColorFromRunArray:  (runArray at: wrongWordIndex).
+	colorNew := SPCTextStyler getColorFromRunArray:  (runArray at: wrongWordIndex).
 	
 	self deny: (colorOld = colorNew)
