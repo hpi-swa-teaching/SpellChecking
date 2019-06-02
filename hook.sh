@@ -6,5 +6,4 @@ echo Current Branch: ${BRANCH}
 sed -i -r 's/branch=(\w|-)*/branch='"${BRANCH}"'/g' README.md
 sed -i -r 's/SpellChecking:(\w|-)*/SpellChecking:'"${BRANCH}"'/g' README.md
 git add README.md && git commit -m"Updated branch refs in README."
-git push --no-verify ${1} ${BRANCH}
 exit 0
