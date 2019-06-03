@@ -1,7 +1,7 @@
 toolbuilder
 buildWith: builder
 
-	| windowSpec ignoredWordsListSpec removeButtonSpec languageListSpec  |
+	| windowSpec ignoredWordsListSpec removeButtonSpec languageListSpec  addDictionaryButtonSpec |
 	windowSpec := builder pluggableWindowSpec new.
 	windowSpec
 		model: self;
@@ -33,6 +33,15 @@ buildWith: builder
 		label: 'remove word';
 		action: #removeFromIgnoredWords;
 		frame: (0.1@0.94 corner: 0.4@1). 
-	windowSpec children add: removeButtonSpec.		
-		
+	windowSpec children add: removeButtonSpec.
+
+	addDictionaryButtonSpec := builder pluggableButtonSpec new.
+	addDictionaryButtonSpec 
+		model: self;
+		label: 'addDictionary';
+		action: #addDictionary;
+		frame: (0.6@0.94 corner: 0.9@1). 
+	windowSpec children add: addDictionaryButtonSpec.
+
+
 	^ builder build: windowSpec 

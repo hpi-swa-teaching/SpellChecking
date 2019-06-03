@@ -1,4 +1,4 @@
 registering
 registerInWorldMenu
 
-	TheWorldMenu registerOpenCommand: {'Dictionary Settings'. {self. #open}}
+	TheWorldMenu registerOpenCommand: {'Spellchecking'. {self. #open}}
