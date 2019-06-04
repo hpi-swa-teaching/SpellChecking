@@ -1,7 +1,7 @@
 toolbuilder
 buildWith: builder
 
-	| windowSpec ignoredWordsListSpec removeButtonSpec languageListSpec  addDictionaryButtonSpec |
+	| windowSpec ignoredWordsListSpec removeButtonSpec languageListSpec  importDictionaryButtonSpec loadLanguageButtonSpec addDictionaryButtonSpec |
 	windowSpec := builder pluggableWindowSpec new.
 	windowSpec
 		model: self;
@@ -12,7 +12,7 @@ buildWith: builder
 	ignoredWordsListSpec := builder pluggableListSpec new.
 	ignoredWordsListSpec 
 		model: self;
-		frame: (0@0 corner: 0.5@0.94);
+		frame: (0@0 corner: 0.5@0.88);
 		list: #ignoredWords;
 		getSelected: #selectedWord;
 		setSelected: #selectedWord:.
@@ -21,7 +21,7 @@ buildWith: builder
 	languageListSpec := builder pluggableListSpec new.
 	languageListSpec 
 		model: self;
-		frame: (0.5@0 corner: 1@0.94);
+		frame: (0.5@0 corner: 1@0.88);
 		list: #loadedLanguages;
 		getSelected: #selectedLanguage;
 		setSelected: #selectedLanguage:.
@@ -32,14 +32,30 @@ buildWith: builder
 		model: self;
 		label: 'remove word';
 		action: #removeFromIgnoredWords;
-		frame: (0.1@0.94 corner: 0.4@1). 
+		frame: (0.1@0.88 corner: 0.4@0.94). 
 	windowSpec children add: removeButtonSpec.
+
+	importDictionaryButtonSpec := builder pluggableButtonSpec new.
+	importDictionaryButtonSpec 
+		model: self;
+		label: 'import Dictionary';
+		action: #importDictionary;
+		frame: (0.1@0.94 corner: 0.4@1). 
+	windowSpec children add: importDictionaryButtonSpec.
+
+	loadLanguageButtonSpec := builder pluggableButtonSpec new.
+	loadLanguageButtonSpec 
+		model: self;
+		label: 'load selected Language';
+		action: #loadLanguage;
+		frame: (0.6@0.88 corner: 0.9@0.94). 
+	windowSpec children add: loadLanguageButtonSpec.
 
 	addDictionaryButtonSpec := builder pluggableButtonSpec new.
 	addDictionaryButtonSpec 
 		model: self;
-		label: 'import Dictionary';
-		action: #importDictionary;
+		label: 'add selected Dictionary';
+		action: #addDictionary;
 		frame: (0.6@0.94 corner: 0.9@1). 
 	windowSpec children add: addDictionaryButtonSpec.
 
