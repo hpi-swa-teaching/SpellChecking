@@ -2,8 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "ea 5/27/2019 10:43",
-		"testPrivateStyle" : "ow 7/20/2018 15:21",
+		"colorsDiffer:" : "ea 6/1/2019 20:01",
+		"setUp" : "ea 6/1/2019 18:42",
+		"tearDown" : "ea 6/1/2019 18:48",
+		"testGetColorFromRunArray" : "ea 6/1/2019 19:17",
+		"testPrivateStyle" : "ea 6/1/2019 20:01",
 		"testStylingInWorkspaceDisabled" : "ea 5/27/2019 10:43",
 		"testStylingInWorkspaceEnabled" : "ea 5/27/2019 10:43",
-		"testUnstyle" : "ow 7/20/2018 15:23" } }
+		"testStylingWithThemes" : "ea 6/1/2019 19:46",
+		"testUnstyle" : "ea 6/1/2019 20:03" } }
