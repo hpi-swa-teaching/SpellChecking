@@ -39,7 +39,7 @@ buildWith: builder
 	addDictionaryButtonSpec 
 		model: self;
 		label: 'import Dictionary';
-		action: #addDictionary;
+		action: #importDictionary;
 		frame: (0.6@0.94 corner: 0.9@1). 
 	windowSpec children add: addDictionaryButtonSpec.
 

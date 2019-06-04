@@ -1,5 +1,5 @@
 spellchecking
-addDictionary: aDictionaryPath withAffix: anAffixPath of: aName
+importDictionary: aDictionaryPath withAffix: anAffixPath of: aName
 
 
 	(FileDirectory default directoryNamed: 'dictionaries') createDirectory: aName.

@@ -14,7 +14,7 @@ chooseDictionaryPath
 			language = '' ifTrue: [
 				UIManager default inform: 'No name given. Process aborted.'.
 			] ifFalse: [
-				self addDictionary: dictionaryPath withAffix: affixPath of: language.
+				self importDictionary: dictionaryPath withAffix: affixPath of: language.
 			].
 		].
 	]
