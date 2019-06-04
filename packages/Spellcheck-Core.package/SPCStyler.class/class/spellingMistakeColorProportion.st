@@ -1,3 +1,3 @@
 as yet unclassified
 spellingMistakeColorProportion
-	^ 0.75
+	^ 0.25

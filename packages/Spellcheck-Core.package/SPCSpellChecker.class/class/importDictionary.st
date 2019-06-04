@@ -1,4 +1,4 @@
 system startup
-addDictionary
+importDictionary
 		
 	self instance hunspell chooseDictionaryPath.
