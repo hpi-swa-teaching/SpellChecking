@@ -5,9 +5,10 @@
 		"colorsDiffer:" : "ea 6/1/2019 20:01",
 		"setUp" : "ea 6/1/2019 18:42",
 		"tearDown" : "ea 6/1/2019 18:48",
+		"testDefaultColorWithThemes" : "ea 6/5/2019 18:55",
 		"testGetColorFromRunArray" : "ea 6/1/2019 19:17",
 		"testPrivateStyle" : "ea 6/1/2019 20:01",
 		"testStylingInWorkspaceDisabled" : "ea 5/27/2019 10:43",
 		"testStylingInWorkspaceEnabled" : "ea 5/27/2019 10:43",
 		"testStylingWithThemes" : "ea 6/1/2019 19:46",
-		"testUnstyle" : "ea 6/1/2019 20:03" } }
+		"testUnstyle" : "ea 6/5/2019 18:38" } }
