@@ -10,7 +10,9 @@
 		"wrongWord",
 		"textWithMistake",
 		"wrongWordStartIndex",
-		"wrongWordEndIndex" ],
+		"wrongWordEndIndex",
+		"germanWord",
+		"englishWord" ],
 	"name" : "SPCSpellCheckerTests",
 	"pools" : [
 		 ],

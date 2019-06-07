@@ -9,8 +9,9 @@
 	"instvars" : [
 		"hunspell",
 		"parser",
-		"dictionaryPath",
-		"affixPath" ],
+		"dictionaryPaths",
+		"affixPaths",
+		"loadedLanguages" ],
 	"name" : "SPCSpellChecker",
 	"pools" : [
 		 ],
