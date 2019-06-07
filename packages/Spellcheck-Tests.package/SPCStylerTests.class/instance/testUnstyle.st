@@ -5,8 +5,7 @@ testUnstyle
 	
 	spellingStyler privateStyle: textWithMistake.
 	runArray := textWithMistake runs.	
-	self assert: ((runArray at: wrongWordIndex) includes: (TextColor color: Color orange)).
-	
+	self deny: ( self colorsDiffer: runArray).
 	spellingStyler unstyle: textWithMistake.
 	runArray := textWithMistake runs.
-	self deny: ((runArray at: wrongWordIndex) includes: (TextColor color: Color orange))
+	self assert: ( runArray values = #(#())).

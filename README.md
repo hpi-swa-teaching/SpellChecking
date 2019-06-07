@@ -1,4 +1,4 @@
-# Spellcheck [![Build Status](https://travis-ci.org/hpi-swa-teaching/SpellChecking.svg?branch=dev)](https://travis-ci.org/hpi-swa-teaching/SpellChecking) [![Coverage Status](https://coveralls.io/repos/github/hpi-swa-teaching/SpellChecking/badge.svg?branch=master)](https://coveralls.io/github/hpi-swa-teaching/SpellChecking?branch=dev)
+# Spellcheck [![Build Status](https://travis-ci.org/hpi-swa-teaching/SpellChecking.svg?branch=dev)](https://travis-ci.org/hpi-swa-teaching/SpellChecking) [![Coverage Status](https://coveralls.io/repos/github/hpi-swa-teaching/SpellChecking/badge.svg?branch=dev)](https://coveralls.io/github/hpi-swa-teaching/SpellChecking?branch=dev)
 
 ## Trello Boards
 
