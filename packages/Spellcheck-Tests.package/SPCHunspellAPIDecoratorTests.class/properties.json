@@ -1,0 +1,14 @@
+{
+	"category" : "Spellcheck-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"decorator" ],
+	"name" : "SPCHunspellAPIDecoratorTests",
+	"pools" : [
+		 ],
+	"super" : "SPCSpellCheckTests",
+	"type" : "normal" }

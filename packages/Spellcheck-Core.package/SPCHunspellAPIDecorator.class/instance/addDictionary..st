@@ -1,0 +1,3 @@
+spellchecking
+addDictionary: dictionaryPath
+	self addDictionary: dictionaryPath andAffix: SPCSpellChecker defaultAffixPath

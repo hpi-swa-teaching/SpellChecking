@@ -3,7 +3,7 @@ testDownloadLibraries
 	
 		| bitsPerWord |
 		
-		bitsPerWord := hunspell systemArchitecture.	
+		bitsPerWord := SPCHunspellAPI systemArchitecture.	
 
        (Smalltalk os platformName asLowercase caseOf: {
 		['mac os'] -> [ self assert: (SPCHunspellAPI vmDirectory fileExists: 'libhunspell-darwin-x86-32.dylib') ].
