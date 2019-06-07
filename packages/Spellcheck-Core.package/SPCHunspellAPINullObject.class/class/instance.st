@@ -1,3 +1,3 @@
-as yet unclassified
+instanciation
 instance
-	^ self new
+	^ self basicNew initialize
