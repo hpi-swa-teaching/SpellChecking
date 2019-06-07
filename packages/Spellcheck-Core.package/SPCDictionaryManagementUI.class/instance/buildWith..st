@@ -51,13 +51,13 @@ buildWith: builder
 		frame: (0.6@0.88 corner: 0.9@0.94). 
 	windowSpec children add: loadLanguageButtonSpec.
 
-	addDictionaryButtonSpec := builder pluggableButtonSpec new.
+	"addDictionaryButtonSpec := builder pluggableButtonSpec new.
 	addDictionaryButtonSpec 
 		model: self;
 		label: 'add selected Dictionary';
 		action: #addDictionary;
 		frame: (0.6@0.94 corner: 0.9@1). 
-	windowSpec children add: addDictionaryButtonSpec.
+	windowSpec children add: addDictionaryButtonSpec."
 
 
 	^ builder build: windowSpec 
