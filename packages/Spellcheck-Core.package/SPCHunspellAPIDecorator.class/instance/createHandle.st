@@ -1,3 +1,3 @@
 spellchecking
 createHandle
-	self instances add: SPCHunspellAPI new createHandle
+	self instances add: SPCHunspellAPI empty createHandle

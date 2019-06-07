@@ -1,12 +1,13 @@
 {
 	"class" : {
 		"Instance:" : "ea 6/7/2019 16:30",
+		"empty" : "ea 6/7/2019 17:20",
 		"fileExists:" : "ea 5/28/2019 19:29",
 		"instance" : "ea 6/7/2019 16:21",
 		"libraryExists" : "ea 5/28/2019 19:10",
 		"moduleName" : "ea 4/30/2019 19:14",
 		"new" : "ea 5/28/2019 18:59",
-		"new:withAffix:" : "ea 6/7/2019 15:29",
+		"new:withAffix:" : "ea 6/7/2019 17:20",
 		"ressourceDirectory" : "ea 5/23/2019 17:26",
 		"systemArchitecture" : "ea 6/7/2019 17:09",
 		"vmDirectory" : "ea 5/23/2019 17:27" },

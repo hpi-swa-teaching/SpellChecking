@@ -1,6 +1,6 @@
 library
 new: dictionaryPath withAffix: affixPath
 	| hunspell |
-	hunspell := self basicNew initialize.
+	hunspell := self empty.
 	hunspell createHandle: dictionaryPath affix: affixPath.
 	^ hunspell
