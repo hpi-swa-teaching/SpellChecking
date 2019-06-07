@@ -7,6 +7,8 @@ usedLanguage
 	self spellchecker loadedLanguages do: [ :language |
 		pathSegments := (language dictionaryPath) subStrings: FileDirectory slash.
 		indexOfLanguageName := pathSegments size -1.
-		languages := (pathSegments at: indexOfLanguageName)
+		indexOfLanguageName > 0 ifTrue: [
+			languages := (pathSegments at: indexOfLanguageName)
+		]
 	].
 	^ languages
