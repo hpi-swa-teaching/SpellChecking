@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"expectedFailures" : "ea 6/11/2019 18:30",
 		"setUp" : "ea 5/7/2019 20:48",
 		"testAddToDict" : "ea 6/11/2019 17:50",
 		"testIgnoreAll" : "RS 7/25/2018 16:21",

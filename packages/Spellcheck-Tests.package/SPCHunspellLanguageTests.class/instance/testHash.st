@@ -1,3 +1,3 @@
 as yet unclassified
 testHash
-	self deny: (SPCHunspellLanguage default hash = SPCHunspellLanguage german hash)
+	self deny: (SPCHunspellLanguage english hash = SPCHunspellLanguage german hash)
