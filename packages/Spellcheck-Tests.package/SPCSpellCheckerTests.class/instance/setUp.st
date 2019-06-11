@@ -8,4 +8,4 @@ setUp
 	wrongWordEndIndex := 21.
 	germanWord := 'Essens'.
 	englishWord := 'foods'.
-	
+	loadedLanguages := SPCSpellChecker loadedLanguages

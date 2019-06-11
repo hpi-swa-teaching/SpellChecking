@@ -12,7 +12,9 @@
 		"wrongWordStartIndex",
 		"wrongWordEndIndex",
 		"germanWord",
-		"englishWord" ],
+		"englishWord",
+		"instance",
+		"loadedLanguages" ],
 	"name" : "SPCSpellCheckerTests",
 	"pools" : [
 		 ],
