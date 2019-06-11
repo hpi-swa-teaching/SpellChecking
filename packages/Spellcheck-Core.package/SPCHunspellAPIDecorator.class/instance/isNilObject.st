@@ -1,0 +1,3 @@
+spellchecking
+isNilObject
+	^ false

@@ -1,3 +1,3 @@
 library
-instance: aHunspellAPI
-	Instance := aHunspellAPI
+Instance: aValue
+	Instance := aValue

@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "ow 7/21/2018 17:23",
 	"instvars" : [
-		"apiHandle" ],
+		"apiHandle",
+		"dictionaryPath",
+		"affixPath" ],
 	"name" : "SPCHunspellAPI",
 	"pools" : [
 		 ],

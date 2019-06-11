@@ -2,10 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "ea 5/7/2019 20:48",
+		"setUp" : "ea 6/7/2019 18:34",
 		"testAddWordsAcrossInstances" : "ea 5/28/2019 18:16",
 		"testAddWordsToDictionary" : "ow 7/20/2018 15:30",
+		"testContains" : "ea 6/7/2019 18:03",
+		"testContainsNot" : "ea 6/7/2019 18:03",
 		"testDisablingSpellcheck" : "ea 5/7/2019 18:39",
 		"testIgnore" : "ow 7/20/2018 15:29",
 		"testMisspelledWordsIn" : "RS 7/25/2018 16:27",
-		"testSpellCheckAfterRestart" : "ea 5/21/2019 11:31" } }
+		"testSpellCheckAfterRestart" : "ea 6/7/2019 18:44",
+		"testSpellcheckingMultipleLanguages" : "ea 6/7/2019 18:35" } }
