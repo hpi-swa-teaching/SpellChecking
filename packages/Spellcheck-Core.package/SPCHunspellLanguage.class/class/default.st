@@ -1,3 +1,4 @@
 as yet unclassified
 default
-	^ { SPCHunspellLanguage english . SPCHunspellLanguage squeak }
+	"^ ({ SPCHunspellLanguage english . SPCHunspellLanguage squeak } asSet)"
+	^ SPCHunspellLanguage english
