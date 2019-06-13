@@ -1,5 +1,5 @@
 dictionary loading
-loadLanguage
+unloadLanguage
 	| language languageName languagesToLoad |
 	languagesToLoad := OrderedCollection new.
 	(self selectedLanguageIndices) ifNotNil: [
@@ -13,7 +13,7 @@ loadLanguage
 			]
 		].
 		languagesToLoad do: [: languageToLoad |
-			self spellchecker loadedLanguages add: languageToLoad.
+			(self spellchecker loadedLanguages) do: [ :each | (each = languageToLoad) ifTrue: [ self spellchecker loadedLanguages remove: languageToLoad ] ].
 		].
 		self spellchecker reloadHunspellHandle;
 			reloadAddedWords.

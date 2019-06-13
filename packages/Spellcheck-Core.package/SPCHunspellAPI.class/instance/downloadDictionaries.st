@@ -22,9 +22,9 @@ downloadDictionaries
 			ressourceDir := FileDirectory forFileName: ressourceDir pathName.
 			ressourceDir createDirectory: 'squeak'.
 			ressourceDir := ressourceDir directoryNamed: 'squeak'.
-			self downloadFileTo: ressourceDir fromURL: 			'https://github.com/hpi-swa-teaching/SpellChecking/raw/libraries-install-squeak/sq_SQ.dic' toFileNamed: 'sq_SQ.dic' inBinary: false.
+			self downloadFileTo: ressourceDir fromURL: 			'https://raw.githubusercontent.com/hpi-swa-teaching/SpellChecking/dev/build-support/dictionaries/squeak/sq_SQ.dic' toFileNamed: 'sq_SQ.dic' inBinary: false.
 			bar value: 5.
-			self downloadFileTo: ressourceDir fromURL: 			'https://github.com/hpi-swa-teaching/SpellChecking/raw/libraries-install-squeak/sq_SQ.aff' toFileNamed: 'sq_SQ.aff' inBinary: false.
+			self downloadFileTo: ressourceDir fromURL: 			'https://raw.githubusercontent.com/hpi-swa-teaching/SpellChecking/dev/build-support/dictionaries/squeak/sq_SQ.aff' toFileNamed: 'sq_SQ.aff' inBinary: false.
 			bar value: 6.
 		]
 	]

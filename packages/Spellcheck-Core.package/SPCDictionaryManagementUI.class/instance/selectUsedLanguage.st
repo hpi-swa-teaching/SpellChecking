@@ -1,4 +1,4 @@
 dictionary loading
 selectUsedLanguage
 
-	self selectedLanguage: self usedLanguage
+	self availableLanguages: self usedLanguage
