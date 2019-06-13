@@ -3,8 +3,9 @@ testSpellCheckAfterRestartKeepsLanguages
 
 	SPCSpellChecker loadedLanguages: Set new.
 	SPCSpellChecker loadedLanguages add: SPCHunspellLanguage german.
-	SPCSpellChecker loadedLanguages add: SPCHunspellLanguage default.
+	SPCHunspellLanguage default do: [ :each | SPCSpellChecker loadedLanguages add: each].
 	
 	SPCSpellChecker startUp: true.
 	self deny: ((SPCSpellChecker loadedLanguages like: SPCHunspellLanguage german) isNil).
-	self deny: ((SPCSpellChecker loadedLanguages like: SPCHunspellLanguage default) isNil).
+	SPCHunspellLanguage default do: [ :each | self deny: ((SPCSpellChecker loadedLanguages like: each) isNil) ]
+	
