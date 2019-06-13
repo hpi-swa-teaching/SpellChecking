@@ -1,4 +1,4 @@
-spellchecking
+dictionaries
 importDictionary: aDictionaryPath withAffix: anAffixPath of: aName
 
 

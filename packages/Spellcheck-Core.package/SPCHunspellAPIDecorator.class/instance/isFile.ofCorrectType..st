@@ -1,10 +1,10 @@
-initialize-release
+dictionaries
 isFile: aFilePath ofCorrectType: aType
 
 	| dictionaryPath |
 
 	aFilePath ifNil: [
-		UIManager default inform: 'No dictionary selected. Process aborted.'.
+		UIManager default inform: 'No file selected. Process aborted.'.
 		^ false.
 	] ifNotNil: [
 		dictionaryPath := aFilePath fullName.
