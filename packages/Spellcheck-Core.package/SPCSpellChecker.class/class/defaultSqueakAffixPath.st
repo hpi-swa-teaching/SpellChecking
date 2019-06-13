@@ -1,4 +1,4 @@
 constants
 defaultSqueakAffixPath
 
-	^(SPCSpellChecker defaultGermanLanguageDirectory fileNamed:'sq_SQ.aff' ) name
+	^(SPCSpellChecker defaultSqueakLanguageDirectory fileNamed:'sq_SQ.aff' ) name

@@ -1,4 +1,4 @@
 constants
 defaultSqueakDictionaryPath
 
-	^ (SPCSpellChecker defaultGermanLanguageDirectory fileNamed:'sq_SQ.dic') name
+	^ (SPCSpellChecker defaultSqueakLanguageDirectory fileNamed:'sq_SQ.dic') name
