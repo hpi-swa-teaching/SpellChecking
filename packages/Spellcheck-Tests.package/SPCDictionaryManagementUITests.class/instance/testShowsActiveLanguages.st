@@ -1,9 +1,8 @@
 testing
 testShowsActiveLanguages
 	"Will be reset to default languages."
-	| dictionaryUI |
 	SPCSpellChecker loadedLanguages: nil.
-	dictionaryUI := SPCDictionaryManagementUI new.
-	self deny:  (dictionaryUI selectedLanguageIndices at: [ui availableLanguages indexOf: [ SPCHunspellLanguage german languageName] value ] value ).
+	ui := SPCDictionaryManagementUI new.
+	self deny:  (self getLanguageEnabled: SPCHunspellLanguage german languageName inUI: ui).
 	SPCSpellChecker instance loadLanguage: SPCHunspellLanguage german.
-	self assert:  (dictionaryUI selectedLanguageIndices at: [ui availableLanguages indexOf: [ SPCHunspellLanguage german languageName] value ] value ).
+	self assert:  (self getLanguageEnabled: SPCHunspellLanguage german languageName inUI: ui).

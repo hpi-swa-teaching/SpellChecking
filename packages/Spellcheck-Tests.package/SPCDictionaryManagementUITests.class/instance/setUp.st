@@ -1,7 +1,7 @@
 initialize-release
 setUp 
 	super setUp.
-	ui := SPCDictionaryManagementUITestStub new.
+	ui := SPCDictionaryManagementUI new.
 	self wantsToTest: ui open.
 	
 	wrongWord := 'squeack'.
