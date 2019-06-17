@@ -4,7 +4,7 @@
 	"instance" : {
 		"getIndexForObject:inOrderedCollection:" : "ea 6/17/2019 15:24",
 		"getLanguageEnabled:inUI:" : "ea 6/17/2019 15:24",
-		"setUp" : "ea 6/17/2019 15:28",
+		"setUp" : "ea 6/17/2019 16:02",
 		"tearDown" : "ea 5/7/2019 21:11",
 		"testLoadLanguage" : "ea 6/17/2019 15:36",
 		"testRemoveFromIgnoredWords" : "ow 7/25/2018 20:13",

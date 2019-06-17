@@ -5,4 +5,5 @@ setUp
 	self wantsToTest: ui open.
 	
 	wrongWord := 'squeack'.
-	germanWord := 'Klabautermann'
+	germanWord := 'Klabautermann'.
+	SPCSpellChecker loadedLanguages: SPCHunspellLanguage default

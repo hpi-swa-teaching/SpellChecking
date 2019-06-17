@@ -3,7 +3,7 @@
 		 },
 	"instance" : {
 		"expectedFailures" : "ea 6/11/2019 18:30",
-		"setUp" : "ea 5/7/2019 20:48",
+		"setUp" : "ea 6/17/2019 16:01",
 		"testAddToDict" : "ea 6/11/2019 17:50",
 		"testIgnoreAll" : "RS 7/25/2018 16:21",
 		"testIgnoreCurrent" : "RS 7/25/2018 16:24",
