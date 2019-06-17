@@ -6,6 +6,6 @@ testSpellCheckAfterRestart
 	language dictionaryPath: '/notThere'.
 	language affixPath: '/notThere'.
 	
-	SPCSpellChecker instance loadedLanguages add: language.
+	SPCSpellChecker instance loadLanguage: language.
 	SPCSpellChecker startUp: true.
 	self shouldnt: [instance := SPCSpellChecker instance] raise: Error.

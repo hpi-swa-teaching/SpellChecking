@@ -1,15 +1,13 @@
 {
-	"category" : "Spellcheck-Core",
+	"category" : "Spellcheck-Tests",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"dictionaryPath",
-		"affixPath",
-		"languageName" ],
-	"name" : "SPCHunspellLanguage",
+		 ],
+	"name" : "NameOfSubclass",
 	"pools" : [
 		 ],
 	"super" : "Object",

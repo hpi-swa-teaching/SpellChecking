@@ -5,4 +5,5 @@ setUp
 	spellchecker := SPCSpellChecker instance.
 	
 	wrongWord := 'squeack'.
-	textWithMistakes := 'Manny miscakes in the texxt.'
+	textWithMistakes := 'Manny miscakes in the texxt.'.
+	SPCSpellChecker loadedLanguages: SPCHunspellLanguage default

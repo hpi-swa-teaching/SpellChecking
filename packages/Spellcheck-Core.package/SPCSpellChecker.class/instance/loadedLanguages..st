@@ -1,3 +1,3 @@
 accessing
 loadedLanguages: anObject
-	self class loadedLanguages: anObject
+	self class loadedLanguages: anObject.

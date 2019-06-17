@@ -5,4 +5,5 @@ testSuggestions
 	
 	suggestions := hunspell getSuggestions: wrongWord.
 	self assert: 1 <= suggestions size.
-	self assert: (suggestions includes: correctWord)
+	self assert: (suggestions includes: correctWord).
+	

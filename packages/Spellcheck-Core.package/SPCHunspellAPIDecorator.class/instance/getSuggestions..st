@@ -1,4 +1,12 @@
 spellchecking
 getSuggestions: aString
 
-	^ self instances inject: OrderedCollection new into: [ :currentSuggestions :currentInstance | currentSuggestions add: (currentInstance getSuggestions: aString)]
+	| suggestionCollection |
+	
+	suggestionCollection := OrderedCollection new.
+	self instances do: [ :currentInstance | 
+			(currentInstance getSuggestions: aString) do: [ :each |
+				suggestionCollection add: each
+			].
+		 ].
+	^ suggestionCollection

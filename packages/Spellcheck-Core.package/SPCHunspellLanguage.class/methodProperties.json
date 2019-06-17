@@ -1,13 +1,16 @@
 {
 	"class" : {
 		"default" : "mka 6/13/2019 12:08",
-		"english" : "ea 6/11/2019 18:25",
-		"german" : "ea 6/7/2019 18:32",
-		"squeak" : "mka 6/13/2019 10:06" },
+		"english" : "ea 6/17/2019 10:11",
+		"german" : "ea 6/17/2019 10:11",
+		"squeak" : "ea 6/17/2019 10:11" },
 	"instance" : {
 		"=" : "ea 6/7/2019 18:17",
 		"affixPath" : "ea 6/7/2019 18:09",
 		"affixPath:" : "ea 6/7/2019 18:09",
 		"dictionaryPath" : "ea 6/7/2019 18:08",
 		"dictionaryPath:" : "ea 6/7/2019 18:08",
-		"hash" : "ea 6/11/2019 18:17" } }
+		"hash" : "ea 6/11/2019 18:17",
+		"languageName" : "ea 6/17/2019 10:06",
+		"languageName:" : "ea 6/17/2019 10:06",
+		"printOn:" : "ea 6/17/2019 10:10" } }
