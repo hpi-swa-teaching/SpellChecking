@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"changed:" : "ea 6/17/2019 14:09",
 		"setUp" : "ea 6/11/2019 18:13",
 		"tearDown" : "ea 6/11/2019 18:13",
 		"testAddWordsAcrossInstances" : "ea 5/28/2019 18:16",
@@ -11,6 +12,7 @@
 		"testDisablingSpellcheck" : "ea 5/7/2019 18:39",
 		"testIgnore" : "ow 7/20/2018 15:29",
 		"testMisspelledWordsIn" : "RS 7/25/2018 16:27",
-		"testSpellCheckAfterRestart" : "ea 6/7/2019 18:44",
-		"testSpellCheckAfterRestartKeepsLanguages" : "ea 6/11/2019 18:22",
-		"testSpellcheckingMultipleLanguages" : "ea 6/7/2019 18:35" } }
+		"testObserver" : "ea 6/17/2019 14:10",
+		"testSpellCheckAfterRestart" : "ea 6/17/2019 14:03",
+		"testSpellCheckAfterRestartKeepsLanguages" : "ea 6/17/2019 14:03",
+		"testSpellcheckingMultipleLanguages" : "ea 6/17/2019 14:04" } }

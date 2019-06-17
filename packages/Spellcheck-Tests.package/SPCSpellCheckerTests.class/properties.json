@@ -14,7 +14,8 @@
 		"germanWord",
 		"englishWord",
 		"instance",
-		"loadedLanguages" ],
+		"loadedLanguages",
+		"notified" ],
 	"name" : "SPCSpellCheckerTests",
 	"pools" : [
 		 ],

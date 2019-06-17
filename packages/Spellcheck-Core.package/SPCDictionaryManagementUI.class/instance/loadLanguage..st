@@ -8,7 +8,7 @@ loadLanguage: languageName
 		language languageName: languageName.
 		
 		
-		self spellchecker loadedLanguages add: language.
+		self spellchecker loadLanguage: language.
 		self spellchecker reloadHunspellHandle;
 			reloadAddedWords.
 		
