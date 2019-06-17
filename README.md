@@ -1,4 +1,4 @@
-# Spellcheck [![Build Status](https://travis-ci.org/hpi-swa-teaching/SpellChecking.svg?branch=dev)](https://travis-ci.org/hpi-swa-teaching/SpellChecking) [![Coverage Status](https://coveralls.io/repos/github/hpi-swa-teaching/SpellChecking/badge.svg?branch=dev)](https://coveralls.io/github/hpi-swa-teaching/SpellChecking?branch=dev)
+# Spellcheck [![Build Status](https://travis-ci.org/hpi-swa-teaching/SpellChecking.svg?branch=dictionary-ui-refreshes-instantly)](https://travis-ci.org/hpi-swa-teaching/SpellChecking) [![Coverage Status](https://coveralls.io/repos/github/hpi-swa-teaching/SpellChecking/badge.svg?branch=dictionary-ui-refreshes-instantly)](https://coveralls.io/github/hpi-swa-teaching/SpellChecking?branch=dictionary-ui-refreshes-instantly)
 
 ## Trello Boards
 
@@ -17,7 +17,7 @@ Start Squeak, and run the following code in a workspace:
 ```Smalltalk
 Metacello new   
     baseline: 'Spellcheck';  
-    repository: 'github://hpi-swa-teaching/SpellChecking:dev/packages';  
+    repository: 'github://hpi-swa-teaching/SpellChecking:dictionary-ui-refreshes-instantly/packages';  
     load: 'tests'.
 ```    
 
