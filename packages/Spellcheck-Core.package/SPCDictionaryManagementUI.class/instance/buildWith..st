@@ -13,7 +13,7 @@ buildWith: builder
 	ignoredWordsListSpec 
 		model: self;
 		frame: (0@0 corner: 0.5@0.94);
-		list: #ignoredWords;
+		list: #addedWords;
 		getSelected: #selectedWord;
 		setSelected: #selectedWord:.
 	windowSpec children add: ignoredWordsListSpec.

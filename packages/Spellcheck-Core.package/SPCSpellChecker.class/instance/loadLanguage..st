@@ -1,4 +1,4 @@
 accessing
 loadLanguage: aSPCHunspellLanguage
 	self loadedLanguages add: aSPCHunspellLanguage.
-	self class notify
+	self class notifyObservers: #loadedLanguages

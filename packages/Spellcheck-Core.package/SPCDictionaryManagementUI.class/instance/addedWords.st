@@ -1,5 +1,5 @@
 ignored words
-ignoredWords
+addedWords
 
  	^ self spellchecker addedWords asOrderedCollection 
 		sort: [:a :b | a asLowercase < b asLowercase]
