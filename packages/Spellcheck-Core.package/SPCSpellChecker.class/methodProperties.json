@@ -24,8 +24,8 @@
 		"startUp:" : "ea 6/11/2019 18:23" },
 	"instance" : {
 		"addLanguage:withAffix:" : "ea 6/7/2019 17:41",
-		"addWordToDictionary:" : "ea3 6/18/2019 18:29",
-		"addWordToIgnoreList:" : "ow 7/20/2018 15:28",
+		"addWordToDictionary:" : "ea 6/20/2019 12:14",
+		"addWordToIgnoreList:" : "ea 6/20/2019 12:13",
 		"addedWords" : "ow 7/12/2018 19:34",
 		"addedWords:" : "ow 7/14/2018 14:27",
 		"clearIgnoredWords" : "ea3 6/18/2019 18:30",
@@ -43,6 +43,6 @@
 		"reloadAddedWords" : "ea3 6/18/2019 18:29",
 		"reloadHunspellHandle" : "ea 6/7/2019 18:36",
 		"removeLanguage:" : "ea3 6/18/2019 18:28",
-		"removeWordFromDictionary:" : "ea3 6/18/2019 18:29",
-		"removeWordFromIgnoreList:" : "ow 7/14/2018 14:29",
+		"removeWordFromDictionary:" : "ea 6/20/2019 12:17",
+		"removeWordFromIgnoreList:" : "ea 6/20/2019 12:15",
 		"suggestionsFor:" : "ow 7/14/2018 14:29" } }
