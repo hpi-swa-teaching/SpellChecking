@@ -7,4 +7,4 @@ testNoMethodCrashes
 	self assert: nullObject apiHandle isNil.
 	nullObject destroyHandle.
 	nullObject downloadDictionaries.
-	
+	nullObject getSuggestions: ''

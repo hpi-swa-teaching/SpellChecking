@@ -1,6 +1,6 @@
 testing
 testIgnoreAll
-
+	super setUp.
 	correctionUI inputText: textWithMistakes.
 	correctionUI ignoreAll.
 	self assert: correctionUI contextSentence = correctionUI class noWrongWordsText.

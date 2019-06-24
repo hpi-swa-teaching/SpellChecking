@@ -1,6 +1,8 @@
 testing
 testAddToDict
-	
+	SPCHunspellAPI disableDownload: true.
+	originalStateSpellcheck := SPCTextStyler spellCheckingEnabled.
+	SPCTextStyler spellCheckingEnabled: true.
 	Transcript showln: 'Start Add To Dict.'.
 	self deny: (spellchecker isSpelledCorrectly: wrongWord).
 	Transcript showln: 'Wrong word is wrong.'.

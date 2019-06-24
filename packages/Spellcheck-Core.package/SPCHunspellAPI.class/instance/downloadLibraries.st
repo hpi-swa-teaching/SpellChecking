@@ -8,4 +8,4 @@ downloadLibraries
 		['win32'] -> [ self installLibrariesForWindows: bitsPerWord in: vmDir ].
 		['unix'] -> [ self installLibrariesForLinux: bitsPerWord in: vmDir ]}).
 			bar value: 1.
-].
+	]

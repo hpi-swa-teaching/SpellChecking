@@ -1,6 +1,6 @@
 initialize-release
 setUp
-	super setUp.
+	"super setUp not called because not all tests need it."
 	correctionUI := SPCCorrectionUI new. 
 	spellchecker := SPCSpellChecker instance.
 	

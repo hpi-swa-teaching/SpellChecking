@@ -1,4 +1,6 @@
 initialize-release
 installDependencies
-	self downloadDictionaries;
-		downloadLibraries
+	self class disableDownload ifFalse: [
+		self downloadDictionaries;
+			downloadLibraries
+	]
