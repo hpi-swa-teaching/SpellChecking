@@ -1,4 +1,4 @@
-# Spellcheck [![Build Status](https://travis-ci.org/hpi-swa-teaching/SpellChecking.svg?branch=dev)](https://travis-ci.org/hpi-swa-teaching/SpellChecking) [![Coverage Status](https://coveralls.io/repos/github/hpi-swa-teaching/SpellChecking/badge.svg?branch=dev)](https://coveralls.io/github/hpi-swa-teaching/SpellChecking?branch=dev)
+# Spellcheck [![Build Status](https://travis-ci.org/hpi-swa-teaching/SpellChecking.svg?branch=levenshtein-similarity)](https://travis-ci.org/hpi-swa-teaching/SpellChecking) [![Coverage Status](https://coveralls.io/repos/github/hpi-swa-teaching/SpellChecking/badge.svg?branch=levenshtein-similarity)](https://coveralls.io/github/hpi-swa-teaching/SpellChecking?branch=levenshtein-similarity)
 
 ## Trello Boards
 
@@ -17,7 +17,7 @@ Start Squeak, and run the following code in a workspace:
 ```Smalltalk
 Metacello new   
     baseline: 'Spellcheck';  
-    repository: 'github://hpi-swa-teaching/SpellChecking:dev/packages';  
+    repository: 'github://hpi-swa-teaching/SpellChecking:levenshtein-similarity/packages';  
     load: 'tests'.
 ```    
 
