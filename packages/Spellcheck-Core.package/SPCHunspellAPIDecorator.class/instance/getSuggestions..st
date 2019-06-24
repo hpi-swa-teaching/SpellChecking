@@ -9,4 +9,4 @@ getSuggestions: aString
 				suggestionCollection add: each
 			].
 		 ].
-	^ suggestionCollection
+	^ suggestionCollection sorted: [ :suggestion1 :suggestion2 | (self calculateLevenshteinDistance: suggestion1 toString: aString) <= (self calculateLevenshteinDistance: suggestion2 toString: aString ) ]

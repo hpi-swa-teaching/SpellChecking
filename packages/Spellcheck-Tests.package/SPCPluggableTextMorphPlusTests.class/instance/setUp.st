@@ -1,7 +1,9 @@
 initialize-release
 setUp
 	super setUp.
+	SPCSpellChecker loadedLanguages: nil.
+	SPCSpellChecker instance reloadHunspellHandle.
 	pluggableTextMorphPlus := PluggableTextMorphPlus new.
-	pluggableTextMorphPlus setText: 'This is a tset.'.
+	pluggableTextMorphPlus setText: 'This test should not be sed.'.
 	pluggableTextMorphPlus styler: SPCTextStyler new.
-	pluggableTextMorphPlus textMorph editor selectFrom: 11 to: 14
+	pluggableTextMorphPlus textMorph editor selectFrom: 25 to: 27
