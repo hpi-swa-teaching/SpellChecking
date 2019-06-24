@@ -1,4 +1,6 @@
 preferences
 spellingMistakeColorProportion: aNumber
 
-	SpellingMistakeColorProportion := aNumber
+	((aNumber < 0) or: (aNumber > 100)) ifFalse: [
+		SpellingMistakeColorProportion := aNumber
+	].
