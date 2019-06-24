@@ -1,7 +1,9 @@
 {
 	"class" : {
 		"spellCheckingEnabled" : "RS 7/25/2018 17:58",
-		"spellCheckingEnabled:" : "ea 5/7/2019 19:16" },
+		"spellCheckingEnabled:" : "ea 5/7/2019 19:16",
+		"spellingMistakeColorProportion" : "mka 6/24/2019 14:13",
+		"spellingMistakeColorProportion:" : "mka 6/24/2019 14:09" },
 	"instance" : {
 		"highlightSpellingMistakesIn:" : "RS 7/25/2018 16:44",
 		"highlightSyntaxIn:" : "ea 5/27/2019 10:42",

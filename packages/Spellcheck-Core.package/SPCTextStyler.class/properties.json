@@ -3,7 +3,8 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"SpellCheckingEnabled" ],
+		"SpellCheckingEnabled",
+		"SpellingMistakeColorProportion" ],
 	"commentStamp" : "ow 7/25/2018 20:03",
 	"instvars" : [
 		 ],

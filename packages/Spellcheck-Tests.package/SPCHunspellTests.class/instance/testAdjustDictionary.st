@@ -5,5 +5,6 @@ testAdjustDictionary
 	hunspell addWordToDictionary: wrongWord.
 	self assert: (hunspell isWordCorrect: wrongWord).
 	
-	hunspell removeWordFromDictionary: wrongWord.
+	SPCSpellChecker instance removeWordFromDictionary: wrongWord.
+
 	self deny: (hunspell isWordCorrect: wrongWord)
