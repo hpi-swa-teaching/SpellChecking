@@ -6,4 +6,5 @@ setUp
 	
 	wrongWord := 'squeack'.
 	textWithMistakes := 'Manny miscakes in the texxt.'.
-	SPCSpellChecker loadedLanguages: SPCHunspellLanguage default
+	SPCSpellChecker loadedLanguages: SPCHunspellLanguage default.
+	workspace := Workspace new.
