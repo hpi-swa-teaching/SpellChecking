@@ -1,5 +1,7 @@
 testing
 testObserver
-	SPCSpellChecker registerObserver: self.
+	| observer |
+	observer := SPCObserver new.
+	SPCSpellChecker registerObserver: observer.
 	SPCSpellChecker loadedLanguages: nil.
-	self assert: (notified = #loadedLanguages)
+	self assert: (observer event = #loadedLanguages)
