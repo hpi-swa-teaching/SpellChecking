@@ -1,11 +1,15 @@
 {
 	"class" : {
-		 },
+		"germanDictionary" : "ea 6/25/2019 19:10" },
 	"instance" : {
 		"setUp" : "ea 6/7/2019 17:31",
+		"tearDown" : "ea 6/25/2019 19:33",
+		"testAddDictionary" : "ea 6/25/2019 19:09",
 		"testAddDictionaryAndHandle" : "ea 6/7/2019 15:56",
 		"testAddingLanguages" : "ea 6/7/2019 17:32",
 		"testIsDecorator" : "ea 6/7/2019 15:25",
+		"testIsNotOfCorrectType" : "ea 6/25/2019 19:32",
+		"testIsOfCorrectType" : "ea 6/25/2019 19:35",
 		"testLevenshteinDistanceManyDifferentChars" : "ea 6/24/2019 13:47",
 		"testLevenshteinDistanceOneDifferentChar" : "ea 6/24/2019 13:47",
 		"testLevenshteinDistanceSameWord" : "ea 6/24/2019 13:46",

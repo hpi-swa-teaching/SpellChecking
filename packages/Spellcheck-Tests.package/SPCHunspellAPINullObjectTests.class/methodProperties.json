@@ -4,6 +4,7 @@
 	"instance" : {
 		"setUp" : "ea 5/28/2019 19:00",
 		"tearDown" : "ea 5/14/2019 11:34",
+		"testInstances" : "ea 6/25/2019 19:37",
 		"testIsNilObject" : "ea 5/14/2019 11:31",
 		"testIsWordCorrect" : "ea 5/14/2019 11:17",
-		"testNoMethodCrashes" : "ea 6/24/2019 17:11" } }
+		"testNoMethodCrashes" : "ea 6/25/2019 19:38" } }

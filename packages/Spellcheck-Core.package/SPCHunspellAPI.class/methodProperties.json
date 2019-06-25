@@ -14,11 +14,9 @@
 		"systemArchitecture" : "ea 6/7/2019 17:09",
 		"vmDirectory" : "ea 5/23/2019 17:27" },
 	"instance" : {
-		"addDictionary:" : "ea 6/7/2019 16:29",
 		"addWordToDictionary:" : "ea 6/7/2019 16:29",
 		"affixPath" : "ea 6/7/2019 15:50",
 		"affixPath:" : "ea 6/7/2019 15:50",
-		"apiAdd:dictionary:" : "ea 4/30/2019 19:15",
 		"apiAdd:word:" : "ea 4/30/2019 19:15",
 		"apiCheckWord:Text:" : "ea 4/30/2019 19:13",
 		"apiCreateHandle:dPath:" : "ea 4/30/2019 19:14",
@@ -28,7 +26,6 @@
 		"apiHandle:" : "ea 4/22/2019 18:07",
 		"apiRemove:word:" : "ea 4/30/2019 19:18",
 		"apiSuggest:list:word:" : "ea 4/30/2019 19:18",
-		"chooseDictionaryPath" : "mka 6/4/2019 23:26",
 		"createHandle" : "ea 6/7/2019 15:51",
 		"createHandle:affix:" : "ea 6/7/2019 15:52",
 		"destroyHandle" : "ea 6/7/2019 16:34",
@@ -40,11 +37,9 @@
 		"finalize" : "mka 5/14/2019 11:42",
 		"findLinuxLibraryPaths:" : "ea 4/28/2019 15:16",
 		"freeSuggestionList:" : "ea 6/7/2019 17:10",
-		"getAffixPath:" : "mka 6/4/2019 23:36",
 		"getSuggestionList:" : "ea 6/7/2019 17:04",
 		"getSuggestions:" : "ow 7/14/2018 14:24",
 		"handleNotNil" : "ea 6/7/2019 16:51",
-		"importDictionary:withAffix:of:" : "mka 6/4/2019 10:35",
 		"initialize" : "mka 6/3/2019 21:46",
 		"installDependencies" : "ea 6/24/2019 17:07",
 		"installLibrariesForLinux:in:" : "ea 5/23/2019 20:16",
@@ -54,5 +49,4 @@
 		"isFile:ofCorrectType:" : "mka 6/3/2019 11:09",
 		"isNilObject" : "mka 5/14/2019 18:02",
 		"isWordCorrect:" : "ea 6/7/2019 16:29",
-		"removeWordFromDictionary:" : "ea 6/7/2019 16:29",
-		"selectFileFromFileChooserWithCaption:" : "mka 6/3/2019 10:47" } }
+		"removeWordFromDictionary:" : "ea 6/7/2019 16:29" } }
