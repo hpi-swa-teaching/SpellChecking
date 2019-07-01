@@ -24,7 +24,7 @@
 		"startUp:" : "ea 6/11/2019 18:23" },
 	"instance" : {
 		"addLanguage:withAffix:" : "ea 6/7/2019 17:41",
-		"addWordToDictionary:" : "mka 6/24/2019 13:32",
+		"addWordToDictionary:" : "ea 7/1/2019 14:41",
 		"addWordToIgnoreList:" : "ea 6/20/2019 12:13",
 		"addedWords" : "ow 7/12/2018 19:34",
 		"addedWords:" : "ow 7/14/2018 14:27",
@@ -34,7 +34,7 @@
 		"initialize" : "mka 6/3/2019 21:47",
 		"initializeAddedWords" : "ow 7/23/2018 12:59",
 		"isSpelledCorrectly:" : "ea 5/11/2019 15:24",
-		"loadLanguage:" : "ea3 6/18/2019 18:27",
+		"loadLanguage:" : "ea 7/1/2019 14:17",
 		"loadedLanguages" : "ea 6/17/2019 14:00",
 		"loadedLanguages:" : "mka 6/24/2019 14:38",
 		"misspelledWordsIn:" : "ea 5/11/2019 15:27",

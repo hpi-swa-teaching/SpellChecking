@@ -1,12 +1,15 @@
 dictionary loading
 changed: aSymbol
-	| indexOfCurrentLanguage |
+	| indexOfCurrentLanguage present |
 	(aSymbol = #loadedLanguages) ifTrue: [
 			self selectedLanguageIndices keys do: [ :key | self selectedLanguageIndices at: key put: false ].
 			self spellchecker loadedLanguages do: [ :language|
-				indexOfCurrentLanguage := self availableLanguages indexOf: language languageName ifAbsent: [ ^ self ].
-				self selectedLanguageIndices at: indexOfCurrentLanguage put: true.
-				self changed: #selectedLanguage.
+				present := true.
+				indexOfCurrentLanguage := self availableLanguages indexOf: language languageName ifAbsent: [ present := false ].
+				present ifTrue:[
+					self selectedLanguageIndices at: indexOfCurrentLanguage put: true.
+					self changed: #selectedLanguage.
+				]
 			]
 	]
 	ifFalse: [

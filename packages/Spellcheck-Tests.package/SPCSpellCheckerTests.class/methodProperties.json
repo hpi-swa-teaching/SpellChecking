@@ -7,6 +7,7 @@
 		"tearDown" : "ea 7/1/2019 11:42",
 		"testAddWordsAcrossInstances" : "ea 5/28/2019 18:16",
 		"testAddWordsToDictionary" : "ow 7/20/2018 15:30",
+		"testAddWordsToDictionaryWithOnlyStrings" : "ea 7/1/2019 14:44",
 		"testClearIgnoredWords" : "ea 7/1/2019 11:37",
 		"testContains" : "ea 6/7/2019 18:03",
 		"testContainsNot" : "ea 6/7/2019 18:03",
