@@ -1,4 +1,4 @@
 testing
 testIsDecorator
 
-	self assert: (hunspell isDecorator)
+	self deny: (SPCHunspellAPI basicNew isDecorator)

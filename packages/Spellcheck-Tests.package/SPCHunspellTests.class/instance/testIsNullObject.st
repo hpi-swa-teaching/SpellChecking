@@ -1,4 +1,4 @@
 testing
 testIsNullObject
 
-	self deny: (hunspell isNilObject)
+	self deny: (SPCHunspellAPI basicNew isNilObject)
