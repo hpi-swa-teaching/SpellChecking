@@ -6,12 +6,13 @@
 	"instance" : {
 		"AssociationArray:hasKey:" : "ea 7/1/2019 15:18",
 		"checkMethodSpelling" : "ea 7/1/2019 11:08",
-		"checkPackageSpelling" : "ea 7/1/2019 15:54",
+		"checkPackageSpelling" : "ea 7/1/2019 17:21",
 		"classListMenu:" : "ea 5/28/2019 14:57",
 		"findMessagesWithSpellingErrors:" : "ea 5/28/2019 14:37",
-		"getAllMethodsForClasses:" : "ea 7/1/2019 14:03",
+		"getAllMethodsForClasses:" : "ea 7/1/2019 17:12",
+		"getClassNameForMetaClass:" : "ea 7/1/2019 17:00",
 		"getMethodSourceCodeFor:fromClass:" : "ea 5/18/2019 17:46",
 		"informAboutErrors" : "ea 5/18/2019 18:44",
 		"informAboutErrors:" : "ea 5/18/2019 18:43",
 		"mainSystemCategoryMenu:" : "ea 7/1/2019 13:36",
-		"trimString:" : "ea 7/1/2019 13:56" } }
+		"trimString:" : "ea 7/1/2019 16:28" } }

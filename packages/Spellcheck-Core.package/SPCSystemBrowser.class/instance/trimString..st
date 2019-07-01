@@ -1,10 +1,12 @@
 spellchecking
 trimString: aString
-	| replacedString |
+	| replacedString inWord |
 	replacedString := ''.
+	inWord := false.
 	aString do: [ :char|
-		char isLetter ifTrue:[
-			replacedString := replacedString , char
+		(char isLetter or: inWord) ifTrue:[
+			replacedString := replacedString , char.
+			inWord := true.
 		]
 	].
 	^ replacedString
