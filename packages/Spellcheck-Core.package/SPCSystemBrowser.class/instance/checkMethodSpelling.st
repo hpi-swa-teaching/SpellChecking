@@ -20,3 +20,4 @@ checkMethodSpelling
 	self informAboutErrors ifTrue: [
 		methods isEmpty ifFalse:  [ SPCMethodTextViewer openWith: methods ]
 	].
+	^ methods

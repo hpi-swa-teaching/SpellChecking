@@ -3,6 +3,8 @@
 		 },
 	"instance" : {
 		"setUp" : "ea 5/28/2019 14:36",
+		"testCheckMethodSpelling" : "ea 7/1/2019 11:17",
+		"testCheckMethodSpellingNoFalseNegative" : "ea 7/1/2019 11:18",
 		"testFindsWrongLiteral" : "ea 5/27/2019 09:34",
 		"testIsDefaultBrowser" : "ea 5/18/2019 19:04",
 		"testRegistersAsSystemBrowser" : "ea 5/28/2019 18:13" } }
