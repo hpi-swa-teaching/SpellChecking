@@ -3,6 +3,8 @@
 		 },
 	"instance" : {
 		"setUp" : "ea 5/28/2019 14:36",
+		"testAssociationArrayHasKey" : "ea 7/1/2019 15:17",
+		"testAssociationArrayHasNotKey" : "ea 7/1/2019 15:19",
 		"testCheckMethodSpelling" : "ea 7/1/2019 11:17",
 		"testCheckMethodSpellingNoFalseNegative" : "ea 7/1/2019 11:18",
 		"testFindsWrongLiteral" : "ea 5/27/2019 09:34",

@@ -4,8 +4,9 @@
 		"registerInAppRegistry" : "ea 5/18/2019 19:00",
 		"registerInFlapsRegistry" : "ea 5/18/2019 19:00" },
 	"instance" : {
+		"AssociationArray:hasKey:" : "ea 7/1/2019 15:18",
 		"checkMethodSpelling" : "ea 7/1/2019 11:08",
-		"checkPackageSpelling" : "ea 7/1/2019 14:32",
+		"checkPackageSpelling" : "ea 7/1/2019 15:54",
 		"classListMenu:" : "ea 5/28/2019 14:57",
 		"findMessagesWithSpellingErrors:" : "ea 5/28/2019 14:37",
 		"getAllMethodsForClasses:" : "ea 7/1/2019 14:03",
