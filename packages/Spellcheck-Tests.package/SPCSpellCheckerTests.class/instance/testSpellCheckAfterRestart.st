@@ -2,6 +2,7 @@ testing
 testSpellCheckAfterRestart
 
 	| instance language |
+	SPCSpellChecker instance initialize.
 	language := SPCHunspellLanguage new.
 	language dictionaryPath: '/notThere'.
 	language affixPath: '/notThere'.

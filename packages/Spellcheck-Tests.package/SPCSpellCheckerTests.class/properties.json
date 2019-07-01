@@ -15,7 +15,8 @@
 		"englishWord",
 		"instance",
 		"loadedLanguages",
-		"notified" ],
+		"notified",
+		"addedWords" ],
 	"name" : "SPCSpellCheckerTests",
 	"pools" : [
 		 ],
