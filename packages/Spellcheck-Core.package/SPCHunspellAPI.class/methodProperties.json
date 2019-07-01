@@ -35,7 +35,6 @@
 		"downloadFileTo:fromURL:toFileNamed:inBinary:" : "ea 6/24/2019 16:57",
 		"downloadLibraries" : "ea 6/24/2019 17:06",
 		"finalize" : "mka 5/14/2019 11:42",
-		"findLinuxLibraryPaths:" : "ea 4/28/2019 15:16",
 		"freeSuggestionList:" : "ea 6/7/2019 17:10",
 		"getSuggestionList:" : "ea 6/7/2019 17:04",
 		"getSuggestions:" : "ow 7/14/2018 14:24",
@@ -46,7 +45,6 @@
 		"installLibrariesForMacOS:in:" : "ea 5/23/2019 19:36",
 		"installLibrariesForWindows:in:" : "ea 5/23/2019 19:35",
 		"isDecorator" : "ea 6/7/2019 15:25",
-		"isFile:ofCorrectType:" : "mka 6/3/2019 11:09",
 		"isNilObject" : "mka 5/14/2019 18:02",
 		"isWordCorrect:" : "ea 6/7/2019 16:29",
 		"removeWordFromDictionary:" : "ea 6/7/2019 16:29" } }
