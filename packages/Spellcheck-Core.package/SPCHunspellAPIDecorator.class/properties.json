@@ -3,7 +3,7 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
+		"DisableDownload" ],
 	"commentStamp" : "",
 	"instvars" : [
 		"instances",

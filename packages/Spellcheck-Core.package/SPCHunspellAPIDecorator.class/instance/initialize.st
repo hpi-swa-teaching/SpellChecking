@@ -1,3 +1,5 @@
 initialization
 initialize
-	self instances: OrderedCollection new
+	self installDependencies.
+	self instances: OrderedCollection new.
+	self initializeCustomDictionary
