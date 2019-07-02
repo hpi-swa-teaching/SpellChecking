@@ -14,7 +14,7 @@
 		"testDisablingSpellcheck" : "ea 5/7/2019 18:39",
 		"testIgnore" : "ow 7/20/2018 15:29",
 		"testInitializeAddedWords" : "ea 7/1/2019 11:34",
-		"testMisspelledWordsIn" : "RS 7/25/2018 16:27",
+		"testMisspelledWordsIn" : "ea 7/2/2019 10:58",
 		"testObserver" : "ea 6/24/2019 16:52",
 		"testRemovingLanguageNotifiesObservers" : "ea 7/1/2019 11:47",
 		"testRemovingLanguageWorks" : "ea 7/1/2019 11:50",
