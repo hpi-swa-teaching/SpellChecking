@@ -1,4 +1,6 @@
-spellchecking
+initialization
 installDependencies
-	"I  the future, every hunspellapi object may have own dependencies."
-	self instances do: [ :instance | instance installDependencies ].
+	self class disableDownload ifFalse: [
+		self downloadDictionaries;
+			downloadLibraries
+	]

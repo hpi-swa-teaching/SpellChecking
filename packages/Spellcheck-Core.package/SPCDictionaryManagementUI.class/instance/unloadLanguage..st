@@ -7,6 +7,5 @@ unloadLanguage: languageName
 		language languageName: languageName.
 		(self spellchecker loadedLanguages) do: [ :each | (each = language) ifTrue: [ self spellchecker removeLanguage: language ] ].
 		
-		self spellchecker reloadHunspellHandle;
-			reloadAddedWords.
+		self spellchecker reloadHunspellHandle.
 		
