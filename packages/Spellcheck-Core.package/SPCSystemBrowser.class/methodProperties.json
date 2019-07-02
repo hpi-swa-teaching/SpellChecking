@@ -4,9 +4,16 @@
 		"registerInAppRegistry" : "ea 5/18/2019 19:00",
 		"registerInFlapsRegistry" : "ea 5/18/2019 19:00" },
 	"instance" : {
+		"AssociationArray:hasKey:" : "ea 7/1/2019 15:18",
 		"checkMethodSpelling" : "ea 7/1/2019 11:08",
+		"checkPackageSpelling" : "ea 7/2/2019 11:07",
 		"classListMenu:" : "ea 5/28/2019 14:57",
 		"findMessagesWithSpellingErrors:" : "ea 5/28/2019 14:37",
+		"getAllMethodsForClasses:" : "ea 7/1/2019 17:12",
+		"getClassNameForMetaClass:" : "ea 7/1/2019 17:00",
+		"getMethodReferencesForWronglySpelledMethodsForClasses:" : "ea 7/2/2019 11:07",
 		"getMethodSourceCodeFor:fromClass:" : "ea 5/18/2019 17:46",
 		"informAboutErrors" : "ea 5/18/2019 18:44",
-		"informAboutErrors:" : "ea 5/18/2019 18:43" } }
+		"informAboutErrors:" : "ea 5/18/2019 18:43",
+		"mainSystemCategoryMenu:" : "ea 7/1/2019 13:36",
+		"trimString:" : "ea 7/1/2019 16:28" } }

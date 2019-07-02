@@ -3,11 +3,11 @@
 		 },
 	"instance" : {
 		"colorsDiffer:" : "ea 6/1/2019 20:01",
-		"setUp" : "ea 6/1/2019 18:42",
+		"setUp" : "ea 7/2/2019 11:19",
 		"tearDown" : "ea 6/1/2019 18:48",
 		"testDefaultColorWithThemes" : "ea 6/5/2019 18:55",
 		"testGetColorFromRunArray" : "ea 6/1/2019 19:17",
-		"testPrivateStyle" : "ea 6/1/2019 20:01",
+		"testPrivateStyle" : "ea 7/2/2019 11:20",
 		"testStylingInWorkspaceDisabled" : "ea 5/27/2019 10:43",
 		"testStylingInWorkspaceEnabled" : "ea 5/27/2019 10:43",
 		"testStylingWithThemes" : "ea 6/1/2019 19:46",
