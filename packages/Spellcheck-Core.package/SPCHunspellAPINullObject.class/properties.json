@@ -10,5 +10,5 @@
 	"name" : "SPCHunspellAPINullObject",
 	"pools" : [
 		 ],
-	"super" : "SPCHunspellAPI",
+	"super" : "SPCHunspellAPIDecorator",
 	"type" : "normal" }
