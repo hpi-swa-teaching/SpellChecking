@@ -3,8 +3,8 @@
 		 },
 	"instance" : {
 		"setUp" : "ea 6/24/2019 17:09",
-		"tearDown" : "ea 6/24/2019 17:08",
-		"testAddToDict" : "ea 6/24/2019 17:13",
+		"tearDown" : "mka 7/2/2019 10:58",
+		"testAddToDict" : "mka 7/2/2019 10:57",
 		"testDeselectAlternative" : "ea 6/24/2019 17:08",
 		"testIgnoreAll" : "ea 6/24/2019 17:09",
 		"testIgnoreCurrent" : "ea 6/24/2019 17:09",

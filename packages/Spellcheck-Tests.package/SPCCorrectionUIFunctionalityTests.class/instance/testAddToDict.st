@@ -1,6 +1,6 @@
 testing
 testAddToDict
-	SPCHunspellAPI disableDownload: true.
+	SPCHunspellAPIDecorator disableDownload: true.
 	originalStateSpellcheck := SPCTextStyler spellCheckingEnabled.
 	SPCTextStyler spellCheckingEnabled: true.
 	Transcript showln: 'Start Add To Dict.'.
