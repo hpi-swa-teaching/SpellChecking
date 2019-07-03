@@ -22,6 +22,5 @@ removeWordFromDictionary: aString
 				newStream lf.				
 			].
 		].
-		newStream nextPutAll: aString.
 		newStream close.
 	]
