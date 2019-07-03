@@ -3,7 +3,7 @@ downloadDictionaries
 	| ressourceDir aStream |
 	ressourceDir := self class ressourceDirectory.
 	(ressourceDir directoryExists: 'dictionaries') ifFalse: [
-		'Fetching SpellChecking dependencies' displayProgressAt: Sensor cursorPoint from: 0 to: 		7	during: [ :bar |
+		'Fetching SpellChecking dependencies' displayProgressAt: Sensor cursorPoint from: 0 to: 		6	during: [ :bar |
 			ressourceDir createDirectory: 'dictionaries'.
 			ressourceDir := ressourceDir directoryNamed: 'dictionaries'.
 			ressourceDir createDirectory: 'english'.
@@ -26,15 +26,15 @@ downloadDictionaries
 			bar value: 5.
 			self downloadFileTo: ressourceDir fromURL: 			'https://raw.githubusercontent.com/hpi-swa-teaching/SpellChecking/dev/build-support/dictionaries/squeak/sq_SQ.aff' toFileNamed: 'sq_SQ.aff' inBinary: false.
 			bar value: 6.
-			ressourceDir := FileDirectory forFileName: ressourceDir pathName.
-			(ressourceDir directoryExists: 'custom') ifFalse: [
-				ressourceDir createDirectory: 'custom'.
-				ressourceDir := ressourceDir directoryNamed: 'custom'.
-				ressourceDir newFileNamed: 'cu_CU.aff'.
-				aStream := FileStream fileNamed: 'cu_CU.dic'.
-				aStream nextPutAll: '0'.
-				aStream lf.
-			].
-			bar value: 7.
 		]
-	]
+	].
+	ressourceDir := self class ressourceDirectory directoryNamed: 'dictionaries'.
+	(ressourceDir directoryExists: 'custom') ifFalse: [
+		ressourceDir createDirectory: 'custom'.
+		ressourceDir := ressourceDir directoryNamed: 'custom'.
+		ressourceDir newFileNamed: 'cu_CU.aff'.
+		aStream := FileStream fileNamed: SPCSpellChecker defaultCustomDictionaryPath.
+		aStream nextPutAll: '0'.
+		aStream lf.
+		aStream close.
+	].
