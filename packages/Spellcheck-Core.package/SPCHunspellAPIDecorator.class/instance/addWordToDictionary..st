@@ -1,14 +1,24 @@
 spellchecking
 addWordToDictionary: aString
-	| customStream wordCount newStream |
-	customStream := (FileStream fileNamed: SPCSpellChecker defaultCustomDictionaryPath do: [ :each | each contents. ]) readStream.
-	wordCount := ((customStream nextLine asInteger) + 1) asString.
-	newStream := (FileStream forceNewFileNamed: SPCSpellChecker defaultCustomDictionaryPath ).
-	newStream nextPutAll: wordCount.
-	newStream lf.
+	| customStream customStreamSource wordCount newStream wordAlreadyKnown |
+	wordAlreadyKnown := false.
+	customStreamSource := (FileStream fileNamed: SPCSpellChecker defaultCustomDictionaryPath do: [ :each | each contents. ]).
+	customStream := customStreamSource readStream.
 	[customStream atEnd] whileFalse: [
-		newStream nextPutAll: customStream nextLine.
-		newStream lf.
+		(customStream nextLine = aString) ifTrue: [
+			wordAlreadyKnown := true.	
+		]
 	].
-	newStream nextPutAll: aString.
-	newStream close.
+	(wordAlreadyKnown) ifFalse: [
+		customStream := customStreamSource readStream.
+		wordCount := ((customStream nextLine asInteger) + 1) asString.
+		newStream := (FileStream forceNewFileNamed: SPCSpellChecker defaultCustomDictionaryPath ).
+		newStream nextPutAll: wordCount.
+		newStream lf.
+		[customStream atEnd] whileFalse: [
+			newStream nextPutAll: customStream nextLine.
+			newStream lf.
+		].
+		newStream nextPutAll: aString.
+		newStream close.
+	]
