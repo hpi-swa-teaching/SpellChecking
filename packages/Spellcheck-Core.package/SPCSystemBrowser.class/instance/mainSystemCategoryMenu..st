@@ -2,7 +2,9 @@ spellchecking
 mainSystemCategoryMenu: menu
 	| newMenu |
 	newMenu := super mainSystemCategoryMenu: menu.
-	^ newMenu addList: #(
+	SPCTextStyler spellCheckingEnabled ifTrue: [
+		newMenu addList: #(
 			-
-			('check Spelling'			checkPackageSpelling));
-		yourself
+			('check Spelling'			checkPackageSpelling))
+	].
+	^ newMenu
