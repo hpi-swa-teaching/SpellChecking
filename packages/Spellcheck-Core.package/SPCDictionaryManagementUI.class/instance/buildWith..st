@@ -1,7 +1,7 @@
 toolbuilder
 buildWith: builder
 
-	| windowSpec ignoredWordsListSpec removeButtonSpec languageListSpec  importDictionaryButtonSpec |
+	| windowSpec ignoredWordsListSpec removeButtonSpec languageListSpec  importDictionaryButtonSpec downloadDictionaryButtonSpec |
 	windowSpec := builder pluggableWindowSpec new.
 	windowSpec
 		model: self;
@@ -32,7 +32,7 @@ buildWith: builder
 		model: self;
 		label: 'remove word';
 		action: #removeFromIgnoredWords;
-		frame: (0.1@0.94 corner: 0.45@1). 
+		frame: (0.025@0.94 corner: 0.325@1). 
 	windowSpec children add: removeButtonSpec.
 
 	importDictionaryButtonSpec := builder pluggableButtonSpec new.
@@ -40,7 +40,16 @@ buildWith: builder
 		model: self;
 		label: 'import Dictionary';
 		action: #importDictionary;
-		frame: (0.55@0.94 corner: 0.9@1). 
+		frame: (0.35@0.94 corner: 0.65@1). 
 	windowSpec children add: importDictionaryButtonSpec.
+
+	downloadDictionaryButtonSpec := builder pluggableButtonSpec new.
+	downloadDictionaryButtonSpec
+		model: self;
+		label: 'open Download Page';
+		action: #openDownloadPage;
+		frame: (0.675@0.94 corner: 0.975@1). 
+	windowSpec children add: downloadDictionaryButtonSpec.
+
 
 	^ builder build: windowSpec 

@@ -21,4 +21,9 @@ baseline: spec
 			spec
 				group: 'default' with: #('Spellcheck-Core');
 				group: 'tests' with: #('Spellcheck-Tests')];
-				yourself
+				yourself.
+			spec 
+				baseline: 'OSProcess' with: [
+        		spec
+          			repository: 'http://www.squeaksource.com/OSProcess'. ].
+
