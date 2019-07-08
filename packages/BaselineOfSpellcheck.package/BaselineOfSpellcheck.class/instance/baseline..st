@@ -23,7 +23,7 @@ baseline: spec
 				loads: #('OSProcess' 'OSProcess-AIO' 'OSProcess-Base' 'OSProcess-Mac' 'OSProcess-Unix' 'OSProcess-Win32')
 			 ].
 			spec
-				package: 'Spellcheck-Core' with: [spec requires: #('FFI')];
+				package: 'Spellcheck-Core' with: [spec requires: #('FFI' 'OSProcess')];
 				package: 'Spellcheck-Tests' with: [spec requires: #('Spellcheck-Core' 'Project12')];
 				yourself.
 			spec
