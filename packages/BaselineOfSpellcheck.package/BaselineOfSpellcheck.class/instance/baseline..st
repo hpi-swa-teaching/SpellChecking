@@ -23,7 +23,11 @@ baseline: spec
 				group: 'tests' with: #('Spellcheck-Tests')];
 				yourself.
 			spec 
-				baseline: 'OSProcess' with: [
+				project: 'OSProcess' with: [
         		spec
-          			repository: 'http://www.squeaksource.com/OSProcess'. ].
+				className: 'ConfigurationOfOSProcess';
+				file: 'ConfigurationOfOSProcess';
+          			repository: 'http://www.squeaksource.com/OSProcess';
+				loads: #('OSProcess' 'OSProcess-AIO' 'OSProcess-Base' 'OSProcess-Mac' 'OSProcess-Unix' 'OSProcess-Win32')
+			 ].
 
