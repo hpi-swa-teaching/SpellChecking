@@ -20,7 +20,7 @@ baseline: spec
 				className: 'ConfigurationOfOSProcess';
 				file: 'ConfigurationOfOSProcess';
           			repository: 'http://www.squeaksource.com/OSProcess';
-				loads: #('OSProcess' 'OSProcess-AIO' 'OSProcess-Base' 'OSProcess-Mac' 'OSProcess-Unix' 'OSProcess-Win32')
+				loads: #('All OS' 'OSProcess-AIO' 'OSProcess-Base')
 			 ].
 			spec
 				package: 'Spellcheck-Core' with: [spec requires: #('FFI' 'OSProcess')];
