@@ -1,4 +1,0 @@
-spellchecking
-isNilObject
-
-	^ false
