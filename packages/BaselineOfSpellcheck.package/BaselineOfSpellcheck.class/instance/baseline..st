@@ -14,11 +14,20 @@ baseline: spec
 					repository: 'http://source.squeak.org/FFI';
 					loads: #('FFI-Pools' 'FFI-Kernel' 'FFI-Tests');
 					versionString: '1.12' ].
+			spec 
+				project: 'OSProcess' with: [
+        		spec
+				className: 'ConfigurationOfOSProcess';
+				file: 'ConfigurationOfOSProcess';
+          			repository: 'http://www.squeaksource.com/OSProcess';
+				loads: #('All OS' 'OSProcess-AIO' 'OSProcess-Base')
+			 ].
 			spec
-				package: 'Spellcheck-Core' with: [spec requires: #('FFI')];
+				package: 'Spellcheck-Core' with: [spec requires: #('FFI' 'OSProcess')];
 				package: 'Spellcheck-Tests' with: [spec requires: #('Spellcheck-Core' 'Project12')];
 				yourself.
 			spec
 				group: 'default' with: #('Spellcheck-Core');
 				group: 'tests' with: #('Spellcheck-Tests')];
-				yourself
+				yourself.
+
