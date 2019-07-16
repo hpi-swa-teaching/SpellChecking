@@ -10,4 +10,4 @@ addWordToDictionary: aString
 	].
 	self class notifyObservers: #addedWords.
 	parser parseStringsOnly: originalStateOnlyStrings.
-	self reloadHunspellHandle.
+	self reloadHunspellHandle

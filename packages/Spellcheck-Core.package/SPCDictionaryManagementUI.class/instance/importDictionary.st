@@ -1,4 +1,4 @@
 dictionary loading
 importDictionary
 
-	SPCSpellChecker importDictionary.
+	SPCSpellChecker importDictionary

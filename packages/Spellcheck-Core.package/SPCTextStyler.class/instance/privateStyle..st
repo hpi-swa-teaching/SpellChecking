@@ -6,5 +6,5 @@ privateStyle: aText
 		 	highlightSpellingMistakesIn: aText
 	]
 	ifFalse: [
-		super privateStyle: aText.
+		super privateStyle: aText
 	]

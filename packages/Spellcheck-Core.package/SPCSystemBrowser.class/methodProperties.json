@@ -5,15 +5,15 @@
 		"registerInFlapsRegistry" : "ea 5/18/2019 19:00" },
 	"instance" : {
 		"AssociationArray:hasKey:" : "ea 7/1/2019 15:18",
-		"checkMethodSpelling" : "ea 7/1/2019 11:08",
-		"checkPackageSpelling" : "ea 7/2/2019 11:07",
-		"classListMenu:" : "ea 5/28/2019 14:57",
+		"checkMethodSpelling" : "mka 7/16/2019 17:07",
+		"checkPackageSpelling" : "mka 7/16/2019 17:07",
+		"classListMenu:" : "mka 7/16/2019 17:07",
 		"findMessagesWithSpellingErrors:" : "ea 5/28/2019 14:37",
-		"getAllMethodsForClasses:" : "ea 7/1/2019 17:12",
+		"getAllMethodsForClasses:" : "mka 7/16/2019 17:07",
 		"getClassNameForMetaClass:" : "ea 7/1/2019 17:00",
-		"getMethodReferencesForWronglySpelledMethodsForClasses:" : "ea 7/2/2019 11:07",
-		"getMethodSourceCodeFor:fromClass:" : "ea 5/18/2019 17:46",
+		"getMethodReferencesForWronglySpelledMethodsForClasses:" : "mka 7/16/2019 17:08",
+		"getMethodSourceCodeFor:fromClass:" : "mka 7/16/2019 17:08",
 		"informAboutErrors" : "ea 5/18/2019 18:44",
 		"informAboutErrors:" : "ea 5/18/2019 18:43",
 		"mainSystemCategoryMenu:" : "ea 7/4/2019 12:37",
-		"trimString:" : "ea 7/1/2019 16:28" } }
+		"trimString:" : "mka 7/16/2019 17:09" } }

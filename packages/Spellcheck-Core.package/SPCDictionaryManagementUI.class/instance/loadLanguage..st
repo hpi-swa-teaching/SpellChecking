@@ -9,5 +9,5 @@ loadLanguage: languageName
 		
 		
 		self spellchecker loadLanguage: language.
-		self spellchecker reloadHunspellHandle.
+		self spellchecker reloadHunspellHandle
 		

@@ -5,7 +5,7 @@ getMethodReferencesForWronglySpelledMethodsForClasses: classList
 	allMethodsWithMethodReferences := OrderedCollection new.
 	allMethodsInClasses := self getAllMethodsForClasses: classList.
 	methodsWithSpelingErrors := OrderedCollection new.
-	allMethodsInClasses associationsDo: [: association |
+	allMethodsInClasses associationsDo: [ :association |
 		class := association key.
 		methodsOfCurrentClass := self getMethodSourceCodeFor: association value fromClass: class.
 		methodsOfCurrentClass := self findMessagesWithSpellingErrors: methodsOfCurrentClass.

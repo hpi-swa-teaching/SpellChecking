@@ -7,7 +7,7 @@ checkPackageSpelling
 	allAssociations := self getMethodReferencesForWronglySpelledMethodsForClasses: classList.
 	self selectClassNamed: originalStateSelectedClass.
 	self informAboutErrors ifTrue: [
-		allAssociations isEmpty ifTrue: [self inform: 'Selected Package has no methods with spelling errors.'. ^ self].
+		allAssociations isEmpty ifTrue: [self inform: 'Selected Package has no methods with spelling errors.'. ^ self]
 	].
 	
 	self informAboutErrors ifTrue: [

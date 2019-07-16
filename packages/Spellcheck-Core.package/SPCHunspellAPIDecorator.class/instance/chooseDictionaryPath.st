@@ -16,6 +16,6 @@ chooseDictionaryPath
 				UIManager default inform: 'No name given. Process aborted.'.
 			] ifFalse: [
 				self importDictionary: dictionaryPath withAffix: affixPath of: language.
-			].
-		].
+			]
+		]
 	]

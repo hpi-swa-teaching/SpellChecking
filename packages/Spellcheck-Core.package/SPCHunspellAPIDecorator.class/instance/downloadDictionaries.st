@@ -36,5 +36,5 @@ downloadDictionaries
 		aStream := FileStream fileNamed: SPCSpellChecker defaultCustomDictionaryPath.
 		aStream nextPutAll: '0'.
 		aStream lf.
-		aStream close.
-	].
+		aStream close
+	]

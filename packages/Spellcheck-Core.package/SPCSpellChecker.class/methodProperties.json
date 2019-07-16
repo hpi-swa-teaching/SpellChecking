@@ -27,7 +27,7 @@
 		"startUp:" : "ea 6/11/2019 18:23" },
 	"instance" : {
 		"addLanguage:withAffix:" : "ea 6/7/2019 17:41",
-		"addWordToDictionary:" : "mka 7/2/2019 17:23",
+		"addWordToDictionary:" : "mka 7/16/2019 17:05",
 		"addWordToIgnoreList:" : "ea 6/20/2019 12:13",
 		"addedWords" : "ow 7/12/2018 19:34",
 		"addedWords:" : "ow 7/14/2018 14:27",
@@ -44,7 +44,7 @@
 		"parser" : "ow 7/14/2018 14:26",
 		"parser:" : "ow 7/25/2018 20:15",
 		"reloadAddedWords" : "mka 7/2/2019 14:04",
-		"reloadHunspellHandle" : "ea 6/7/2019 18:36",
+		"reloadHunspellHandle" : "mka 7/16/2019 17:06",
 		"removeLanguage:" : "ea 7/1/2019 11:50",
 		"removeWordFromDictionary:" : "ea 6/20/2019 12:17",
 		"removeWordFromIgnoreList:" : "ea 6/20/2019 12:15",

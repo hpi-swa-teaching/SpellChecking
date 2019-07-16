@@ -6,7 +6,7 @@ removeWordFromDictionary: aString
 	customStream := customStreamSource readStream.
 	[customStream atEnd] whileFalse: [
 		(customStream nextLine = aString) ifTrue: [
-			wordIsKnown := true.	
+			wordIsKnown := true	
 		]
 	].
 	(wordIsKnown) ifTrue: [
@@ -19,8 +19,8 @@ removeWordFromDictionary: aString
 			nextWord := customStream nextLine.
 			(nextWord = aString) ifFalse:[
 				newStream nextPutAll: nextWord.
-				newStream lf.				
-			].
+				newStream lf				
+			]
 		].
 		newStream close.
 	]

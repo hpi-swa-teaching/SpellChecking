@@ -8,7 +8,7 @@ changed: aSymbol
 				indexOfCurrentLanguage := self availableLanguages indexOf: language languageName ifAbsent: [ present := false ].
 				present ifTrue:[
 					self selectedLanguageIndices at: indexOfCurrentLanguage put: true.
-					self changed: #selectedLanguage.
+					self changed: #selectedLanguage
 				]
 			]
 	]

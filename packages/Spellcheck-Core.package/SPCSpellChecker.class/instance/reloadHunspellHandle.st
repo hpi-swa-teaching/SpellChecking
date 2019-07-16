@@ -8,7 +8,7 @@ reloadHunspellHandle
 		self hunspell: SPCHunspellAPI instance.
 		self loadedLanguages do: [ :language |
 			self addLanguage: language dictionaryPath withAffix: language affixPath
-		].
+		]
 	]
 	ifFalse: [
 		self hunspell: SPCHunspellAPINullObject instance	

@@ -3,10 +3,10 @@ trimString: aString
 	| replacedString inWord |
 	replacedString := ''.
 	inWord := false.
-	aString do: [ :char|
+	aString do: [ :char |
 		(char isLetter or: inWord) ifTrue:[
 			replacedString := replacedString , char.
-			inWord := true.
+			inWord := true
 		]
 	].
 	^ replacedString

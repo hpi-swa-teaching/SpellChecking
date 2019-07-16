@@ -7,7 +7,7 @@ isFile: aFilePath ofCorrectType: aType
 		self alertOnError ifTrue:[
 			UIManager default inform: 'No file selected. Process aborted.'
 		].
-		^ false.
+		^ false
 	] ifNotNil: [
 		dictionaryPath := aFilePath fullName.
 		 ((dictionaryPath findSubstring: aType in: dictionaryPath startingAt: (dictionaryPath size - (aType size)) matchTable: (String classPool at: #CaseInsensitiveOrder)) = 0) ifTrue: [
@@ -17,5 +17,5 @@ isFile: aFilePath ofCorrectType: aType
 			^ false	
 		] ifFalse: [
 			^ true
-		].
+		]
 	]

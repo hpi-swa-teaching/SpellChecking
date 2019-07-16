@@ -2,11 +2,11 @@ spellchecking
 addWordToDictionary: aString
 	| customStream customStreamSource wordCount newStream wordAlreadyKnown |
 	wordAlreadyKnown := false.
-	customStreamSource := (FileStream fileNamed: SPCSpellChecker defaultCustomDictionaryPath do: [ :each | each contents. ]).
+	customStreamSource := (FileStream fileNamed: SPCSpellChecker defaultCustomDictionaryPath do: [ :each | each contents]).
 	customStream := customStreamSource readStream.
 	[customStream atEnd] whileFalse: [
 		(customStream nextLine = aString) ifTrue: [
-			wordAlreadyKnown := true.	
+			wordAlreadyKnown := true	
 		]
 	].
 	(wordAlreadyKnown) ifFalse: [
@@ -20,5 +20,5 @@ addWordToDictionary: aString
 			newStream lf.
 		].
 		newStream nextPutAll: aString.
-		newStream close.
+		newStream close
 	]
