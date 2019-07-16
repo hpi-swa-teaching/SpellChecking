@@ -6,7 +6,7 @@ baseline: spec
 		do: [
 			spec baseline: 'Project12' with: [
 				spec
-					repository: 'github://HPI-SWA-Teaching/Morphic-Testing-Framework:master/packages'. ].
+					repository: 'github://HPI-SWA-Teaching/Morphic-Testing-Framework:master/packages'].
 			spec project: 'FFI' with: [
 				spec
 					className: 'ConfigurationOfFFI';
