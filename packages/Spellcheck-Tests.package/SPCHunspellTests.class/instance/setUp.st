@@ -4,4 +4,5 @@ setUp
 	hunspell := SPCHunspellAPI instance.
 	wrongWord := 'squeack'.
 	correctWord := 'squeak'.
-	germanWord := 'Klabautermann'
+	germanWord := 'Klabautermann'.
+	unicodeWord := 'Müll'

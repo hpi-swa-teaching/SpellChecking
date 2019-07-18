@@ -2,13 +2,17 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "ea 5/28/2019 18:53",
+		"setUp" : "ea 7/18/2019 12:34",
 		"testAdjustDictionary" : "mka 7/2/2019 17:09",
 		"testCorrectSpelling" : "ow 7/20/2018 15:41",
+		"testCorrectSpellingWithUTF8" : "ea 7/18/2019 12:35",
+		"testDownloadFileTo" : "ea 7/18/2019 12:54",
+		"testDownloadLibraries" : "ea 6/7/2019 17:09",
 		"testFalseSpelling" : "ow 7/20/2018 15:41",
 		"testInstallDictionaries" : "ea 5/23/2019 17:58",
 		"testInstance" : "ea 5/28/2019 18:54",
 		"testIsDecorator" : "BB 7/1/2019 11:52",
+		"testIsNullObject" : "BB 7/1/2019 11:52",
 		"testLibraryExists" : "ea 5/28/2019 19:10",
 		"testPathExistsWorks" : "ea 5/28/2019 19:29",
 		"testRessourcesPath" : "ea 5/23/2019 17:24",
