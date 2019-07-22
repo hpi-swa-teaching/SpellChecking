@@ -6,12 +6,10 @@
 		"AddedWords",
 		"Instance",
 		"Observers" ],
-	"commentStamp" : "ow 7/25/2018 19:57",
+	"commentStamp" : "ea 7/22/2019 09:17",
 	"instvars" : [
 		"hunspell",
 		"parser",
-		"dictionaryPaths",
-		"affixPaths",
 		"loadedLanguages" ],
 	"name" : "SPCSpellChecker",
 	"pools" : [

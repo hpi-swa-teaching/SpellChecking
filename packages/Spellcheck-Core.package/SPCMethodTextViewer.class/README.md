@@ -1,0 +1,1 @@
+I show methods with spelling errors.

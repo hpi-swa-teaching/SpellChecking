@@ -1,4 +1,4 @@
 accessing
 selectedLanguageIndices: anObject
 	
-	selectedLanguageIndices := anObject.
+	selectedLanguageIndices := anObject

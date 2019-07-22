@@ -1,4 +1,4 @@
 library
 systemArchitecture
 
-	^ Smalltalk image wordSize * 8.
+	^ Smalltalk image wordSize * 8

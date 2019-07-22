@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		"DisableDownload" ],
-	"commentStamp" : "",
+	"commentStamp" : "ea 7/22/2019 09:10",
 	"instvars" : [
 		"instances",
 		"alertOnError" ],

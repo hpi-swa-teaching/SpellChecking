@@ -16,7 +16,7 @@ addWordToDictionary: aString
 	"Make sure there is a word number in the input file."
 	currentLines at: 1 ifAbsentPut: 0.
 	(wordAlreadyKnown) ifFalse: [
-		wordCount := (((currentLines at: 1 ifAbsent: 0) asInteger) + 1) asString.
+		wordCount := (((currentLines at: 1) asInteger) + 1) asString.
 		newStream := (FileStream forceNewFileNamed: SPCSpellChecker defaultCustomDictionaryPath ).
 		newStream nextPutAll: wordCount.
 		currentLines add: aString.
