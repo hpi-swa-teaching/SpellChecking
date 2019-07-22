@@ -1,13 +1,12 @@
 library installation
 installLibrariesForWindows: anInteger in: anEntry
 
-	(anInteger = 64) ifTrue: [ 
-			(anEntry fileExists: 'libhunspellx64.dll') ifFalse: [
-				self downloadFileTo: anEntry fromURL: 'https://raw.githubusercontent.com/hpi-swa-teaching/SpellChecking/dev/libhunspellx64.dll' toFileNamed: 'libhunspellx64.dll' inBinary: true
-			]
-		]
-		ifFalse: [
-			(anEntry fileExists: 'libhunspellx64.dll') ifFalse: [
-				self downloadFileTo: anEntry fromURL: 'https://raw.githubusercontent.com/hpi-swa-teaching/SpellChecking/dev/libhunspellx32.dll' toFileNamed: 'libhunspellx64.dll' inBinary: true
-			]
-		]
+	| downloadURL |
+	(anEntry fileExists: self class moduleName) ifFalse: [
+		(anInteger = 64) ifTrue: [
+			downloadURL := self class gitURL, self class moduleName
+		] ifFalse: [
+			downloadURL := self class gitURL, 'libhunspellx32.dll'
+		].
+		self downloadFileTo: anEntry fromURL: downloadURL toFileNamed: self class moduleName inBinary: true
+	].

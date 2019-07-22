@@ -1,20 +1,18 @@
 library installation
 installLibrariesForLinux: anInteger in: anEntry
-	| subdir |
+	| subdir urlAddition |
 	subdir := anEntry.
-			(anInteger = 64) ifTrue: [
-				(subdir fileExists: 'libhunspell-1.6.so.0') ifFalse: [
-					self downloadFileTo: subdir fromURL: 'https://github.com/hpi-swa-teaching/SpellChecking/raw/dev/64bit-libhunspell-1.6.so.0' toFileNamed: 'libhunspell-1.6.so.0' inBinary: true.
-				]
-		]
-		ifFalse: [
-			(subdir fileExists: 'libhunspell-1.6.so.0') ifFalse: [
-				self downloadFileTo: subdir fromURL: 'https://github.com/hpi-swa-teaching/SpellChecking/raw/dev/libhunspell-1.6.so.0' toFileNamed: 'libhunspell-1.6.so.0' inBinary: true
-			].
+	urlAddition := ''.
+	(subdir fileExists: self class moduleName) ifFalse:[
+		(anInteger = 64) ifTrue: [
+			urlAddition :='64bit-'
+		] ifFalse: [
 			(subdir fileExists: 'libstdc++.so.6') ifFalse: [
-				self downloadFileTo: subdir fromURL: 'https://github.com/hpi-swa-teaching/SpellChecking/raw/dev/libstdc%2B%2B.so.6' toFileNamed: 'libstdc++.so.6' inBinary: true
-			]
+				self downloadFileTo: subdir fromURL: (self class gitURL,'libstdc%2B%2B.so.6') toFileNamed: 'libstdc++.so.6' inBinary: true
+			]		
 		].
-		(subdir fileExists: 'MyAwesomeLibrary.so') ifFalse: [
-				self downloadFileTo: subdir fromURL: 'https://github.com/hpi-swa-teaching/SpellChecking/raw/dev/MyAwesomeLibrary.so' toFileNamed: 'MyAwesomeLibrary.so' inBinary: true
-			]
+		self downloadFileTo: subdir fromURL: (self class gitURL, urlAddition, self class moduleName) toFileNamed: self class moduleName inBinary: true
+	].
+	(subdir fileExists: self class awesomeLibraryName) ifFalse: [
+		self downloadFileTo: subdir fromURL: (self class gitURL, self class awesomeLibraryName) toFileNamed: self class awesomeLibraryName inBinary: true
+	]
