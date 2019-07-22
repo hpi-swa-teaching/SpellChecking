@@ -5,7 +5,7 @@ testIteratingWrongWords
 	self assert: correctionUI currentWord = 'Manny'.
 	
 	correctionUI displayNextWord.
-	self assert: correctionUI currentWord = 'miscakes'.
+	self assert: correctionUI currentWord = 'miscake'.
 	
 	correctionUI displayPreviousWord; displayPreviousWord.
 	self assert: correctionUI currentWord = 'texxt'
