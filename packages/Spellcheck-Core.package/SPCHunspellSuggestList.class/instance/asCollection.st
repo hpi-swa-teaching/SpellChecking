@@ -2,6 +2,7 @@ converting
 asCollection
 
 	| ptr ptrSize |
+	
 	self listSize >= 0 ifFalse: [Error signal: 'suggestion list with unknown size cannot be converted'].
 	ptrSize := ExternalAddress new size.
 	ptr := self getHandle asExternalPointer pointerAt: 1.

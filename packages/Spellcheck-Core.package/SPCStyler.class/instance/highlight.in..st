@@ -1,6 +1,8 @@
 styling
 highlight: aCollection in: aText
+
 	| originalColor |
+
 	aCollection keysAndValuesDo: [ :aKey :aValue | 
 		originalColor := self class getColorFromRunArray: (aText runs at: aKey).
 		originalColor ifNil: [ originalColor := self class defaultColor ].

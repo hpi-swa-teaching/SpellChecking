@@ -1,17 +1,17 @@
 {
 	"class" : {
-		"custom" : "mka 7/2/2019 12:08",
-		"default" : "ea 7/22/2019 09:31",
-		"english" : "ea 6/17/2019 10:11",
-		"german" : "ea 6/17/2019 10:11",
-		"squeak" : "ea 6/17/2019 10:11" },
+		"custom" : "ea 7/22/2019 18:41",
+		"default" : "ea 7/22/2019 18:41",
+		"english" : "ea 7/22/2019 18:41",
+		"german" : "ea 7/22/2019 18:41",
+		"squeak" : "ea 7/22/2019 18:41" },
 	"instance" : {
-		"=" : "ea 6/7/2019 18:17",
-		"affixPath" : "ea 6/7/2019 18:09",
-		"affixPath:" : "ea 6/7/2019 18:09",
-		"dictionaryPath" : "ea 6/7/2019 18:08",
-		"dictionaryPath:" : "ea 6/7/2019 18:08",
-		"hash" : "ea 6/11/2019 18:17",
-		"languageName" : "ea 6/17/2019 10:06",
-		"languageName:" : "ea 6/17/2019 10:06",
-		"printOn:" : "ea 6/17/2019 10:10" } }
+		"=" : "ea 7/22/2019 18:33",
+		"affixPath" : "ea 7/22/2019 18:34",
+		"affixPath:" : "ea 7/22/2019 18:34",
+		"dictionaryPath" : "ea 7/22/2019 18:34",
+		"dictionaryPath:" : "ea 7/22/2019 18:34",
+		"hash" : "ea 7/22/2019 18:34",
+		"languageName" : "ea 7/22/2019 18:34",
+		"languageName:" : "ea 7/22/2019 18:34",
+		"printOn:" : "ea 7/22/2019 18:34" } }

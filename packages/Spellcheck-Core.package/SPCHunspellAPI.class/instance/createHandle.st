@@ -1,6 +1,8 @@
 private
 createHandle
+
 	| handle |
+	
 	"Left local variable for easier debugging."
 	self class libraryExists ifTrue: [
 		self dictionaryPath: SPCSpellChecker defaultAffixPath.

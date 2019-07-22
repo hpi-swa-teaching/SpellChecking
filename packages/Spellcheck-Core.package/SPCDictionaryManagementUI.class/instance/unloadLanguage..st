@@ -1,6 +1,8 @@
 dictionary loading
 unloadLanguage: languageName
-	| language |
+
+		| language |
+
 		language := SPCHunspellLanguage new.
 		language affixPath: (self affixPath: languageName).
 		language dictionaryPath: (self dictionaryPath:languageName).

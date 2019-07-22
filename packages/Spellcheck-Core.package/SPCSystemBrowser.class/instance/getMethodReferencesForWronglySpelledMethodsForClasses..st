@@ -1,5 +1,6 @@
 spellchecking
 getMethodReferencesForWronglySpelledMethodsForClasses: classList 
+
 	| allMethodsWithMethodReferences allMethodsInClasses methodsOfCurrentClass methodsWithSpelingErrors class |
 
 	allMethodsWithMethodReferences := OrderedCollection new.

@@ -1,6 +1,8 @@
 spellchecking
 checkPackageSpelling
+
 	| classList originalStateSelectedClass allAssociations |
+	
 	"Returns classes in selected system category."
 	originalStateSelectedClass := self selectedClassName.
 	classList := self classList.

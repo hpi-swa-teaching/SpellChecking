@@ -1,6 +1,8 @@
 similarity
 calculateLevenshteinDistance: aString toString: anotherString
+
 	| matrix substitutionCost |
+
 	matrix := self initializeLevenshteinMatrixfor: (aString size) toString: (anotherString size).
 	2 to: (aString size) do: [ :i |
 		2 to: (anotherString size) do: [ :j |

@@ -1,5 +1,6 @@
 hunspell
 reloadHunspellHandle
+
 	self hunspell ifNotNil: [
 		self hunspell installDependencies;
 		destroyHandle

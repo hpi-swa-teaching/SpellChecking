@@ -1,6 +1,8 @@
 spellchecking
 trimString: aString
+
 	| replacedString inWord |
+
 	replacedString := ''.
 	inWord := false.
 	aString do: [ :char |

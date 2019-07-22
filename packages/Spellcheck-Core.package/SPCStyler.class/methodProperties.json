@@ -1,11 +1,11 @@
 {
 	"class" : {
-		"defaultColor" : "ea 6/5/2019 18:46",
-		"getColorFromRunArray:" : "ea 6/1/2019 19:37",
-		"spellingMistakeColor" : "ea 6/1/2019 19:28",
-		"spellingMistakeColorProportion" : "mka 6/24/2019 14:13" },
+		"defaultColor" : "ea 7/22/2019 18:42",
+		"getColorFromRunArray:" : "ea 7/22/2019 18:42",
+		"spellingMistakeColor" : "ea 7/22/2019 18:42",
+		"spellingMistakeColorProportion" : "ea 7/22/2019 18:42" },
 	"instance" : {
 		"blendColor:withColor:" : "mka 6/24/2019 14:12",
-		"highlight:in:" : "ea 6/5/2019 18:46",
+		"highlight:in:" : "ea 7/22/2019 18:36",
 		"initialize" : "mka 7/16/2019 17:06",
 		"spellChecker" : "ea 5/21/2019 11:22" } }

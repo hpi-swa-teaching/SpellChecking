@@ -1,6 +1,8 @@
 dictionary loading
 changed: aSymbol
+
 	| indexOfCurrentLanguage present |
+	
 	(aSymbol = #loadedLanguages) ifTrue: [
 			self selectedLanguageIndices keys do: [ :key | self selectedLanguageIndices at: key put: false ].
 			self spellchecker loadedLanguages do: [ :language|

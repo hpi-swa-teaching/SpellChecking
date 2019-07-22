@@ -1,6 +1,8 @@
 spellchecking
 removeWordFromDictionary: aString
+
 	| customStream customStreamSource wordCount newStream wordIsKnown nextWord |
+
 	wordIsKnown := false.
 	customStreamSource := (FileStream fileNamed: SPCSpellChecker defaultCustomDictionaryPath do: [ :each | each contents. ]).
 	customStream := customStreamSource readStream.

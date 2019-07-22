@@ -1,6 +1,8 @@
 dictionary and ignore list
 addWordToDictionary: aString
+
 	| aWord originalStateOnlyStrings |
+
 	originalStateOnlyStrings := parser parseStringsOnly.
 	parser parseStringsOnly: false.
 	(self parser parseText: aString) keysAndValuesDo: [ :start :end |

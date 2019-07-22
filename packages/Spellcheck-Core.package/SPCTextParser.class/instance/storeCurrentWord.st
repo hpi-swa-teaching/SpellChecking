@@ -1,5 +1,6 @@
 parsing
 storeCurrentWord
+
 	self endOfCurrentWord: self loopVariable - 1. 
 	self shouldProcessWord ifTrue: 
 	[

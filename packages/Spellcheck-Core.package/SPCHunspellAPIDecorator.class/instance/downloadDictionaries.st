@@ -1,6 +1,8 @@
 library installation
 downloadDictionaries
+
 	| resourceDir |
+
 	resourceDir := self class ressourceDirectory.
 	(resourceDir directoryExists: 'dictionaries') ifFalse: [
 		'Fetching SpellChecking dependencies' displayProgressAt: Sensor cursorPoint from: 0 to: 3	during: [ :bar |

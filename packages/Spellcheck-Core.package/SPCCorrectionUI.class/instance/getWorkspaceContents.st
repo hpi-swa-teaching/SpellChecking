@@ -1,5 +1,6 @@
 accessing
 getWorkspaceContents
+
 	self workspace dependents 
 	ifEmpty:[
 		^ self workspace contents

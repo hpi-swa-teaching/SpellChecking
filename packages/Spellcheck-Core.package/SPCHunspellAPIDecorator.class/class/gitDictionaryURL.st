@@ -1,3 +1,4 @@
 library
 gitDictionaryURL
-^ SPCHunspellAPIDecorator gitURL, 'build-support/dictionaries/'
+
+	^ SPCHunspellAPIDecorator gitURL, 'build-support/dictionaries/'

@@ -1,6 +1,8 @@
 spellchecking
 getClassNameForMetaClass: class
+
 	| currentIndex className finished|
+
 	currentIndex := 1.
 	className := ''.
 	finished := false.

@@ -1,6 +1,8 @@
 library installation
 installLibrariesForLinux: anInteger in: anEntry
+
 	| subdir urlAddition |
+
 	subdir := anEntry.
 	urlAddition := ''.
 	(subdir fileExists: self class moduleName) ifFalse:[

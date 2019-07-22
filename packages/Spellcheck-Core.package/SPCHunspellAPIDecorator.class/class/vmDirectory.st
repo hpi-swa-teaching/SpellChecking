@@ -1,3 +1,4 @@
 library
 vmDirectory
-^ FileDirectory forFileName: Smalltalk vmFileName	
+
+	^ FileDirectory forFileName: Smalltalk vmFileName	

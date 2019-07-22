@@ -2,6 +2,7 @@ toolbuilder
 buildWith: builder
 
 	| windowSpec wrongWordSpec alternativesListSpec ignoreButtonSpec ignoreAllButtonSpec addButtonSpec leftButtonSpec rightButtonSpec |
+	
 	windowSpec := builder pluggableWindowSpec new.
 	windowSpec 
 		model: self;

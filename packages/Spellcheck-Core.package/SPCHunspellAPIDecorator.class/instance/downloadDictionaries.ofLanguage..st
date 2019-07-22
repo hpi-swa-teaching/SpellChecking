@@ -2,6 +2,7 @@ library installation
 downloadDictionaries: aString ofLanguage: aLanguage
 
 	| resourceDirectory |
+	
 	resourceDirectory := self class ressourceDirectory directoryNamed: 'dictionaries'.
 	resourceDirectory createDirectory: aLanguage.
 	resourceDirectory := resourceDirectory directoryNamed: aLanguage.

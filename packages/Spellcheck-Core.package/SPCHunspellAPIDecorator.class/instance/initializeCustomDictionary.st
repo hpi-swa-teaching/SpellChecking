@@ -2,6 +2,7 @@ library installation
 initializeCustomDictionary
 
 	| aStream resourceDir |
+	
 	resourceDir := self class ressourceDirectory directoryNamed: 'dictionaries'.
 	(resourceDir directoryExists: 'custom') ifFalse: [
 		resourceDir createDirectory: 'custom'.

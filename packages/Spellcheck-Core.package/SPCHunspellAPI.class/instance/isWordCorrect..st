@@ -1,5 +1,6 @@
 spellchecking
 isWordCorrect: aString
+
 	(self class libraryExists  and: [ self handleNotNil]) ifTrue: [
 		"Might be a byte array."
 		aString isString ifTrue: [

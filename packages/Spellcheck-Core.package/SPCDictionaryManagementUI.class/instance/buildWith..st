@@ -2,6 +2,7 @@ toolbuilder
 buildWith: builder
 
 	| windowSpec ignoredWordsListSpec removeButtonSpec languageListSpec  importDictionaryButtonSpec downloadDictionaryButtonSpec |
+	
 	windowSpec := builder pluggableWindowSpec new.
 	windowSpec
 		model: self;

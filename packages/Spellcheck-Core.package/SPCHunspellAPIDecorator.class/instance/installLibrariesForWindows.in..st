@@ -2,6 +2,7 @@ library installation
 installLibrariesForWindows: anInteger in: anEntry
 
 	| downloadURL |
+
 	(anEntry fileExists: self class moduleName) ifFalse: [
 		(anInteger = 64) ifTrue: [
 			downloadURL := self class gitURL, self class moduleName
