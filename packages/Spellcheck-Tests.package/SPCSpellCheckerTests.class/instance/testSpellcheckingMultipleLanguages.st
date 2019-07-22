@@ -8,6 +8,5 @@ testSpellcheckingMultipleLanguages
 	self deny: (SPCSpellChecker instance isSpelledCorrectly: germanWord).
 	
 	SPCSpellChecker instance loadLanguage: SPCHunspellLanguage german.
-	SPCSpellChecker instance reloadHunspellHandle.
 	self assert: (SPCSpellChecker instance isSpelledCorrectly: englishWord).
 	self assert: (SPCSpellChecker instance isSpelledCorrectly: germanWord)
