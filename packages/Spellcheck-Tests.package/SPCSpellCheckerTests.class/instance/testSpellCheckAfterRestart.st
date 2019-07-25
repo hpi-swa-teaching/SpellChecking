@@ -1,10 +1,12 @@
 testing
 testSpellCheckAfterRestart
 
-	| instance |
-	SPCSpellChecker instance dictionaryPath: '/notThere';
-	affixPath: '/notThere'.
+	| instance language |
+	SPCSpellChecker instance initialize.
+	language := SPCHunspellLanguage new.
+	language dictionaryPath: '/notThere'.
+	language affixPath: '/notThere'.
+	
+	SPCSpellChecker instance loadLanguage: language.
 	SPCSpellChecker startUp: true.
 	self shouldnt: [instance := SPCSpellChecker instance] raise: Error.
-	self assert: (SPCSpellChecker instance dictionaryPath = '/notThere') not.
-	self assert: (SPCSpellChecker instance affixPath = '/notThere') not

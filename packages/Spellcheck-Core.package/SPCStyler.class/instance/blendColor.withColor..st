@@ -1,4 +1,4 @@
 accessing
 blendColor: aColor withColor: anotherColor
 
-	^ aColor alphaMixed: self class spellingMistakeColorProportion with: anotherColor
+	^ anotherColor alphaMixed: self class spellingMistakeColorProportion / 100 with: aColor

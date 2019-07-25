@@ -1,8 +1,10 @@
 accessing
 usedLanguage
 
-	| pathSegments indexOfLanguageName |
+	| languages |
 	
-	pathSegments := self spellchecker dictionaryPath subStrings: FileDirectory slash.
-	indexOfLanguageName := pathSegments size -1.
-	^ pathSegments at: indexOfLanguageName
+	languages := OrderedCollection new.
+	self class defaultDictionaryDirectoryPath entries do: [ :language |
+			languages add: language name
+	].
+	^ languages

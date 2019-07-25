@@ -1,4 +1,7 @@
 dictionary loading
 selectUsedLanguage
 
-	self selectedLanguage: self usedLanguage
+	self availableLanguages: self usedLanguage.
+	(1 to: self availableLanguages size) do: [ :index|
+		self selectedLanguageIndices at: index put: false	
+	]

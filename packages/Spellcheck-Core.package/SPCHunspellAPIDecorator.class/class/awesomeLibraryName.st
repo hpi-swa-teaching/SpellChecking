@@ -1,0 +1,4 @@
+library
+awesomeLibraryName
+
+^ 'MyAwesomeLibrary.so'

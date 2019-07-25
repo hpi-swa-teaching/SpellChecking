@@ -3,6 +3,19 @@
 		 },
 	"instance" : {
 		"setUp" : "ea 5/28/2019 14:36",
+		"testAssociationArrayHasKey" : "ea 7/1/2019 15:17",
+		"testAssociationArrayHasNotKey" : "ea 7/1/2019 15:19",
+		"testCheckMethodSpelling" : "ea 7/1/2019 11:17",
+		"testCheckMethodSpellingNoFalseNegative" : "ea 7/1/2019 11:18",
+		"testClassListMenu" : "ea 7/1/2019 16:14",
 		"testFindsWrongLiteral" : "ea 5/27/2019 09:34",
+		"testGetAllMethodsForClasses" : "ea 7/2/2019 11:08",
+		"testGetAllMethodsForClassesNoNotExistingMethods" : "ea 7/2/2019 11:09",
+		"testGetMetaClassName" : "ea 7/1/2019 17:00",
 		"testIsDefaultBrowser" : "ea 5/18/2019 19:04",
-		"testRegistersAsSystemBrowser" : "ea 5/28/2019 18:13" } }
+		"testMainSystemCategoryMenu" : "ea 7/1/2019 16:13",
+		"testRegistersAsSystemBrowser" : "ea 5/28/2019 18:13",
+		"testReplaceString" : "ea 7/2/2019 11:10",
+		"testSpellcheckingPackage" : "ea 7/1/2019 16:09",
+		"testSpellcheckingPackageNoFalsePosiives" : "ea 7/1/2019 16:10",
+		"testSpellcheckingPackageWithMetaclasses" : "ea 7/1/2019 17:23" } }

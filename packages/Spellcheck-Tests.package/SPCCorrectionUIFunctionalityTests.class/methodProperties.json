@@ -2,8 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "ea 5/7/2019 20:48",
-		"testAddToDict" : "ow 7/20/2018 15:47",
-		"testIgnoreAll" : "RS 7/25/2018 16:21",
-		"testIgnoreCurrent" : "RS 7/25/2018 16:24",
-		"testIteratingWrongWords" : "ow 7/20/2018 15:55" } }
+		"setUp" : "ea 7/22/2019 08:48",
+		"tearDown" : "ea 7/22/2019 08:52",
+		"testAddToDict" : "mka 7/2/2019 10:57",
+		"testDeselectAlternative" : "ea 6/24/2019 17:08",
+		"testIgnoreAll" : "ea 7/22/2019 08:48",
+		"testIgnoreCurrent" : "ea 6/24/2019 17:09",
+		"testIteratingWrongWords" : "ea 7/22/2019 08:51" } }

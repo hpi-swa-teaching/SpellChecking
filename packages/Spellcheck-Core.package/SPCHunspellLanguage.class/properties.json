@@ -1,0 +1,16 @@
+{
+	"category" : "Spellcheck-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "ea 7/22/2019 09:13",
+	"instvars" : [
+		"dictionaryPath",
+		"affixPath",
+		"languageName" ],
+	"name" : "SPCHunspellLanguage",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

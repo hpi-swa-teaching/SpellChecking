@@ -1,18 +1,20 @@
 {
 	"class" : {
-		"germanDictionary" : "ea 4/22/2019 19:49" },
+		 },
 	"instance" : {
-		"expectedFailures" : "ea 4/28/2019 19:10",
-		"setUp" : "ea 5/28/2019 18:53",
-		"testAddDictionary" : "ea 4/28/2019 19:09",
-		"testAdjustDictionary" : "ea 5/28/2019 18:15",
+		"setUp" : "ea 7/18/2019 12:34",
+		"testAdjustDictionary" : "mka 7/2/2019 17:09",
 		"testCorrectSpelling" : "ow 7/20/2018 15:41",
-		"testDownloadLibraries" : "ea 5/23/2019 18:19",
+		"testCorrectSpellingWithUTF8" : "ea 7/18/2019 12:35",
+		"testDownloadFileTo" : "ea 7/18/2019 12:54",
+		"testDownloadLibraries" : "ea 6/7/2019 17:09",
 		"testFalseSpelling" : "ow 7/20/2018 15:41",
 		"testInstallDictionaries" : "ea 5/23/2019 17:58",
 		"testInstance" : "ea 5/28/2019 18:54",
+		"testIsDecorator" : "BB 7/1/2019 11:52",
+		"testIsNullObject" : "BB 7/1/2019 11:52",
 		"testLibraryExists" : "ea 5/28/2019 19:10",
 		"testPathExistsWorks" : "ea 5/28/2019 19:29",
 		"testRessourcesPath" : "ea 5/23/2019 17:24",
-		"testSuggestions" : "ow 7/20/2018 15:42",
+		"testSuggestions" : "mka 6/13/2019 18:51",
 		"testVMPath" : "ea 5/23/2019 17:31" } }

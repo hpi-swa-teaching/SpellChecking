@@ -1,0 +1,4 @@
+spellchecking
+isDecorator
+
+	^ false

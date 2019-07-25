@@ -9,7 +9,8 @@
 		"correctionUI",
 		"spellchecker",
 		"wrongWord",
-		"textWithMistakes" ],
+		"textWithMistakes",
+		"workspace" ],
 	"name" : "SPCCorrectionUIFunctionalityTests",
 	"pools" : [
 		 ],

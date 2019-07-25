@@ -1,0 +1,4 @@
+accessing
+isDecorator
+
+	^ true

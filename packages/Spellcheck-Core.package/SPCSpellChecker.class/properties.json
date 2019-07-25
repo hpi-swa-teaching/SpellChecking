@@ -1,16 +1,16 @@
 {
 	"category" : "Spellcheck-Core",
 	"classinstvars" : [
-		 ],
+		"loadedLanguages" ],
 	"classvars" : [
 		"AddedWords",
-		"Instance" ],
-	"commentStamp" : "ow 7/25/2018 19:57",
+		"Instance",
+		"Observers" ],
+	"commentStamp" : "ea 7/22/2019 09:17",
 	"instvars" : [
 		"hunspell",
 		"parser",
-		"dictionaryPath",
-		"affixPath" ],
+		"loadedLanguages" ],
 	"name" : "SPCSpellChecker",
 	"pools" : [
 		 ],

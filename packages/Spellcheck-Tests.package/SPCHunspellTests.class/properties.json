@@ -9,7 +9,8 @@
 		"hunspell",
 		"wrongWord",
 		"correctWord",
-		"germanWord" ],
+		"germanWord",
+		"unicodeWord" ],
 	"name" : "SPCHunspellTests",
 	"pools" : [
 		 ],

@@ -1,6 +1,6 @@
 testing
 testIgnoreCurrent
-	
+	super setUp.
 	correctionUI inputText: wrongWord.
 	self deny: (spellchecker isSpelledCorrectly: wrongWord).
 	

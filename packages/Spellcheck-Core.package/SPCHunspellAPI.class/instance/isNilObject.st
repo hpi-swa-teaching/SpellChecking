@@ -1,4 +1,4 @@
-spellchecking
+accessing
 isNilObject
 
 	^ false

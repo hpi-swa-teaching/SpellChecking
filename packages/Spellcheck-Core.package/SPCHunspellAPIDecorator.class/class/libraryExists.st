@@ -1,0 +1,4 @@
+library
+libraryExists
+
+	^ SPCHunspellAPIDecorator vmDirectory fileExists: SPCHunspellAPIDecorator moduleName

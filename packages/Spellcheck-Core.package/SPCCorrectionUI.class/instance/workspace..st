@@ -2,4 +2,4 @@ accessing
 workspace: aWorkspace
 
 	workspace := aWorkspace.
-	self inputText: workspace contents
+	self inputText: self getWorkspaceContents

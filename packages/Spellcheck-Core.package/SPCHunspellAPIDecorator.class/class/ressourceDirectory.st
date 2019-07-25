@@ -1,0 +1,4 @@
+library
+ressourceDirectory
+
+	^ FileDirectory default

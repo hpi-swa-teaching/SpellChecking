@@ -1,10 +1,13 @@
 {
 	"class" : {
+		"initialize" : "ea 7/22/2019 18:42",
 		"spellCheckingEnabled" : "RS 7/25/2018 17:58",
-		"spellCheckingEnabled:" : "ea 5/7/2019 19:16" },
+		"spellCheckingEnabled:" : "ea 5/7/2019 19:16",
+		"spellingMistakeColorProportion" : "mka 6/24/2019 14:13",
+		"spellingMistakeColorProportion:" : "mka 6/24/2019 15:07" },
 	"instance" : {
 		"highlightSpellingMistakesIn:" : "RS 7/25/2018 16:44",
-		"highlightSyntaxIn:" : "ea 5/27/2019 10:42",
-		"privateStyle:" : "ea 5/27/2019 10:15",
-		"unstyle:" : "ea 6/5/2019 18:39",
-		"workspace" : "ea 6/1/2019 19:43" } }
+		"highlightSyntaxIn:" : "ea 7/22/2019 18:36",
+		"privateStyle:" : "ea 7/22/2019 18:36",
+		"unstyle:" : "mka 7/16/2019 17:07",
+		"workspace" : "ea 7/22/2019 18:36" } }
